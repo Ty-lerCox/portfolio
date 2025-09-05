@@ -39,22 +39,20 @@ Sub-projects:
 {% endfor %}
 
 ## Skills (snapshot)
-**Languages:** C++, TypeScript/JavaScript  
-**Engines/Frameworks:** Unreal Engine 5, HTML5/CSS  
-**Tools:** Git, GitHub Actions, (add your favorites)
+{% assign group = site.data.resume.skills[0] %}
+**{{ group.title }}:** {{ group.skills | slice: 0,5 | join: ', ' }}{% if group.skills.size > 5 %}, ...{% endif %}
 
 > Full details on the [Resume]({{ '/resume/' | relative_url }}).
 
 ---
 
 ## Recent Experience (snapshot)
-**Most Recent Role — Company**  
-- Built [system/tool] that [result/impact].  
-- Partnered with designers to [collaboration outcome].
-
-**Previous Role — Company**  
-- Shipped [feature] that [metric/impact].  
-- Improved [pipeline/tooling] which reduced [time/bugs].
+{% assign job = site.data.resume.workExperience[0] %}
+**{{ job.position }} — {{ job.company }}**
+{% assign bullets = job.keyAchievements | split: '\n' | slice: 0,2 %}
+{% for line in bullets %}
+- {{ line }}
+{% endfor %}
 
 See the full history on the [Resume]({{ '/resume/' | relative_url }}).
 
