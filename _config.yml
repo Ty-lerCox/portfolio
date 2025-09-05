@@ -1,0 +1,22 @@
+title: Your Name
+description: Unreal Engine & Web Developer — Systems, Tools, and Clean UX
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+markdown: kramdown
+url: https://example.github.io           # TODO: set this
+baseurl: /portfolio                               # TODO: '' if using username.github.io root site
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+# (Optional) SEO/social hints
+logo: /assets/img/headshot.svg
+social:
+  name: Your Name
+  links:
+    - https://github.com/yourhandle
+    - https://www.linkedin.com/in/yourhandle
+  # Add more as needed
