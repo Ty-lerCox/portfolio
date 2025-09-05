@@ -1,0 +1,17 @@
+<nav class="breadcrumbs">
+  <a href="{{ '/' | relative_url }}">Home</a> /
+  <a href="{{ '/projects/' | relative_url }}">Projects</a>
+  {% if page.parent %}
+    {% assign all = site.data.projects.active | concat: site.data.projects.completed %}
+    {% assign parent_proj = nil %}
+    {% for proj in all %}
+      {% if proj.slug == page.parent %}
+        {% assign parent_proj = proj %}
+      {% endif %}
+    {% endfor %}
+    {% if parent_proj %}
+      / <a href="{{ '/projects/' | append: parent_proj.slug | append: '/' | relative_url }}">{{ parent_proj.title }}</a>
+    {% endif %}
+  {% endif %}
+  / {{ page.title }}
+</nav>

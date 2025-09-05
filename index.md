@@ -1,14 +1,14 @@
 ---
-title: Portfolio — Your Name
+title: Portfolio — {{ site.data.resume.name }}
 layout: home
 image: /assets/img/social-card.svg
 ---
 
-# Your Name
-_Unreal Engine & Web Developer_  
+# {{ site.data.resume.name }}
+_{{ site.data.resume.position }}_
 Designing developer-friendly systems and shipping neat, usable tools.
 
-<img src="{{ '/assets/img/headshot.svg' | relative_url }}" alt="Your Name headshot" width="120" align="right">
+<img src="{{ '/assets/img/headshot.svg' | relative_url }}" alt="{{ site.data.resume.name }} headshot" width="120" align="right">
 
 <a href="#projects">View Projects</a> • <a href="{{ '/resume/resume.pdf' | relative_url }}">Download Resume (PDF)</a> • <a href="#contact">Contact</a>
 
@@ -23,56 +23,54 @@ Designing developer-friendly systems and shipping neat, usable tools.
 
 ## Featured Projects {#projects}
 
-### Advanced Dialogue System (UE)
-![Dialogue System Thumbnail]({{ '/assets/img/dialogue-thumb.svg' | relative_url }})
-Branching, conditional dialogue with data-driven nodes and editor tooling for authors.  
-**Tech:** UE5, C++, Data Assets, Editor Utility Widgets  
-**Role:** Systems design & implementation • **Outcome:** faster authoring, fewer runtime bugs  
-[Read the case study →]({{ '/projects/ue-advanced-dialogue/' | relative_url }})
+{% assign featured = site.data.projects.active | concat: site.data.projects.completed %}
+{% for project in featured %}
+### {{ project.title }}
+{{ project.description }}
+
+Tags:
+{% for tag in project.tags %}
+[{{ tag }}]({{ '/tags/' | append: tag | relative_url }}){% unless forloop.last %}, {% endunless %}
+{% endfor %}
+
+{% if project.sub_projects %}
+Sub-projects:
+{% for sub in project.sub_projects %}
+- [{{ sub.title }}]({{ '/projects/' | append: sub.slug | append: '/' | relative_url }}) —
+  {% for tag in sub.tags %}
+  [{{ tag }}]({{ '/tags/' | append: tag | relative_url }}){% unless forloop.last %}, {% endunless %}
+  {% endfor %}
+{% endfor %}
+{% endif %}
+[Read the case study →]({{ '/projects/' | append: project.slug | append: '/' | relative_url }})
 
 ---
-
-### Questing & Behavior Systems (UE)
-![Quest System Thumbnail]({{ '/assets/img/quest-thumb.svg' | relative_url }})
-Composable quests with Behavior Tree integrations and reusable task library.  
-**Tech:** UE5, C++, Behavior Trees, Blackboards  
-**Role:** Systems & tooling • **Outcome:** designers can compose new quests without code  
-[Read the case study →]({{ '/projects/ue-quest-behavior/' | relative_url }})
-
----
-
-### Oday — YouTube Playlists Web App
-![Oday Thumbnail]({{ '/assets/img/oday-thumb.svg' | relative_url }})
-Curates and surfaces multi-playlist learning tracks with clean, minimal UI.  
-**Tech:** JavaScript/TypeScript, HTML5, CSS, GitHub Pages (or your stack)  
-**Role:** Full‑stack & UX • **Outcome:** faster discovery and continuity across playlists  
-[Read the case study →]({{ '/projects/oday-playlists/' | relative_url }})
-
----
+{% endfor %}
 
 ## Skills (snapshot)
-**Languages:** C++, TypeScript/JavaScript  
-**Engines/Frameworks:** Unreal Engine 5, HTML5/CSS  
-**Tools:** Git, GitHub Actions, (add your favorites)
+{% assign group = site.data.resume.skills[0] %}
+**{{ group.title }}:** {{ group.skills | slice: 0,5 | join: ', ' }}{% if group.skills.size > 5 %}, ...{% endif %}
 
 > Full details on the [Resume]({{ '/resume/' | relative_url }}).
 
 ---
 
 ## Recent Experience (snapshot)
-**Most Recent Role — Company**  
-- Built [system/tool] that [result/impact].  
-- Partnered with designers to [collaboration outcome].
-
-**Previous Role — Company**  
-- Shipped [feature] that [metric/impact].  
-- Improved [pipeline/tooling] which reduced [time/bugs].
+{% assign job = site.data.resume.workExperience[0] %}
+**{{ job.position }} — {{ job.company }}**
+{% assign bullets = job.keyAchievements | split: '\n' | slice: 0,2 %}
+{% for line in bullets %}
+- {{ line }}
+{% endfor %}
 
 See the full history on the [Resume]({{ '/resume/' | relative_url }}).
 
 ---
 
 ## Contact {#contact}
-**Email:** <a href="mailto:yourname@example.com">yourname@example.com</a> • **GitHub:** yourhandle • **LinkedIn:** /in/yourhandle
+**Email:** <a href="mailto:{{ site.data.resume.email }}">{{ site.data.resume.email }}</a>
+{% for profile in site.data.resume.socialMedia %}
+- **{{ profile.socialMedia }}:** <a href="{{ profile.link }}">{{ profile.link }}</a>
+{% endfor %}
 
 _Last updated: {{ site.time | date: "%B %Y" }}_

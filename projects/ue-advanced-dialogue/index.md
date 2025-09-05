@@ -1,7 +1,10 @@
 ---
 title: Advanced Dialogue System (UE)
 layout: default
+tags: [unreal, cpp]
+parent: ue-gameplay-systems
 ---
+{% include breadcrumbs.html %}
 
 # Advanced Dialogue System (UE5)
 
@@ -33,5 +36,10 @@ bool UDialogueRuntime::EvaluateCondition(const FDialogueCondition& Cond) const {
 * **Authoring speed:** designers created branches 2–3× faster
 * **Fewer bugs:** validation prevented common runtime nulls/misrefs
 * **Reusability:** same system powers NPC barks, tutorials, and quests
+
+Tags:
+{% for tag in page.tags %}
+[{{ tag }}]({{ '/tags/' | append: tag | relative_url }}){% unless forloop.last %}, {% endunless %}
+{% endfor %}
 
 **Links:** [Back to Projects]({{ '/projects/' | relative_url }}) • [Source or Demo (if public)](https://example.com)
