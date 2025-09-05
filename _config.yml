@@ -11,6 +11,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
+paginate: 10
 defaults:
   - scope:
       path: ""
@@ -25,9 +26,3 @@ social:
     - https://www.linkedin.com/in/tyler-cox-1715065a/
     - https://ty-lercox.github.io/portfolio/
 theme_mode: dark
-plugins:
-  - jekyll-include-cache
-  - jekyll-archives
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag

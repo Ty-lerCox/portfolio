@@ -13,7 +13,7 @@ A curated set of systems and apps. Each write-up is a quick read with code and o
   
   Tags:
   {% for tag in project.tags %}
-  [{{ tag }}]({{ '/tags/' | append: tag | relative_url }}){% unless forloop.last %}, {% endunless %}
+  [{{ tag }}]({{ '/project-tags/' | append: tag | relative_url }}){% unless forloop.last %}, {% endunless %}
   {% endfor %}
   {% if project.sub_projects %}
   - Sub-projects:
@@ -29,6 +29,6 @@ A curated set of systems and apps. Each write-up is a quick read with code and o
   
   Tags:
   {% for tag in project.tags %}
-  [{{ tag }}]({{ '/tags/' | append: tag | relative_url }}){% unless forloop.last %}, {% endunless %}
+  [{{ tag }}]({{ '/project-tags/' | append: tag | relative_url }}){% unless forloop.last %}, {% endunless %}
   {% endfor %}
 {% endfor %}
