@@ -19,7 +19,8 @@ layout: default
 {% for job in site.data.resume.workExperience %}
 **{{ job.position }} — {{ job.company }} ({{ job.startYear | slice: 0,4 }}–{{ job.endYear }})**
 {{ job.description }}
-{% assign bullets = job.keyAchievements | split: '\\n' %}
+{% assign bullets = job.keyAchievements | split: '\n' %}
+
 {% for line in bullets %}
 - {{ line }}
 {% endfor %}

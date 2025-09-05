@@ -60,6 +60,8 @@ See the full history on the [Resume]({{ '/resume/' | relative_url }}).
 
 ## Contact {#contact}
 **Email:** <a href="mailto:{{ site.data.resume.email }}">{{ site.data.resume.email }}</a>
-{% for profile in site.data.resume.socialMedia %}• **{{ profile.socialMedia }}:** <a href="{{ profile.link }}">{{ profile.link }}</a> {% endfor %}
+{% for profile in site.data.resume.socialMedia %}
+- **{{ profile.socialMedia }}:** <a href="{{ profile.link }}">{{ profile.link }}</a>
+{% endfor %}
 
 _Last updated: {{ site.time | date: "%B %Y" }}_

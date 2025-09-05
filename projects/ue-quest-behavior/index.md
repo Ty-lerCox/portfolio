@@ -36,6 +36,9 @@ void UBTTask_TickQuest::ExecuteTask(UBehaviorTreeComponent& OwnerComp) {
 * **Consistency:** shared tasks reduced duplicated logic
 * **Player engagement:** tighter AI integration improved quest responsiveness
 
-Tags: {% for tag in page.tags %}[{{ tag }}]({{ '/tags/' | append: tag | relative_url }}){% unless forloop.last %}, {% endunless %}{% endfor %}
+Tags:
+{% for tag in page.tags %}
+[{{ tag }}]({{ '/tags/' | append: tag | relative_url }}){% unless forloop.last %}, {% endunless %}
+{% endfor %}
 
 **Links:** [Back to Projects]({{ '/projects/' | relative_url }}) • [Source or Demo (if public)](https://example.com)
