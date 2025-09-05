@@ -1,17 +1,37 @@
 name: KEVIN "TYLER" COX
-position: Unreal Engine 5 C++ Gameplay Systems Developer
-email: tyler@example.com
+position: Software and Game Developer
+email: kevincox103@gmail.com
+summary: >-
+  Software and game developer blending Unreal Engine and web application experience to build
+  reusable gameplay systems and reliable tooling.
 socialMedia:
   - socialMedia: GitHub
     link: https://github.com/Ty-lerCox
   - socialMedia: LinkedIn
     link: https://www.linkedin.com/in/tyler-cox-1715065a/
 skills:
-  - title: Core Skills
-    skills: ["C++ (UE5)", "Gameplay Systems", "AI/Behavior Trees", "Networking", "Performance Profiling"]
+  - title: Game Development
+    skills:
+      - "Unreal Engine 5"
+      - "C++ Gameplay Systems"
+      - "AI/Behavior Trees"
+      - "Data-Driven Design"
+      - "Performance Profiling"
+    resume: /resume/game-development.pdf
+  - title: Software Development
+    skills:
+      - "Angular"
+      - "TypeScript"
+      - "Java & Spring Boot"
+      - "C#/.NET"
+      - "Kubernetes"
+    resume: /resume/software-development.pdf
 workExperience:
   - position: Gameplay Systems Developer
     company: Your Studio
     keyAchievements: |
       Built reusable quest/dialogue systems.
       Shipped tooling improving iteration speed ~30%.
+education:
+  - degree: Computer Science
+    school: Trident Technical College
