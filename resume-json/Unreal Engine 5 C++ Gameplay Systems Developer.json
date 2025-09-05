@@ -11,13 +11,13 @@
             "socialMedia": "LinkedIn",
             "link": "linkedin.com/in/tyler-cox-1715065a/"
         },
-        { "socialMedia": "Website", "link": "piratetales.games" }
+        { "socialMedia": "Website", "link": "https://ty-lercox.github.io/portfolio/" }
     ],
     "summary": "UE5/C++ systems developer building gameplay architecture with web-grade discipline: Redux-style state (actions/effects/state), dialogue and quest systems, AI & advanced spawning, cinematic HUD/UMG, and web-inspired UI. Integrated an in-game guide chatbot using language models with context caching to reduce cost and latency. Several years of UE5 experience; focused on data-driven design, maintainability, and iteration speed.",
     "education": [
         {
             "school": "Trident Technical College",
-            "degree": "Computer Science (coursework)",
+            "degree": "Computer Science",
             "startYear": "",
             "endYear": "2013-12-31"
         }
