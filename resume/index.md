@@ -5,14 +5,16 @@ layout: default
 
 # Resume
 
-[Download PDF]({{ '/resume/resume.pdf' | relative_url }})
+[Download Game Development Resume (PDF)]({{ site.data.resume.skills[0].resume | relative_url }})
+|
+[Download Software Development Resume (PDF)]({{ site.data.resume.skills[1].resume | relative_url }})
 
 ## Summary
 {{ site.data.resume.summary }}
 
 ## Skills
 {% for group in site.data.resume.skills %}
-- **{{ group.title }}:** {{ group.skills | join: ', ' }}
+- **{{ group.title }}:** {{ group.skills | join: ', ' }} ([PDF]({{ group.resume | relative_url }}))
 {% endfor %}
 
 ## Work Experience
