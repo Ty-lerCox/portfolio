@@ -1,4 +1,4 @@
-title: "KEVIN 'TYLER' COX"
+title: "KEVIN COX"
 description: Software and Game Developer
 # Use the Chirpy theme
 theme: jekyll-theme-chirpy
@@ -12,7 +12,29 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 paginate: 10
+collections:
+  tabs:
+    output: true
+    sort_by: order
 defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
   - scope:
       path: ""
     values:

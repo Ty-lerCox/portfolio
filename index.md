@@ -29,6 +29,4 @@ _{{ site.data.resume.position }}_
 - **{{ profile.socialMedia }}:** <a href="{{ profile.link }}">{{ profile.link }}</a>
 {% endfor %}
 
-_Last updated: {{ site.time | date: "%B %Y" }}_
-
 ## Latest Posts
