@@ -1,9 +1,7 @@
 title: Your Name
 description: Unreal Engine & Web Developer — Systems, Tools, and Clean UX
-theme: jekyll-theme-cayman
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
+# Use the Chirpy theme
+theme: jekyll-theme-chirpy
 markdown: kramdown
 url: https://example.github.io           # TODO: set this
 baseurl: /portfolio                               # TODO: '' if using username.github.io root site
@@ -20,3 +18,4 @@ social:
     - https://github.com/yourhandle
     - https://www.linkedin.com/in/yourhandle
   # Add more as needed
+theme_mode: dark
