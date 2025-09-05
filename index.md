@@ -1,6 +1,6 @@
 ---
 title: Portfolio — Your Name
-layout: default
+layout: home
 image: /assets/img/social-card.svg
 ---
 
