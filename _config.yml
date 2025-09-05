@@ -5,6 +5,12 @@ theme: jekyll-theme-chirpy
 markdown: kramdown
 url: https://ty-lercox.github.io
 baseurl: /portfolio
+plugins:
+  - jekyll-include-cache
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
 defaults:
   - scope:
       path: ""
@@ -19,3 +25,9 @@ social:
     - https://www.linkedin.com/in/tyler-cox-1715065a/
     - https://ty-lercox.github.io/portfolio/
 theme_mode: dark
+plugins:
+  - jekyll-include-cache
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag

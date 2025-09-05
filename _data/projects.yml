@@ -1,0 +1,13 @@
+active:
+  - title: Systems Toolkit for UE5
+    slug: ue5-systems-toolkit
+    description: Reusable dialogue/quest/AI systems for rapid iteration.
+    tags: ["UE5", "C++", "Tools"]
+    sub_projects:
+      - title: Dialogue System
+        slug: dialogue-system
+completed:
+  - title: CityRPG Mechanics
+    slug: cityrpg-mechanics
+    description: Adapted RuneScape-like skills into city-themed gameplay.
+    tags: ["Design", "Systems"]

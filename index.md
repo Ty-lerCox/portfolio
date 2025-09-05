@@ -21,18 +21,29 @@ Designing developer-friendly systems and shipping neat, usable tools.
 
 ---
 
-## Featured Projects {#projects}
+## Projects {#projects}
 
-{% assign featured = site.data.projects.active | concat: site.data.projects.completed %}
-{% for project in featured %}
-### {{ project.title }}
+### Active
+{% for project in site.data.projects.active %}
+#### {{ project.title }}
 {{ project.description }}
+Tags: {% for tag in project.tags %}[{{ tag }}]({{ '/tags/' | append: tag | relative_url }}){% unless forloop.last %}, {% endunless %}{% endfor %}
 {% if project.sub_projects %}
 Sub-projects:
 {% for sub in project.sub_projects %}
 - [{{ sub.title }}]({{ '/projects/' | append: sub.slug | append: '/' | relative_url }})
 {% endfor %}
 {% endif %}
+[Read the case study →]({{ '/projects/' | append: project.slug | append: '/' | relative_url }})
+
+---
+{% endfor %}
+
+### Completed
+{% for project in site.data.projects.completed %}
+#### {{ project.title }}
+{{ project.description }}
+Tags: {% for tag in project.tags %}[{{ tag }}]({{ '/tags/' | append: tag | relative_url }}){% unless forloop.last %}, {% endunless %}{% endfor %}
 [Read the case study →]({{ '/projects/' | append: project.slug | append: '/' | relative_url }})
 
 ---
@@ -65,3 +76,4 @@ See the full history on the [Resume]({{ '/resume/' | relative_url }}).
 {% endfor %}
 
 _Last updated: {{ site.time | date: "%B %Y" }}_
+

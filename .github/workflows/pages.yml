@@ -1,7 +1,7 @@
 name: Build and Deploy Jekyll site
 
 on:
-  push:
+  push:            # keeps your workflow the source of truth
     branches: ["main"]
   workflow_dispatch:
 
@@ -19,18 +19,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      # Optional but recommended (sets base path, etc.)
+      - name: Configure GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.3
-      - uses: actions/configure-pages@v5
-      - name: Install dependencies
-        run: bundle install --jobs 4 --retry 3
-      - name: Build site
-        run: bundle exec jekyll build
-      - name: Upload artifact
+          ruby-version: '3.3'
+          bundler-cache: true   # runs `bundle install` and caches gems
+
+      - name: Build with Jekyll (Chirpy)
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --trace --verbose -d _site
+
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+          name: github-pages   # <<--- make the name explicit
 
   deploy:
     needs: build
@@ -42,3 +51,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages   # <<--- use the same named artifact

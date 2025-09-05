@@ -1,7 +1,8 @@
 ---
 title: Oday — YouTube Playlists Web App
-layout: default
+layout: project
 tags: [web, angular]
+demo: https://example.com
 ---
 
 # Oday — YouTube Playlists Web App
@@ -36,9 +37,3 @@ function markComplete(videoId: string) {
 * **Simplicity:** zero-build static site keeps maintenance low
 * **Shareability:** easy to send curated tracks to friends
 
-Tags:
-{% for tag in page.tags %}
-[{{ tag }}]({{ '/tags/' | append: tag | relative_url }}){% unless forloop.last %}, {% endunless %}
-{% endfor %}
-
-**Links:** [Back to Projects]({{ '/projects/' | relative_url }}) • [Source or Demo (if public)](https://example.com)
