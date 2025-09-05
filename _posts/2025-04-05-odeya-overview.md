@@ -3,7 +3,7 @@ layout: post
 title: 'odeya Overview'
 date: 2025-03-15 00:00:00 +0000
 categories: [ODEYA]
-tags: [Angular, SSR, YouTube, Playlists, SEO]
+tags: [Angular, SSR, Playlists, SEO]
 ---
 
 _ODEYA_ is a focused utility for heavy YouTube users: create **channel collections** (e.g., Cruise News, Gaming, Tech) and let ODEYA automatically **populate a single playlist** every time any channel in that collection publishes a new video. It started as a personal tool to eliminate manual playlist maintenance—and it stuck.
