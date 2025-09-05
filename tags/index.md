@@ -20,3 +20,4 @@ layout: default
 {% for tag in tag_list %}
 - [{{ tag }}]({{ '/tags/' | append: tag | relative_url }})
 {% endfor %}
+
