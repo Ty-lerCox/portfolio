@@ -1,5 +1,5 @@
 ---
-title: Resume — Your Name
+title: Resume — {{ site.data.resume.name }}
 layout: default
 ---
 
@@ -8,26 +8,30 @@ layout: default
 [Download PDF]({{ '/resume/resume.pdf' | relative_url }})
 
 ## Summary
-Systems-oriented UE & web developer focused on tools that accelerate designers and keep code maintainable.
+{{ site.data.resume.summary }}
 
 ## Skills
-- **Languages:** C++, TypeScript/JavaScript
-- **Engines/Frameworks:** Unreal Engine 5, HTML5/CSS
-- **Tools:** Git, GitHub Actions, (add more)
+{% for group in site.data.resume.skills %}
+- **{{ group.title }}:** {{ group.skills | join: ', ' }}
+{% endfor %}
 
-## Experience
-**Role — Company (YYYY–YYYY)**  
-- Impact bullet 1 (action → result).  
-- Impact bullet 2 (metric if possible).
-
-**Earlier Role — Company (YYYY–YYYY)**  
-- Impact bullet 1.  
-- Impact bullet 2.
+## Work Experience
+{% for job in site.data.resume.workExperience %}
+**{{ job.position }} — {{ job.company }} ({{ job.startYear | slice: 0,4 }}–{{ job.endYear }})**
+{{ job.description }}
+{% assign bullets = job.keyAchievements | split: '\\n' %}
+{% for line in bullets %}
+- {{ line }}
+{% endfor %}
+{% endfor %}
 
 ## Education
-Degree — School
+{% for edu in site.data.resume.education %}
+**{{ edu.degree }} — {{ edu.school }}**
+{% endfor %}
 
 ## Links
-- GitHub — yourhandle  
-- LinkedIn — /in/yourhandle  
-- Email — yourname@example.com
+{% for profile in site.data.resume.socialMedia %}
+- {{ profile.socialMedia }} — {{ profile.link }}
+{% endfor %}
+- Email — {{ site.data.resume.email }}
