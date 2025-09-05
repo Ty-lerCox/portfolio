@@ -11,7 +11,6 @@ _{{ site.data.resume.position }}_
 
 ---
 
-## Core Skills {#skills}
 {% for group in site.data.resume.skills %}
 ### {{ group.title }}
 {{ group.skills | join: ', ' }}
