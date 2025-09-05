@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'ODEYA Overview'
+title: 'odeya Overview'
 date: 2025-03-15 00:00:00 +0000
 categories: [ODEYA]
 tags: [Angular, SSR, YouTube, Playlists, SEO]
