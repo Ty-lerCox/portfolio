@@ -3,7 +3,15 @@ layout: post
 title: "CityRPG Overview"
 date: 2025-04-05 00:00:00 +0000
 categories: [CityRPG]
-tags: [Angular, UE5, CityRPG, Gameplay]
+tags:
+  - CityRPG
+  - Angular
+  - UE5
+  - C++
+  - TypeScript
+  - RxJS
+  - NgRx
+  - Firebase
 ---
 
 *CityRPG* is an ambitious mod for **Brickadia** that transforms its open-ended building sandbox into an active, living city. It pairs a robust back-end service with an Angular-based UI to keep the game scalable, responsive, and ready for future server expansion.
