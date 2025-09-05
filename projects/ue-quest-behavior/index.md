@@ -1,7 +1,10 @@
 ---
 title: Questing & Behavior Systems (UE)
 layout: default
+tags: [unreal, cpp]
 ---
+
+[← Unreal Gameplay Systems]({{ '/projects/ue-gameplay-systems/' | relative_url }})
 
 # Questing & Behavior Systems (UE5)
 
@@ -32,5 +35,7 @@ void UBTTask_TickQuest::ExecuteTask(UBehaviorTreeComponent& OwnerComp) {
 * **Design velocity:** new quests built without engineering support
 * **Consistency:** shared tasks reduced duplicated logic
 * **Player engagement:** tighter AI integration improved quest responsiveness
+
+Tags: {% for tag in page.tags %}[{{ tag }}]({{ '/tags/' | append: tag | relative_url }}){% unless forloop.last %}, {% endunless %}{% endfor %}
 
 **Links:** [Back to Projects]({{ '/projects/' | relative_url }}) • [Source or Demo (if public)](https://example.com)

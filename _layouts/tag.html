@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<h1>Tag: {{ page.tag }}</h1>
+<ul>
+{% assign all = site.data.projects.active | concat: site.data.projects.completed %}
+{% for project in all %}
+  {% if project.tags contains page.tag %}
+    <li><a href="{{ '/projects/' | append: project.slug | append: '/' | relative_url }}">{{ project.title }}</a></li>
+  {% endif %}
+  {% if project.sub_projects %}
+    {% for sub in project.sub_projects %}
+      {% if sub.tags contains page.tag %}
+        <li><a href="{{ '/projects/' | append: sub.slug | append: '/' | relative_url }}">{{ sub.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+</ul>

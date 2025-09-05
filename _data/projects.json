@@ -1,0 +1,22 @@
+{
+  "active": [
+    {
+      "title": "Unreal Gameplay Systems",
+      "slug": "ue-gameplay-systems",
+      "description": "Suite of reusable systems for UE5 including dialogue and quest modules.",
+      "tags": ["unreal", "cpp"],
+      "sub_projects": [
+        {"title": "Advanced Dialogue System", "slug": "ue-advanced-dialogue", "tags": ["unreal", "cpp"]},
+        {"title": "Questing & Behavior Systems", "slug": "ue-quest-behavior", "tags": ["unreal", "cpp"]}
+      ]
+    }
+  ],
+  "completed": [
+    {
+      "title": "Oday — YouTube Playlists Web App",
+      "slug": "oday-playlists",
+      "description": "Curates and surfaces multi-playlist learning tracks with a minimal, distraction-free UI.",
+      "tags": ["web", "angular"]
+    }
+  ]
+}
