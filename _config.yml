@@ -1,10 +1,10 @@
-title: Your Name
-description: Unreal Engine & Web Developer — Systems, Tools, and Clean UX
+title: "KEVIN 'TYLER' COX"
+description: Unreal Engine 5 C++ Gameplay Systems Developer
 # Use the Chirpy theme
 theme: jekyll-theme-chirpy
 markdown: kramdown
-url: https://example.github.io           # TODO: set this
-baseurl: /portfolio                               # TODO: '' if using username.github.io root site
+url: https://ty-lercox.github.io
+baseurl: /portfolio
 defaults:
   - scope:
       path: ""
@@ -13,9 +13,9 @@ defaults:
 # (Optional) SEO/social hints
 logo: /assets/img/headshot.svg
 social:
-  name: Your Name
+  name: "KEVIN 'TYLER' COX"
   links:
-    - https://github.com/yourhandle
-    - https://www.linkedin.com/in/yourhandle
-  # Add more as needed
+    - https://github.com/Ty-lerCox
+    - https://www.linkedin.com/in/tyler-cox-1715065a/
+    - https://ty-lercox.github.io/portfolio/
 theme_mode: dark
