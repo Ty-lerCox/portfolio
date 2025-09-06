@@ -99,7 +99,7 @@ def main() -> None:
     for resume_path in args.resumes:
         resume_text = resume_path.read_text(encoding="utf-8")
         prompt = generate_prompt(job_text, resume_text)
-        out_path = args.out_dir / f"{resume_path.stem}_prompt.txt"
+        out_path = args.out_dir / f"{resume_path.stem}_prompt.json"
         out_path.write_text(prompt, encoding="utf-8")
         print(f"Wrote {out_path}")
 
