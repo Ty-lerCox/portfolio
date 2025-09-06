@@ -1,0 +1,126 @@
+{
+    "name": "KEVIN 'TYLER' COX",
+    "position": "Senior Backend Engineer (TypeScript/GraphQL, Document DBs)",
+    "contactInformation": "(843) 718-4024",
+    "email": "[kevincox103@gmail.com](mailto:kevincox103@gmail.com)",
+    "address": "Charleston, SC",
+    "profilePicture": "",
+    "socialMedia": [
+        { "socialMedia": "Github", "link": "github.com/Ty-lerCox" },
+        {
+            "socialMedia": "LinkedIn",
+            "link": "linkedin.com/in/tyler-cox-1715065a/"
+        },
+        { "socialMedia": "Website", "link": "ty-lercox.github.io/portfolio/" }
+    ],
+    "summary": "Senior backend engineer with TypeScript/Java/C# service development, GraphQL API design, and document databases (DynamoDB, Firestore). Strong serverless background (GCP Cloud Functions; familiar with AWS Lambda) with CI/CD and SRE practices (Grafana/Prometheus/Loki/Tempo). Built internal tools and reliable event-driven pipelines (CDC→Kafka); security-first with Keycloak/OIDC, PKI, and TLS/mTLS. US Eastern; 6+ hours overlap with Pacific time; comfortable with occasional travel.",
+    "education": [
+        {
+            "school": "Trident Technical College",
+            "degree": "Computer Science",
+            "startYear": "",
+            "endYear": "2013-12-31"
+        }
+    ],
+    "workExperience": [
+        {
+            "company": "Expediters International (Expediters)",
+            "position": "Software Engineer (Backend‑leaning, Angular Platform)",
+            "description": "Design and delivery of services and platform tooling across internal applications; emphasis on observability, automation, and secure‑by‑default practices.",
+            "keyAchievements": "Delivered RESTful services in Java Spring Boot and C#/.NET to support logistics workflows and front‑end applications.\nModeled operational data for streaming via CDC → Kafka; established medallion layers (bronze/silver/gold) to improve lineage, SLAs, and reprocessing.\nImplemented identity and transport security with Keycloak (OIDC/SAML), Kerberos, internal CA/PKI, and TLS/mTLS.\nBuilt observability with Grafana/Prometheus/Loki/Tempo, SLO dashboards, and alerting; authored runbooks and supported incident response.\nStandardized CI/CD with GitHub Actions and GitLab Runners; automated environment provisioning with Ansible; supported Kubernetes deployments.\nCreated internal tools/admin views for operations teams to manage workflows and data quality.\nCollaborated across product/design/engineering, providing estimates, highlighting risks/mitigations, and leading code/design reviews.",
+            "startYear": "2014-09-01",
+            "endYear": "Present"
+        }
+    ],
+    "projects": [
+        {
+            "title": "ODEYA.app (Angular + SSR)",
+            "link": "ty-lercox.github.io/portfolio/posts/odeya-overview/",
+            "description": "Personal web app that auto‑curates YouTube playlists from collections of channels so new uploads flow into a single playlist.",
+            "keyAchievements": "Implemented server‑side rendering for SEO; componentized TS code; reduced manual upkeep via aggregation logic.",
+            "startYear": "2025-03-01",
+            "endYear": "2025-05-31",
+            "name": "ODEYA.app"
+        },
+        {
+            "title": "Backend Patterns — GraphQL + Document DB",
+            "link": "",
+            "description": "TypeScript GraphQL APIs with schema‑first design and resolvers backed by document databases.",
+            "keyAchievements": "Data modeling in DynamoDB (single‑table concepts) and Firestore; serverless functions (primary: GCP Cloud Functions; familiar: AWS Lambda); added metrics hooks compatible with Prometheus/Grafana.",
+            "startYear": "",
+            "endYear": "",
+            "name": "Backend Patterns — GraphQL + Document DB"
+        },
+        {
+            "title": "Observability Enablement (Grafana Stack)",
+            "link": "",
+            "description": "Service health/SLO dashboards with Prometheus metrics, Loki logs, and Tempo traces; alerting integrated with deployments.",
+            "keyAchievements": "Trace‑led debugging across services; consistent dashboards; seeded runbooks and escalation paths.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Observability Enablement"
+        },
+        {
+            "title": "CI/CD Blueprint & Ansible Provisioning",
+            "link": "",
+            "description": "Reusable pipelines (GitHub Actions/GitLab Runners) and Ansible roles for consistent build/test/deploy across on‑prem and cloud targets.",
+            "keyAchievements": "Reduced lead time to change; standardized quality gates and environment promotion; improved reliability.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "CI/CD Blueprint"
+        },
+        {
+            "title": "Data Flow Modernization (CDC → Kafka → Medallion)",
+            "link": "",
+            "description": "Database‑level CDC streaming into Kafka, organized into bronze/silver/gold layers.",
+            "keyAchievements": "Improved reliability, lineage, and downstream transformations; clearer SLAs and reprocessing.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Data Flow Modernization"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Backend & Cloud",
+            "skills": [
+                "TypeScript (backend)",
+                "GraphQL (schema design & resolvers)",
+                "Document DBs: DynamoDB (single‑table concepts), Firestore",
+                "Serverless: GCP Cloud Functions; AWS Lambda (familiar)",
+                "REST API design",
+                "Data modeling (NoSQL & relational)",
+                "Event‑driven pipelines (CDC → Kafka)"
+            ]
+        },
+        {
+            "title": "Security & Ops",
+            "skills": [
+                "Keycloak (OIDC/SAML), Kerberos",
+                "PKI/Certificate Authority, TLS/mTLS",
+                "Grafana, Prometheus, Loki, Tempo (SLOs, alerting, traces)",
+                "Runbooks & incident response",
+                "Kubernetes (support), Ansible (provisioning)"
+            ]
+        },
+        {
+            "title": "CI/CD & Tooling",
+            "skills": [
+                "GitHub Actions",
+                "GitLab Runners",
+                "Azure DevOps",
+                "Feature flags",
+                "Testing & quality gates",
+                "Internal tools/admin consoles"
+            ]
+        },
+        {
+            "title": "Front‑End (supporting)",
+            "skills": [
+                "Angular (Signals, RxJS, NgRx)",
+                "UI architecture & component design"
+            ]
+        }
+    ],
+    "languages": ["English"],
+    "certifications": []
+}

@@ -1,62 +1,86 @@
-Gameplay Programmer (Unreal)
-Triiodide Studios
+Senior Backend Engineer
+Location
 Remote
-$155,000 - $205,000 a year - Full-time
-&nbsp;
-Job details
-Here’s how the job details align with your profile.
-Pay
 
-$155,000 - $205,000 a year
-Job type
+Employment Type
+Full time
 
-Full-time
-&nbsp;
-Full job description
-What to Expect
+Location Type
+Remote
 
-You will be working on Backrooms: Escape Together, a fully procedural multiplayer exploration/survival horror game built in UE5. Backrooms: Escape Together currently sits in the top 100 of Steam’s best-selling games and is rapidly climbing; We need passionate developers who share our mission of delivering unforgettable multiplayer experiences.
+Department
+Engineering
 
-The game is live service in nature and currently has 7 procedurally generated levels, each with unique gameplay and visuals. The community is clamoring for more content and your role will be to program procedurally generated levels using our existing tooling in C++, along with programming engaging gameplay systems to fit in the levels. With an engaged community of users, you'll have opportunities to improve your work based on the feedback and data you've collected to help create measurable success. Each content release will further B.E.T. as an incomparable grand journey with friends.
+Overview
+Application
+Loot Labs is on a mission to make collecting fun. We are passionate about bridging the gap between collectible markets and avid collectors.
 
-About Triiodide
+Our product, Boxed.gg, offers a marketplace that facilitates the purchase and trade of digital items in an accessible manner. The platform initially focused on physical trading card games such as Pokémon, Magic: The Gathering, and Yu-Gi-Oh!, allowing users to digitally unbox rare cards and have the physical items shipped to their doorsteps.
 
-We are searching for like-minded people to build out our world-class Unreal Engine 5 team. We are a small agile team that is currently fully remote, though we will be moving to an in-person office in 2025. If you want to get in on the ground floor of something big and are excited to be a key driver of future growth, this opportunity is for you.
+We’re hiring a Senior Backend Engineer to design and scale the systems behind our products. You’ll lead architecture discussions, ship secure and performant APIs, and collaborate closely across the stack. We’re looking for someone who doesn’t just write code, but owns the full system lifecycle from design to debugging to iteration.
 
+Location: Remote (US preferred) Occasional U.S. travel is required for in-person collaboration, team offsites, and company events.
 
-What You'll Do
+Type: Full-time
 
-Develop procedurally generated levels and gameplay systems in C++
-Own and maintain polished features that are shipped to a player base of 250,000+
-Work closely with other developers on projects ranging from small bug fixes to large features
-Participate in code reviews and design discussions - Identify performance bottlenecks or structural issues and optimize code as needed
-Assist in tracking down and patching bugs reported by users or identified through internal testing
-What You'll Bring
+Time Zone Requirement: Must have 5+ hours of overlap with US Pacific Time (9am–6pm PT)
 
-3+ years of industry experience as a game developer or relevant software developer
-Strong C++ and Unreal Engine skills
-Strong understanding of multiplayer networking in Unreal Engine and GAS
-Perforce, SVN, Git LFS, or similar version control experience
-Experience in maintaining large codebases/systems while ensuring it’s scalable, robust, and efficient
-Excellent communication skills and very detail oriented
-Comfortability in wearing “many hats” as a developer and working through a vast assortment of challenges
-Ability to work independently and a desire to problem solve
-Willingness to learn, ask questions, and collaborate with a team - Extreme passion to push the envelope in gaming
-Degree in Computer Science, Game Design, Gameplay Programming or proof of exceptional skills in related fields, with practical software engineering experience
-Nice to Haves
+Language: Must be fluent in English and comfortable working in a fast-paced, collaborative environment
 
-Previous experience in working in a startup or AAA environment
-Hands-on experience with Unreal Engine 5 and its new features
-Experience in creating procedurally generated levels
-Low-level knowledge of Unreal Engine networking
-A portfolio that demonstrates a keen eye for detail and the ability to create maintainable, high-quality code
-Enthusiasm and knowledge of the Backrooms
+Why You’ll Love Working Here
+You’ll own features end-to-end and see your impact in days, not months.
 
-Expected Compensation
+Work alongside people who ship fast and care about the details.
 
-$155,000 - $205,000 (including cash bonuses) + stock awards
+Take ownership in ambiguous situations and shape solutions collaboratively.
 
-Pay offered may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience. The total compensation package for this position may also include other elements dependent on the position offered. Details of participation in these benefit plans will be provided if an employee receives an offer of employment.
+How You’ll Contribute & Succeed Here
+Bring senior-level experience building production backend systems (typically 5+ years)
 
-ivuZ045ktV
+Design, build, and maintain reliable, scalable backend services using AWS (DynamoDB, Lambda, S3, AppSync, Cognito, SQS) and SST (v2 and v3), with Infrastructure as Code best practices.
+
+Develop and maintain GraphQL APIs and application logic in TypeScript
+
+Lead system design, data modeling, and architectural decisions for scalability, performance, and long-term maintainability, owning solutions from planning through launch and iteration
+
+Implement robust security, authentication/authorization, and data protection
+
+Maintain healthy production systems through CI/CD best practices, robust observability, and effective incident response
+
+Collaborate with frontend, product, and design to deliver backend systems that enable seamless user experiences
+
+Bring strong product sense and user empathy. Always build with the why in mind, not just the what
+
+Proactively communicate, raise concerns early, and solve problems with teammates
+
+Balance speed and robustness, making pragmatic trade-offs to deliver value quickly without sacrificing quality
+
+Mentor others, share knowledge, and help raise the technical bar
+
+Bonus Skills
+Experience with e-commerce systems, including payment processing, marketplaces, and order/fulfillment workflows
+
+Familiarity with blockchain, cryptocurrency, or digital collectibles
+
+Experience with OpenSearch / Elasticsearch
+
+Experience building internal tools (e.g., Retool)
+
+Experience with real-time and event-driven systems
+
+Experience with data scraping or browser automation
+
+Interest in collectibles, gaming, or creator platforms
+
+Working Hours & Compensation
+
+Loot Labs is a remote-first company, and this role is open to candidates globally. To support efficient collaboration across teams, we will prioritize applicants who have working hour overlap with U.S. and E.U. time zones.
+
+Compensation will be competitive and based on your experience level as well as local market benchmarks for your region.
+
+Accessibility & Employment Eligibility
+
+We are committed to providing an inclusive and accessible recruitment process. If you need any accommodations during the application or interview process, please let us know—we’re happy to support you.
+
+For candidates located in the United States: Loot Labs participates in E-Verify and will confirm work authorization as part of the hiring process.
 

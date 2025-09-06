@@ -1,0 +1,157 @@
+{
+    "name": "KEVIN 'TYLER' COX",
+    "position": "Angular Application Developer",
+    "contactInformation": "(843) 718-4024",
+    "email": "[kevincox103@gmail.com](mailto:kevincox103@gmail.com)",
+    "address": "Charleston, SC",
+    "profilePicture": "",
+    "socialMedia": [
+        { "socialMedia": "Github", "link": "github.com/Ty-lerCox" },
+        {
+            "socialMedia": "LinkedIn",
+            "link": "linkedin.com/in/tyler-cox-1715065a/"
+        },
+        { "socialMedia": "Website", "link": "ty-lercox.github.io/portfolio/" }
+    ],
+    "summary": "Angular specialist (Signals, RxJS, NgRx) delivering secure, observable, and automated web applications. Strong in TypeScript, Tailwind CSS, and GraphQL—translate UX specs into responsive, pixel‑accurate UIs and optimize Core Web Vitals (LCP/CLS/INP). Eleven years at Expediters International building front‑ends, standing up CI/CD (Ansible, GitHub Actions, GitLab Runners, Azure DevOps), and instrumenting the Grafana stack (Prometheus, Loki, Tempo) for both ops telemetry and product event analytics (click/flow funnels). Integrated SSO with Keycloak/Kerberos, established PKI/TLS, and evolved data ingestion from bespoke Kafka jobs to CDC → Kafka with bronze/silver/gold layers. Prototype quickly in Python; ship production services in Java Spring Boot and C#/.NET. Champion feature flags, DORA metrics, and Kanban to improve delivery flow. Built ODEYA.app, an SSR Angular app that auto‑curates YouTube playlists from channel collections and indexes shareable playlists for SEO.",
+    "education": [
+        {
+            "school": "Trident Technical College",
+            "degree": "Computer Science",
+            "startYear": "",
+            "endYear": "2013-12-31"
+        }
+    ],
+    "workExperience": [
+        {
+            "company": "Expediters International (Expediters)",
+            "position": "Angular Application Developer",
+            "description": "Design and delivery of Angular front‑ends and platform tooling across multiple internal applications; emphasis on observability, automation, and secure-by-default practices.",
+            "keyAchievements": "Built and led Angular front‑ends using Signals, RxJS, and NgRx across several logistics/operations applications.\nStyled and shipped responsive UIs with Tailwind CSS (utility‑first) alongside semantic HTML and modern CSS (Flexbox/Grid).\nIntegrated GraphQL (queries/mutations) alongside RESTful services; streamlined data contracts and normalized client state.\nImplemented product analytics: client‑side event tracking for clicks/flows emitted to Prometheus/Loki/Tempo (Grafana stack); created funnels/dashboards and tracked Core Web Vitals to guide iteration.\nIntroduced step‑centric workflow modeling (e.g., Unified Process) to complement event‑driven patterns; improved clarity and traceability of process state.\nImplemented observability with Grafana stack—Prometheus (metrics), Loki (logs), Tempo (traces)—plus SLO dashboards and alerting to reduce detection and resolution time.\nStandardized CI/CD with GitHub Actions and GitLab Runners; used Ansible for repeatable on‑prem and cloud provisioning (GCP/Firebase); supported Kubernetes deployments.\nHardened identity and transport security: Keycloak SSO (OIDC/SAML), Kerberos integrations, internal CA/PKI, and TLS/mTLS with cert rotation policies.\nModernized data integration from ad‑hoc Kafka producers/consumers to database‑level Change Data Capture (CDC) feeding Kafka, organized via medallion layers (bronze/silver/gold).\nOptimized performance and SEO using SSR (where applicable), route‑level lazy loading, and bundle analysis to improve first‑paint and TTI.\nEnabled feature flag rollouts for progressive delivery; instrumented DORA metrics and coached teams on Kanban and velocity/flow tracking via Azure DevOps.\nDelivered APIs/services in Java Spring Boot and C#/.NET; used Python for rapid prototyping prior to hardening.\nAuthored Azure DevOps utilities (Python) to create user stories under Features with iteration/assignee/area/story‑point fields, improving planning throughput.",
+            "startYear": "2014-09-01",
+            "endYear": "Present"
+        }
+    ],
+    "projects": [
+        {
+            "title": "ODEYA.app (Angular + SSR)",
+            "link": "ty-lercox.github.io/portfolio/posts/odeya-overview/",
+            "description": "Personal web app that auto‑curates YouTube playlists from collections of channels (e.g., cruise, gaming, tech) so new uploads from any channel in a collection flow into a single playlist.",
+            "keyAchievements": "Implemented server‑side rendering so shared playlists are SEO‑indexable; optimized for Core Web Vitals with lazy loading and bundle analysis; playlist sharing enables discovery via search engines. Aggregation logic supports many‑to‑one channel collections; reduced manual playlist upkeep.",
+            "startYear": "2025-03-01",
+            "endYear": "2025-05-31",
+            "name": "ODEYA.app"
+        },
+        {
+            "title": "Logistics Process Orchestration (Angular Signals + NgRx)",
+            "link": "",
+            "description": "Front‑end architecture for step‑centric workflows replacing purely event‑driven UIs in logistics operations.",
+            "keyAchievements": "Normalized state, clear effects, and deterministic UI flows; fully instrumented for metrics/logs/traces and product event analytics.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Logistics Process Orchestration"
+        },
+        {
+            "title": "Observability Enablement (Grafana Stack)",
+            "link": "",
+            "description": "Service health/SLO dashboards with Prometheus metrics, Loki logs, and Tempo traces; alerting integrated with deployment telemetry.",
+            "keyAchievements": "Improved issue detection and trace‑led debugging across services; consistent dashboards for teams; added client‑side event funnels and CWV tracking to inform UI iteration.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Observability Enablement"
+        },
+        {
+            "title": "CI/CD Blueprint & Ansible Provisioning",
+            "link": "",
+            "description": "Reusable pipelines (GitHub Actions/GitLab Runners) and Ansible roles for consistent build/test/deploy across on‑prem and cloud targets.",
+            "keyAchievements": "Cut lead time to change; standardized quality gates and environment promotion.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "CI/CD Blueprint"
+        },
+        {
+            "title": "Data Flow Modernization (CDC → Kafka → Medallion)",
+            "link": "",
+            "description": "Replaced batch/legacy Kafka usage with database‑level CDC streaming into Kafka, organized into bronze/silver/gold layers.",
+            "keyAchievements": "Improved reliability, lineage, and downstream transformations; clearer SLAs and reprocessing.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Data Flow Modernization"
+        },
+        {
+            "title": "SSO & PKI Hardening",
+            "link": "",
+            "description": "Unified identity and secure transport across services.",
+            "keyAchievements": "Keycloak (OIDC/SAML), Kerberos, internal CA/PKI, TLS/mTLS, and certificate lifecycle policies.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "SSO & PKI Hardening"
+        },
+        {
+            "title": "Azure DevOps Utilities (Planning Automation)",
+            "link": "",
+            "description": "Python tooling to create child User Stories under Features with Iteration, Assignee, Area, and Story Points fields.",
+            "keyAchievements": "Accelerated planning and improved consistency of backlog data.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Azure DevOps Utilities"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Technical Skills",
+            "skills": [
+                "Angular (Signals, RxJS, NgRx)",
+                "TypeScript",
+                "Tailwind CSS",
+                "GraphQL (queries/mutations, client integration)",
+                "UI architecture & component design",
+                "Responsive Web Design (Flexbox, Grid)",
+                "Core Web Vitals (LCP, CLS, INP) & web performance",
+                "Java (Spring Boot, JPA/Hibernate)",
+                "C# (.NET Web API, Entity Framework)",
+                "Python (prototyping)",
+                "Kafka & Change Data Capture (CDC)",
+                "Data medallion layers (bronze/silver/gold)",
+                "Kubernetes",
+                "Ansible",
+                "Azure DevOps",
+                "GitHub Actions",
+                "GitLab Runners",
+                "GCP & Firebase",
+                "Grafana, Prometheus, Loki, Tempo (ops + product event analytics)",
+                "Keycloak (OIDC/SAML), Kerberos",
+                "PKI/Certificate Authority, TLS/mTLS",
+                "RHEL 9, VMs",
+                "Feature flags",
+                "DORA metrics"
+            ]
+        },
+        {
+            "title": "Soft Skills",
+            "skills": [
+                "Systems Thinking",
+                "Cross‑functional Collaboration",
+                "Technical Leadership & Coaching",
+                "Stakeholder Communication",
+                "Problem Solving",
+                "Iteration & Rapid Prototyping",
+                "Kanban Facilitation",
+                "High Ownership & Product Sense"
+            ]
+        },
+        {
+            "title": "Additional Skills",
+            "skills": [
+                "Observability & SRE Practices",
+                "Event analytics & funnels (client‑side tracking)",
+                "Documentation & ADRs",
+                "AI‑Assisted Engineering (LLMs/ChatGPT CLI)",
+                "Testing & Quality Gates (unit/E2E in CI)",
+                "Release & Deployment Strategies"
+            ]
+        }
+    ],
+    "languages": ["English"],
+    "certifications": []
+}
