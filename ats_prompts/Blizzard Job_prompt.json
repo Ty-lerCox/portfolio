@@ -148,7 +148,7 @@ In the U.S., the standard base pay range for this role is $101,000.00 - $186,754
             "endYear": "Present"
         },
         {
-            "company": "Expediters International (Expediters)",
+            "company": "Expeditors International (Expeditors)",
             "position": "Angular Application Developer (Additional Professional Experience)",
             "description": "Primary employer; application development, DevOps, and observability (transferable engineering practices).",
             "keyAchievements": "Led state management patterns (NgRx, Angular Signals) and modular architecture across multiple internal applications.\nStood up observability with Grafana stack (Prometheus metrics, Loki logs, Tempo traces) and alerting; emphasized instrumentation and telemetry—skills applicable to game profiling and tooling.\nAutomated CI/CD with GitHub Actions/GitLab Runners and Ansible; supported Kubernetes deployments; improved iteration speed and reliability.\nImplemented SSO (Keycloak OIDC/SAML), Kerberos integrations, and PKI/CA for TLS/mTLS; enforced secure defaults.\nModernized data flows from bespoke Kafka producers to database-level CDC → Kafka with medallion layers (bronze/silver/gold).\nUsed Python for rapid prototypes; production services in Java Spring Boot and C#/.NET; practiced feature flags, DORA metrics, and Kanban for flow.\nDocumented integration steps, runbooks, and platform configurations; supported incident response; willing to participate in on-call rotation.",

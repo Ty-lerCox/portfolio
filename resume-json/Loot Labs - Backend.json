@@ -24,7 +24,7 @@
     ],
     "workExperience": [
         {
-            "company": "Expediters International (Expediters)",
+            "company": "Expeditors International (Expeditors)",
             "position": "Software Engineer (Backend‑leaning, Angular Platform)",
             "description": "Design and delivery of services and platform tooling across internal applications; emphasis on observability, automation, and secure‑by‑default practices.",
             "keyAchievements": "Delivered RESTful services in Java Spring Boot and C#/.NET to support logistics workflows and front‑end applications.\nModeled operational data for streaming via CDC → Kafka; established medallion layers (bronze/silver/gold) to improve lineage, SLAs, and reprocessing.\nImplemented identity and transport security with Keycloak (OIDC/SAML), Kerberos, internal CA/PKI, and TLS/mTLS.\nBuilt observability with Grafana/Prometheus/Loki/Tempo, SLO dashboards, and alerting; authored runbooks and supported incident response.\nStandardized CI/CD with GitHub Actions and GitLab Runners; automated environment provisioning with Ansible; supported Kubernetes deployments.\nCreated internal tools/admin views for operations teams to manage workflows and data quality.\nCollaborated across product/design/engineering, providing estimates, highlighting risks/mitigations, and leading code/design reviews.",
