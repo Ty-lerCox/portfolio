@@ -1,0 +1,175 @@
+{
+    "name": "KEVIN 'TYLER' COX",
+    "position": "Unreal Engine 5 C++ Gameplay Systems Developer",
+    "contactInformation": "(843) 718-4024",
+    "email": "[kevincox103@gmail.com](mailto:kevincox103@gmail.com)",
+    "address": "Charleston, SC",
+    "profilePicture": "",
+    "socialMedia": [
+        { "socialMedia": "Github", "link": "github.com/Ty-lerCox" },
+        {
+            "socialMedia": "LinkedIn",
+            "link": "linkedin.com/in/tyler-cox-1715065a/"
+        },
+        {
+            "socialMedia": "Website",
+            "link": "ty-lercox.github.io/portfolio/"
+        }
+    ],
+    "summary": "Senior C++ (5+ yrs)/UE5 systems developer packaging SDK‑style gameplay modules with clean APIs, UE5 unit tests, and developer docs. Complementary distributed‑services experience (Java/C#) with Kubernetes, Kafka, and Grafana/Prometheus/Loki/Tempo; secure integrations via Keycloak OIDC/SAML and TLS/mTLS. Working knowledge of MySQL (schema design & SQL optimization). Remote from Charleston, SC; open to on‑call rotation and light travel.",
+    "education": [
+        {
+            "school": "Trident Technical College",
+            "degree": "Computer Science",
+            "startYear": "",
+            "endYear": "2013-12-31"
+        }
+    ],
+    "workExperience": [
+        {
+            "company": "Independent / Self-Employed",
+            "position": "UE5/C++ Game Systems Developer",
+            "description": "Design and implementation of core gameplay systems and tools in Unreal Engine 5 with emphasis on maintainable, data-driven C++.",
+            "keyAchievements": "Built branching Dialogue System with multi-option choices and conditional availability based on quest state (current/completed/required).\nEngineered Quest System supporting multi-objective tasks, required counts, dependencies, and side effects (trigger cinematics, spawn NPCs, state changes).\nEstablished Redux-style architecture in C++ (actions, effects, state) to isolate subsystems and improve testability and maintainability.\nCreated AI movement and a needs model; authored advanced spawner logic for unpredictable NPC distribution with region rules, cooldowns, and variance.\nImplemented story-management and transition volumes to control floor/zone visibility and scene flow.\nDeveloped cinematic HUD widgets and web-inspired UI components to accelerate iteration and improve UX.\nDelivered inventory and shop subsystems integrated with global game state; built a codex/collection system to track collectibles and progression.\nIntegrated an in-game guide chatbot (LLM) with command interface; used context caching to reduce token usage and latency.\nPackaged systems as reusable SDK-style C++ modules with public headers, versioned APIs, integration guides, and demo levels to illustrate usage.\nWrote UE5 unit tests for gameplay subsystems (e.g., quest progression, inventory interactions) using the automation testing framework.\nPracticed data-driven configuration, profiling, and optimization across systems.",
+            "startYear": "2025-01-01",
+            "endYear": "Present"
+        },
+        {
+            "company": "Expediters International (Expediters)",
+            "position": "Angular Application Developer (Additional Professional Experience)",
+            "description": "Primary employer; application development, DevOps, and observability (transferable engineering practices).",
+            "keyAchievements": "Led state management patterns (NgRx, Angular Signals) and modular architecture across multiple internal applications.\nStood up observability with Grafana stack (Prometheus metrics, Loki logs, Tempo traces) and alerting; emphasized instrumentation and telemetry—skills applicable to game profiling and tooling.\nAutomated CI/CD with GitHub Actions/GitLab Runners and Ansible; supported Kubernetes deployments; improved iteration speed and reliability.\nImplemented SSO (Keycloak OIDC/SAML), Kerberos integrations, and PKI/CA for TLS/mTLS; enforced secure defaults.\nModernized data flows from bespoke Kafka producers to database-level CDC → Kafka with medallion layers (bronze/silver/gold).\nUsed Python for rapid prototypes; production services in Java Spring Boot and C#/.NET; practiced feature flags, DORA metrics, and Kanban for flow.\nDocumented integration steps, runbooks, and platform configurations; supported incident response; willing to participate in on-call rotation.",
+            "startYear": "2014-09-01",
+            "endYear": "Present"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Dialogue System (UE5/C++)",
+            "link": "[https://github.com/bedivere-lea](https://github.com/bedivere-lea)",
+            "description": "Branching, conditional dialogue with quest-aware availability and consequence tracking.",
+            "keyAchievements": "Multi-option choices; gating by current/completed/required quests; integrates with Redux-style game state; API usage documented with sample/demo level.",
+            "startYear": "2025-05-01",
+            "endYear": "2025-05-31",
+            "name": "Dialogue System (UE5/C++)"
+        },
+        {
+            "title": "Quest System (UE5/C++)",
+            "link": "[https://github.com/bedivere-lea](https://github.com/bedivere-lea)",
+            "description": "Objectives with counts, dependencies, and side effects wired to gameplay events.",
+            "keyAchievements": "Triggers cinematics; spawns NPCs; updates global state via actions/effects; integration points documented for reuse.",
+            "startYear": "2025-05-01",
+            "endYear": "2025-05-31",
+            "name": "Quest System (UE5/C++)"
+        },
+        {
+            "title": "AI Needs & Advanced Spawning",
+            "link": "[https://github.com/bedivere-lea](https://github.com/bedivere-lea)",
+            "description": "AI behavior model with needs (Sims-like) and region-based spawner rules.",
+            "keyAchievements": "Unpredictable spawn distribution; cooldowns and variance; tunable via data assets; profiling-informed tuning to maintain frame-time targets.",
+            "startYear": "2025-06-01",
+            "endYear": "2025-06-30",
+            "name": "AI Needs & Advanced Spawning"
+        },
+        {
+            "title": "Story/Level Flow Controls",
+            "link": "[https://github.com/bedivere-lea](https://github.com/bedivere-lea)",
+            "description": "Volume-based story transitions with floor/zone visibility controls.",
+            "keyAchievements": "Performance-aware visibility; clean narrative gating; improved player readability; documented API hooks for scene transitions.",
+            "startYear": "2025-06-01",
+            "endYear": "2025-06-30",
+            "name": "Story/Level Flow Controls"
+        },
+        {
+            "title": "Inventory & Shop Subsystems",
+            "link": "[https://github.com/bedivere-lea](https://github.com/bedivere-lea)",
+            "description": "Item catalogs, purchasing, and persistence integrated with global game state.",
+            "keyAchievements": "Predictable side effects; data-driven tuning; testable modules; sample/demo level illustrates API usage and events.",
+            "startYear": "2025-07-01",
+            "endYear": "2025-07-31",
+            "name": "Inventory & Shop Subsystems"
+        },
+        {
+            "title": "Codex/Collection System",
+            "link": "[https://github.com/bedivere-lea](https://github.com/bedivere-lea)",
+            "description": "Collectible tracking and progression feedback loops.",
+            "keyAchievements": "Player progress surfaces; unlock conditions; consistent data schema; developer notes and API reference for extension.",
+            "startYear": "2025-07-01",
+            "endYear": "2025-07-31",
+            "name": "Codex/Collection System"
+        },
+        {
+            "title": "Guide Chatbot Integration (LLM)",
+            "link": "[https://github.com/bedivere-lea](https://github.com/bedivere-lea)",
+            "description": "In-game user-guide chat agent using language models.",
+            "keyAchievements": "HTTP/REST integration; command interface; context caching to lower inference cost and latency; developer notes for configuration.",
+            "startYear": "2025-08-01",
+            "endYear": "2025-08-31",
+            "name": "Guide Chatbot Integration (LLM)"
+        },
+        {
+            "title": "Redux-Style Game State Library",
+            "link": "[https://github.com/bedivere-lea](https://github.com/bedivere-lea)",
+            "description": "Shared actions/effects/state managers used across gameplay subsystems.",
+            "keyAchievements": "Separation of concerns; maintainable C++ modules; easier testing and debugging; packaged as SDK-style library with API docs and UE5 unit tests for key reducers/effects.",
+            "startYear": "2025-08-01",
+            "endYear": "2025-08-31",
+            "name": "Redux-Style Game State Library"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Technical Skills",
+            "skills": [
+                "Unreal Engine 5",
+                "C++17/20 (5+ years)",
+                "SDK-Style Libraries & API Design",
+                "UE5 Unit Testing (Automation)",
+                "Client-Server Integrations (HTTP/REST)",
+                "UMG/HUD",
+                "Dialogue & Quest Systems",
+                "AI Movement & Spawning",
+                "Redux-style State (actions/effects/state)",
+                "Data-Driven Design",
+                "Profiling & Optimization",
+                "Tooling & Debugging",
+                "MySQL (Schema design & SQL optimization)",
+                "Kubernetes (deployments)",
+                "Kafka",
+                "Grafana/Prometheus/Loki/Tempo",
+                "Keycloak (OIDC/SAML)",
+                "TLS/mTLS",
+                "C#/.NET",
+                "Java",
+                "Python",
+                "Git"
+            ]
+        },
+        {
+            "title": "Soft Skills",
+            "skills": [
+                "Communication",
+                "Collaboration & Cross-Team Coordination",
+                "Systems Thinking",
+                "Problem Solving",
+                "Self-Direction",
+                "Iteration & Rapid Prototyping"
+            ]
+        },
+        {
+            "title": "Additional Skills",
+            "skills": [
+                "API Documentation",
+                "Testability & Maintainability",
+                "Runbooks & Incident Response (on-call ready)",
+                "Cinematic UI/UX",
+                "CI/CD (GitHub Actions, GitLab Runners)",
+                "Ansible",
+                "Secure Integrations (PKI/CA)",
+                "Kanban & Delivery Flow"
+            ]
+        }
+    ],
+    "languages": ["English"],
+    "certifications": []
+}

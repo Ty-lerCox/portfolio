@@ -1,0 +1,324 @@
+You are my ATS keyword & resume tailor.
+
+GOAL
+Maximize alignment between my resume and the target job post without making false claims, while keeping an ATS-safe format.
+
+INPUTS
+[JOB POST]
+<<< Senior Software Engineer, Game Services
+CityCharlotte  North Carolina  CategoryEngineering  Battle.net & Online Products
+ 
+ Save 
+Team Name:
+
+Battle.net & Online Products
+Job Title:
+Senior Software Engineer, Game Services
+Requisition ID:
+R024175
+Job Description:
+Are you a motivated Senior Software Engineer interested in developing game features that impact the majority of games across all of Blizzard? 
+
+The Battle.net Game Service Access team develops the edge servers, SDKs, and samples which allow game teams to integrate with the rich feature set of the Battle.net platform to create some of the most compelling gameplay experiences in the world! 
+
+We are looking for a motivated software engineer, who thrives in a highly collaborative and tight-knit team! Join our group of experienced engineers and product managers to continuously build upon and improve our highly scalable, highly performant, and highly available global game services.
+
+This position has been approved for fully remote work with the potential for some light travel. We also welcome candidate who would like to work in a hybrid capacity based out of Albany, NY, Irvine, CA or Austin, TX. 
+
+Responsibilities: 
+
+Develop and maintain large-scale distributed systems 
+
+Implement features in SDKs that are used in all the games that are integrated with the Battle.net platform 
+
+Create sample applications that run on desktop, consoles, and mobile devices to provide examples of how to use key platform features  
+
+Create unit and integration test code to validate service reliability 
+
+Write API documentation for consumption by game developers and other integrators 
+
+Participate in on-call rotation to rapidly resolve live incidents related to our systems   
+
+Coordinate with embedded and external teams 
+
+Troubleshoot and debug issues with our live and in-development services 
+
+Requirements: 
+
+5 years of experience with software development in C++ 
+
+Experience building high-quality software 
+
+Excellent communication skills 
+
+Strong data-structure, logic, and algorithm skills 
+
+Bonus: 
+
+Bachelor's degree in computer science  
+
+Production quality engineering experience with C++17 or later 
+
+Proficiency in C# 
+
+Experience developing distributed systems with a strong focus on server-side C++ 
+
+Experience with Cloud development and infrastructure 
+
+Working knowledge of MySql, Cassandra, Redis, or related relational and NoSQL databases 
+
+Experience supporting a live always-on service 
+
+ 
+
+The videogame industry and therefore our business is fast-paced and will continue to evolve. As such, the duties and responsibilities of this role may be changed as directed by the Company at any time to promote and support our business and relationships with industry partners.     
+
+   
+
+We love hearing from anyone who is enthusiastic about changing the games industry. Not sure you meet all qualifications? Let us decide! Research shows that women and members of other under-represented groups tend to not apply to jobs when they think they may not meet every qualification, when, in fact, they often do! We are committed to creating a diverse and inclusive environment and strongly encourage you to apply.   
+
+   
+
+Accommodation Request: We are committed to working with and providing reasonable assistance to individuals with physical and mental disabilities. If you are a disabled individual requiring an accommodation to apply for an open position, please email your request to accommodationrequests@activisionblizzard.com. General employment questions cannot be accepted or processed here. Thank you for your interest.     
+
+   
+
+Our World     
+
+ 
+
+At Blizzard Entertainment, we pour our hearts and souls into everything we create. Best known for iconic video game universes including Warcraft, Overwatch, Diablo, and StarCraft, we’ve been creating genre-defining games for millions of players around the world for more than 30 years. We’re on a quest: bring our dreams to life and craft the most epic entertainment experiences…ever. Hard work, iteration and polish go into the Blizzard “secret recipe,” but the most important ingredients come from talented people who share our vision. If that sounds like you, join us.     
+
+   
+
+The videogame industry and therefore our business is fast-paced and will continue to evolve. As such, the duties and responsibilities of this role may be changed as directed by the Company at any time to promote and support our business and relationships with industry partners.     
+
+   
+
+We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, gender identity, age, marital status, veteran status, or disability status, among other characteristics. 
+
+Rewards
+
+We provide a suite of benefits that promote physical, emotional and financial well-being for ‘Every World’ - we’ve got our employees covered!  Subject to eligibility requirements, the Company offers comprehensive benefits including:
+
+Medical, dental, vision, health savings account or health reimbursement account, healthcare spending accounts, dependent care spending accounts, life and AD&D insurance, disability insurance;
+401(k) with Company match, tuition reimbursement, charitable donation matching;
+Paid holidays and vacation, paid sick time, floating holidays, compassion and bereavement leaves, parental leave;
+Mental health & wellbeing programs, fitness programs, free and discounted games, and a variety of other voluntary benefit programs like supplemental life & disability, legal service, ID protection, rental insurance, and others;
+If the Company requires that you move geographic locations for the job, then you may also be eligible for relocation assistance.
+Eligibility to participate in these benefits may vary for part time and temporary full-time employees and interns with the Company.  You can learn more by visiting https://www.benefitsforeveryworld.com/.
+
+In the U.S., the standard base pay range for this role is $101,000.00 - $186,754.00 Annual. These values reflect the expected base pay range of new hires across all U.S. locations. Ultimately, your specific range and offer will be based on several factors, including relevant experience, performance, and work location. Your Talent Professional can share this role’s range details for your local geography during the hiring process. In addition to a competitive base pay, employees in this role may be eligible for incentive compensation. Incentive compensation is not guaranteed. While we strive to provide competitive offers to successful candidates, new hire compensation is negotiable. >>>
+
+[RESUME]
+<<< {
+    "name": "KEVIN 'TYLER' COX",
+    "position": "Unreal Engine 5 C++ Gameplay Systems Developer",
+    "contactInformation": "(843) 718-4024",
+    "email": "[kevincox103@gmail.com](mailto:kevincox103@gmail.com)",
+    "address": "Charleston, SC",
+    "profilePicture": "",
+    "socialMedia": [
+        { "socialMedia": "Github", "link": "github.com/Ty-lerCox" },
+        {
+            "socialMedia": "LinkedIn",
+            "link": "linkedin.com/in/tyler-cox-1715065a/"
+        },
+        {
+            "socialMedia": "Website",
+            "link": "ty-lercox.github.io/portfolio/"
+        }
+    ],
+    "summary": "Senior C++ (5+ yrs)/UE5 systems developer packaging SDK‑style gameplay modules with clean APIs, UE5 unit tests, and developer docs. Complementary distributed‑services experience (Java/C#) with Kubernetes, Kafka, and Grafana/Prometheus/Loki/Tempo; secure integrations via Keycloak OIDC/SAML and TLS/mTLS. Working knowledge of MySQL (schema design & SQL optimization). Remote from Charleston, SC; open to on‑call rotation and light travel.",
+    "education": [
+        {
+            "school": "Trident Technical College",
+            "degree": "Computer Science",
+            "startYear": "",
+            "endYear": "2013-12-31"
+        }
+    ],
+    "workExperience": [
+        {
+            "company": "Independent / Self-Employed",
+            "position": "UE5/C++ Game Systems Developer",
+            "description": "Design and implementation of core gameplay systems and tools in Unreal Engine 5 with emphasis on maintainable, data-driven C++.",
+            "keyAchievements": "Built branching Dialogue System with multi-option choices and conditional availability based on quest state (current/completed/required).\nEngineered Quest System supporting multi-objective tasks, required counts, dependencies, and side effects (trigger cinematics, spawn NPCs, state changes).\nEstablished Redux-style architecture in C++ (actions, effects, state) to isolate subsystems and improve testability and maintainability.\nCreated AI movement and a needs model; authored advanced spawner logic for unpredictable NPC distribution with region rules, cooldowns, and variance.\nImplemented story-management and transition volumes to control floor/zone visibility and scene flow.\nDeveloped cinematic HUD widgets and web-inspired UI components to accelerate iteration and improve UX.\nDelivered inventory and shop subsystems integrated with global game state; built a codex/collection system to track collectibles and progression.\nIntegrated an in-game guide chatbot (LLM) with command interface; used context caching to reduce token usage and latency.\nPackaged systems as reusable SDK-style C++ modules with public headers, versioned APIs, integration guides, and demo levels to illustrate usage.\nWrote UE5 unit tests for gameplay subsystems (e.g., quest progression, inventory interactions) using the automation testing framework.\nPracticed data-driven configuration, profiling, and optimization across systems.",
+            "startYear": "2025-01-01",
+            "endYear": "Present"
+        },
+        {
+            "company": "Expediters International (Expediters)",
+            "position": "Angular Application Developer (Additional Professional Experience)",
+            "description": "Primary employer; application development, DevOps, and observability (transferable engineering practices).",
+            "keyAchievements": "Led state management patterns (NgRx, Angular Signals) and modular architecture across multiple internal applications.\nStood up observability with Grafana stack (Prometheus metrics, Loki logs, Tempo traces) and alerting; emphasized instrumentation and telemetry—skills applicable to game profiling and tooling.\nAutomated CI/CD with GitHub Actions/GitLab Runners and Ansible; supported Kubernetes deployments; improved iteration speed and reliability.\nImplemented SSO (Keycloak OIDC/SAML), Kerberos integrations, and PKI/CA for TLS/mTLS; enforced secure defaults.\nModernized data flows from bespoke Kafka producers to database-level CDC → Kafka with medallion layers (bronze/silver/gold).\nUsed Python for rapid prototypes; production services in Java Spring Boot and C#/.NET; practiced feature flags, DORA metrics, and Kanban for flow.\nDocumented integration steps, runbooks, and platform configurations; supported incident response; willing to participate in on-call rotation.",
+            "startYear": "2014-09-01",
+            "endYear": "Present"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Dialogue System (UE5/C++)",
+            "link": "[https://github.com/bedivere-lea](https://github.com/bedivere-lea)",
+            "description": "Branching, conditional dialogue with quest-aware availability and consequence tracking.",
+            "keyAchievements": "Multi-option choices; gating by current/completed/required quests; integrates with Redux-style game state; API usage documented with sample/demo level.",
+            "startYear": "2025-05-01",
+            "endYear": "2025-05-31",
+            "name": "Dialogue System (UE5/C++)"
+        },
+        {
+            "title": "Quest System (UE5/C++)",
+            "link": "[https://github.com/bedivere-lea](https://github.com/bedivere-lea)",
+            "description": "Objectives with counts, dependencies, and side effects wired to gameplay events.",
+            "keyAchievements": "Triggers cinematics; spawns NPCs; updates global state via actions/effects; integration points documented for reuse.",
+            "startYear": "2025-05-01",
+            "endYear": "2025-05-31",
+            "name": "Quest System (UE5/C++)"
+        },
+        {
+            "title": "AI Needs & Advanced Spawning",
+            "link": "[https://github.com/bedivere-lea](https://github.com/bedivere-lea)",
+            "description": "AI behavior model with needs (Sims-like) and region-based spawner rules.",
+            "keyAchievements": "Unpredictable spawn distribution; cooldowns and variance; tunable via data assets; profiling-informed tuning to maintain frame-time targets.",
+            "startYear": "2025-06-01",
+            "endYear": "2025-06-30",
+            "name": "AI Needs & Advanced Spawning"
+        },
+        {
+            "title": "Story/Level Flow Controls",
+            "link": "[https://github.com/bedivere-lea](https://github.com/bedivere-lea)",
+            "description": "Volume-based story transitions with floor/zone visibility controls.",
+            "keyAchievements": "Performance-aware visibility; clean narrative gating; improved player readability; documented API hooks for scene transitions.",
+            "startYear": "2025-06-01",
+            "endYear": "2025-06-30",
+            "name": "Story/Level Flow Controls"
+        },
+        {
+            "title": "Inventory & Shop Subsystems",
+            "link": "[https://github.com/bedivere-lea](https://github.com/bedivere-lea)",
+            "description": "Item catalogs, purchasing, and persistence integrated with global game state.",
+            "keyAchievements": "Predictable side effects; data-driven tuning; testable modules; sample/demo level illustrates API usage and events.",
+            "startYear": "2025-07-01",
+            "endYear": "2025-07-31",
+            "name": "Inventory & Shop Subsystems"
+        },
+        {
+            "title": "Codex/Collection System",
+            "link": "[https://github.com/bedivere-lea](https://github.com/bedivere-lea)",
+            "description": "Collectible tracking and progression feedback loops.",
+            "keyAchievements": "Player progress surfaces; unlock conditions; consistent data schema; developer notes and API reference for extension.",
+            "startYear": "2025-07-01",
+            "endYear": "2025-07-31",
+            "name": "Codex/Collection System"
+        },
+        {
+            "title": "Guide Chatbot Integration (LLM)",
+            "link": "[https://github.com/bedivere-lea](https://github.com/bedivere-lea)",
+            "description": "In-game user-guide chat agent using language models.",
+            "keyAchievements": "HTTP/REST integration; command interface; context caching to lower inference cost and latency; developer notes for configuration.",
+            "startYear": "2025-08-01",
+            "endYear": "2025-08-31",
+            "name": "Guide Chatbot Integration (LLM)"
+        },
+        {
+            "title": "Redux-Style Game State Library",
+            "link": "[https://github.com/bedivere-lea](https://github.com/bedivere-lea)",
+            "description": "Shared actions/effects/state managers used across gameplay subsystems.",
+            "keyAchievements": "Separation of concerns; maintainable C++ modules; easier testing and debugging; packaged as SDK-style library with API docs and UE5 unit tests for key reducers/effects.",
+            "startYear": "2025-08-01",
+            "endYear": "2025-08-31",
+            "name": "Redux-Style Game State Library"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Technical Skills",
+            "skills": [
+                "Unreal Engine 5",
+                "C++17/20 (5+ years)",
+                "SDK-Style Libraries & API Design",
+                "UE5 Unit Testing (Automation)",
+                "Client-Server Integrations (HTTP/REST)",
+                "UMG/HUD",
+                "Dialogue & Quest Systems",
+                "AI Movement & Spawning",
+                "Redux-style State (actions/effects/state)",
+                "Data-Driven Design",
+                "Profiling & Optimization",
+                "Tooling & Debugging",
+                "MySQL (Schema design & SQL optimization)",
+                "Kubernetes (deployments)",
+                "Kafka",
+                "Grafana/Prometheus/Loki/Tempo",
+                "Keycloak (OIDC/SAML)",
+                "TLS/mTLS",
+                "C#/.NET",
+                "Java",
+                "Python",
+                "Git"
+            ]
+        },
+        {
+            "title": "Soft Skills",
+            "skills": [
+                "Communication",
+                "Collaboration & Cross-Team Coordination",
+                "Systems Thinking",
+                "Problem Solving",
+                "Self-Direction",
+                "Iteration & Rapid Prototyping"
+            ]
+        },
+        {
+            "title": "Additional Skills",
+            "skills": [
+                "API Documentation",
+                "Testability & Maintainability",
+                "Runbooks & Incident Response (on-call ready)",
+                "Cinematic UI/UX",
+                "CI/CD (GitHub Actions, GitLab Runners)",
+                "Ansible",
+                "Secure Integrations (PKI/CA)",
+                "Kanban & Delivery Flow"
+            ]
+        }
+    ],
+    "languages": ["English"],
+    "certifications": []
+} >>>
+
+OUTPUT (in this exact order)
+1) KEYWORDS_JSON
+   - JSON with:
+     {
+       "hard_skills": [{"term":"React", "weight":5, "synonyms":["React.js"]}, ...],
+       "tools": [{"term":"Azure DevOps","weight":4,"synonyms":["ADO","Azure Boards"]}],
+       "languages": [...],
+       "cloud": [...],
+       "soft_skills": [...],
+       "certs_or_quals": [...],
+       "domain_terms": [...],
+       "must_haves": [...],   // legal/clearance/shift/location/degree-alt
+       "nice_to_haves": [...]
+     }
+   - Weights: 5=critical, 4=important, 3=useful, 2=minor, 1=nice.
+
+2) COVERAGE_TABLE
+   - A compact table listing each keyword → Present/Missing → Where found or suggested placement.
+   - Map synonyms (e.g., “CI/CD” covers “continuous integration”, etc.).
+
+3) EDIT_SUGGESTIONS
+   - Bullet-by-bullet rewrites (STAR-style) that truthfully incorporate missing/aligned keywords.
+   - Keep metrics, impact, and tense consistent. No fluff, no exaggerations.
+
+4) SUMMARY + SKILLS
+   - 2–3 line Professional Summary tailored to the job.
+   - ATS-friendly SKILLS block grouping the critical keywords.
+
+5) REVISED_RESUME (ATS-safe)
+   - Single column, no text boxes/tables, standard headings (SUMMARY, SKILLS, EXPERIENCE, EDUCATION).
+   - Integrate approved rewrites and keyword coverage naturally.
+   - Keep everything truthful and consistent with my background.
+
+6) MATCH_SCORE
+   - % coverage using your weights. Show formula and top gaps to close the last 10–20%.

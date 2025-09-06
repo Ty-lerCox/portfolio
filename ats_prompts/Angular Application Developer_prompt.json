@@ -114,7 +114,7 @@ Kind Lending is an Equal Opportunity Employer committed to workforce diversity. 
             "socialMedia": "LinkedIn",
             "link": "linkedin.com/in/tyler-cox-1715065a/"
         },
-        { "socialMedia": "Website", "link": "https://ty-lercox.github.io/portfolio/" }
+        { "socialMedia": "Website", "link": "ty-lercox.github.io/portfolio/" }
     ],
     "summary": "Angular specialist (Signals, RxJS, NgRx) delivering secure, observable, and automated web applications. Eleven years at Expediters International building front‑ends, standing up CI/CD (Ansible, GitHub Actions, GitLab Runners, Azure DevOps), and instrumenting the Grafana stack (Prometheus, Loki, Tempo). Integrated SSO with Keycloak/Kerberos, established PKI/TLS, and evolved data ingestion from bespoke Kafka jobs to CDC → Kafka with bronze/silver/gold layers. Prototype quickly in Python; ship production services in Java Spring Boot and C#/.NET. Champion feature flags, DORA metrics, and Kanban to improve delivery flow. Built ODEYA.app, an SSR Angular app that auto‑curates YouTube playlists from channel collections and indexes shareable playlists for SEO.",
     "education": [
@@ -138,7 +138,7 @@ Kind Lending is an Equal Opportunity Employer committed to workforce diversity. 
     "projects": [
         {
             "title": "ODEYA.app (Angular + SSR)",
-            "link": "https://ty-lercox.github.io/portfolio/posts/odeya-overview/",
+            "link": "ty-lercox.github.io/portfolio/posts/odeya-overview/",
             "description": "Personal web app that auto‑curates YouTube playlists from collections of channels (e.g., cruise, gaming, tech) so new uploads from any channel in a collection flow into a single playlist.",
             "keyAchievements": "Implemented server‑side rendering so shared playlists are SEO‑indexable; playlist sharing enables discovery via search engines. Aggregation logic supports many‑to‑one channel collections; reduced manual playlist upkeep.",
             "startYear": "2025-03-01",

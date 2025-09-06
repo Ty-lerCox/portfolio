@@ -1,0 +1,172 @@
+{
+    "name": "KEVIN 'TYLER' COX",
+    "position": "Unreal Engine 5 C++ Gameplay Systems Developer",
+    "contactInformation": "(843) 718-4024",
+    "email": "kevincox103@gmail.com",
+    "address": "Charleston, SC",
+    "profilePicture": "",
+    "socialMedia": [
+        { "socialMedia": "Github", "link": "github.com/Ty-lerCox" },
+        {
+            "socialMedia": "LinkedIn",
+            "link": "linkedin.com/in/tyler-cox-1715065a/"
+        },
+        {
+            "socialMedia": "Website",
+            "link": "ty-lercox.github.io/portfolio/"
+        }
+    ],
+    "summary": "UE5/C++ systems designer/developer focused on systemic, player-facing loops—progression (quests/codex), economy (inventory/shop), and needs-based population/crowd flow (traffic-like) simulation. Favor maintainable C++ for core logic with targeted Blueprints for UI/prototyping where they make sense. Author of clear specs, data schemas, and tuning frameworks; telemetry-savvy (Grafana stack), comfortable with live debugging and fast iteration.",
+    "education": [
+        {
+            "school": "Trident Technical College",
+            "degree": "Computer Science",
+            "startYear": "",
+            "endYear": "2014-12-31"
+        }
+    ],
+    "workExperience": [
+        {
+            "company": "Independent / Self-Employed",
+            "position": "UE5/C++ Game Systems Developer",
+            "description": "Design and implementation of core gameplay systems and tools in Unreal Engine 5 with emphasis on maintainable, data-driven C++.",
+            "keyAchievements": "Built branching Dialogue System with multi-option choices and conditional availability based on quest state (current/completed/required).\nEngineered Quest System supporting multi-objective tasks, required counts, dependencies, and side effects (trigger cinematics, spawn NPCs, state changes).\nEstablished Redux-style architecture in C++ (actions, effects, state) to isolate subsystems and improve testability and maintainability.\nCreated AI movement and a needs model; authored advanced spawner logic for unpredictable NPC distribution with region rules, cooldowns, and variance; implemented needs-based population/foot-traffic simulation (crowd flow).\nImplemented story-management and transition volumes to control floor/zone visibility and scene flow.\nDeveloped cinematic HUD widgets and web-inspired UI components to accelerate iteration and improve UX.\nDelivered inventory and shop subsystems integrated with global game state; built a codex/collection system to track collectibles and progression.\nIntegrated an in-game guide chatbot (LLM) with command interface; used context caching to reduce token usage and latency.\nAuthored design specs, data schemas, and a tuning framework (Data Assets/Data Tables) for consistency and readability across systems.\nUsed Blueprints selectively for UI wiring and quick prototypes while keeping long-term maintainable logic in C++.\nProvided constructive feedback in reviews; open to offering/receiving mentorship.\nPracticed data-driven configuration, profiling, and optimization across systems; designs are telemetry-ready and informed by prior Grafana stack experience.\nAdditionally shipped TypeScript-based game mods (feature ownership and UX), separate from C++ work.",
+            "startYear": "2025-01-01",
+            "endYear": "Present"
+        },
+        {
+            "company": "Expediters International (Expediters)",
+            "position": "Angular Application Developer (Additional Professional Experience)",
+            "description": "Primary employer; application development, DevOps, and observability (transferable engineering practices).",
+            "keyAchievements": "Led state management patterns (NgRx, Angular Signals) and modular architecture across multiple internal applications.\nStood up observability with Grafana stack (Prometheus metrics, Loki logs, Tempo traces) and alerting; emphasized instrumentation and telemetry—skills directly applicable to gameplay event logging and telemetry-informed balancing.\nAutomated CI/CD with GitHub Actions/GitLab Runners and Ansible; supported Kubernetes deployments; improved iteration speed and reliability.\nImplemented SSO (Keycloak OIDC/SAML), Kerberos integrations, and PKI/CA for TLS/mTLS; enforced secure defaults.\nModernized data flows from bespoke Kafka producers to database-level CDC → Kafka with medallion layers (bronze/silver/gold).\nUsed Python for rapid prototypes; production services in Java Spring Boot and C#/.NET; practiced feature flags, DORA metrics, and Kanban for flow.",
+            "startYear": "2014-09-01",
+            "endYear": "Present"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Dialogue System (UE5/C++)",
+            "link": "",
+            "description": "Branching, conditional dialogue with quest-aware availability and consequence tracking.",
+            "keyAchievements": "Multi-option choices; gating by current/completed/required quests; integrates with Redux-style game state; documented usage and tuning parameters.",
+            "startYear": "2025-05-01",
+            "endYear": "2025-05-31",
+            "name": "Dialogue System (UE5/C++)"
+        },
+        {
+            "title": "Quest System (UE5/C++)",
+            "link": "",
+            "description": "Objectives with counts, dependencies, and side effects wired to gameplay events.",
+            "keyAchievements": "Triggers cinematics; spawns NPCs; updates global state via actions/effects; specs, data schemas, and tuning framework included.",
+            "startYear": "2025-05-01",
+            "endYear": "2025-05-31",
+            "name": "Quest System (UE5/C++)"
+        },
+        {
+            "title": "AI Needs & Advanced Spawning",
+            "link": "",
+            "description": "AI behavior model with needs (Sims-like) and region-based spawner rules.",
+            "keyAchievements": "Needs-based routing and foot-traffic (crowd/traffic-like) simulation; unpredictable yet controlled distribution; cooldowns and variance; tunable via data assets.",
+            "startYear": "2025-06-01",
+            "endYear": "2025-06-30",
+            "name": "AI Needs & Advanced Spawning"
+        },
+        {
+            "title": "Story/Level Flow Controls",
+            "link": "",
+            "description": "Volume-based story transitions with floor/zone visibility controls.",
+            "keyAchievements": "Performance-aware visibility; clean narrative gating; improved player readability; Blueprint glue for UI interactions when appropriate.",
+            "startYear": "2025-06-01",
+            "endYear": "2025-06-30",
+            "name": "Story/Level Flow Controls"
+        },
+        {
+            "title": "Inventory & Shop Subsystems",
+            "link": "",
+            "description": "Item catalogs, purchasing, and persistence integrated with global game state.",
+            "keyAchievements": "Economy loop foundation; predictable side effects; data-driven tuning; testable modules; readable UI prompts.",
+            "startYear": "2025-07-01",
+            "endYear": "2025-07-31",
+            "name": "Inventory & Shop Subsystems"
+        },
+        {
+            "title": "Codex/Collection System",
+            "link": "",
+            "description": "Collectible tracking and progression feedback loops.",
+            "keyAchievements": "Player progress surfaces; unlock conditions; consistent data schema; tuning exposed via tables.",
+            "startYear": "2025-07-01",
+            "endYear": "2025-07-31",
+            "name": "Codex/Collection System"
+        },
+        {
+            "title": "Guide Chatbot Integration (LLM)",
+            "link": "",
+            "description": "In-game user-guide chat agent using language models.",
+            "keyAchievements": "Command interface; context caching to lower inference cost and latency; developer notes for configuration; clear UX for player guidance.",
+            "startYear": "2025-08-01",
+            "endYear": "2025-08-31",
+            "name": "Guide Chatbot Integration (LLM)"
+        },
+        {
+            "title": "Redux-Style Game State Library",
+            "link": "",
+            "description": "Shared actions/effects/state managers used across gameplay subsystems.",
+            "keyAchievements": "Separation of concerns; maintainable C++ modules; easier testing and debugging; versioned APIs and integration notes.",
+            "startYear": "2025-08-01",
+            "endYear": "2025-08-31",
+            "name": "Redux-Style Game State Library"
+        },
+        {
+            "title": "TypeScript Game Mods (Shipped)",
+            "link": "",
+            "description": "Shipped game mods written in TypeScript; owned feature design and UX within mod constraints.",
+            "keyAchievements": "Shipped mods; documented design decisions and tuning notes; collaborated with player feedback loops.",
+            "startYear": "",
+            "endYear": "",
+            "name": "TypeScript Game Mods (Shipped)"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Technical Skills",
+            "skills": [
+                "Unreal Engine 5",
+                "C++ (Gameplay Framework, UObjects/Actors/Components)",
+                "Blueprints (prototyping/UI glue)",
+                "UMG/HUD",
+                "Dialogue & Quest Systems",
+                "Inventory/Economy Loops",
+                "Population/Crowd Simulation (needs-based, traffic-like)",
+                "Redux-style State (actions/effects/state)",
+                "Data-Driven Design (Data Assets/Data Tables)",
+                "Tooling & Debugging",
+                "Profiling & Optimization",
+                "Git"
+            ]
+        },
+        {
+            "title": "Soft Skills",
+            "skills": [
+                "Systems Thinking",
+                "Problem Solving",
+                "Communication",
+                "Cross-Discipline Collaboration (remote/time zones)",
+                "Constructive Reviews; Open to Mentorship",
+                "Iteration & Rapid Prototyping"
+            ]
+        },
+        {
+            "title": "Additional Skills",
+            "skills": [
+                "Design Specs, Data Schemas & Tuning Frameworks",
+                "Telemetry-Informed Balancing (Grafana/Prometheus/Loki/Tempo experience)",
+                "Cinematic UI/UX",
+                "Testability & Maintainability",
+                "Documentation",
+                "Kanban & Delivery Flow"
+            ]
+        }
+    ],
+    "languages": ["English"],
+    "certifications": []
+}

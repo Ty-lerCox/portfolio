@@ -1,104 +1,62 @@
-Senior Software Engineer, Game Services
-CityCharlotte  North Carolina  CategoryEngineering  Battle.net & Online Products
- 
- Save 
-Team Name:
+Gameplay Programmer (Unreal)
+Triiodide Studios
+Remote
+$155,000 - $205,000 a year - Full-time
+&nbsp;
+Job details
+Here’s how the job details align with your profile.
+Pay
 
-Battle.net & Online Products
-Job Title:
-Senior Software Engineer, Game Services
-Requisition ID:
-R024175
-Job Description:
-Are you a motivated Senior Software Engineer interested in developing game features that impact the majority of games across all of Blizzard? 
+$155,000 - $205,000 a year
+Job type
 
-The Battle.net Game Service Access team develops the edge servers, SDKs, and samples which allow game teams to integrate with the rich feature set of the Battle.net platform to create some of the most compelling gameplay experiences in the world! 
+Full-time
+&nbsp;
+Full job description
+What to Expect
 
-We are looking for a motivated software engineer, who thrives in a highly collaborative and tight-knit team! Join our group of experienced engineers and product managers to continuously build upon and improve our highly scalable, highly performant, and highly available global game services.
+You will be working on Backrooms: Escape Together, a fully procedural multiplayer exploration/survival horror game built in UE5. Backrooms: Escape Together currently sits in the top 100 of Steam’s best-selling games and is rapidly climbing; We need passionate developers who share our mission of delivering unforgettable multiplayer experiences.
 
-This position has been approved for fully remote work with the potential for some light travel. We also welcome candidate who would like to work in a hybrid capacity based out of Albany, NY, Irvine, CA or Austin, TX. 
+The game is live service in nature and currently has 7 procedurally generated levels, each with unique gameplay and visuals. The community is clamoring for more content and your role will be to program procedurally generated levels using our existing tooling in C++, along with programming engaging gameplay systems to fit in the levels. With an engaged community of users, you'll have opportunities to improve your work based on the feedback and data you've collected to help create measurable success. Each content release will further B.E.T. as an incomparable grand journey with friends.
 
-Responsibilities: 
+About Triiodide
 
-Develop and maintain large-scale distributed systems 
+We are searching for like-minded people to build out our world-class Unreal Engine 5 team. We are a small agile team that is currently fully remote, though we will be moving to an in-person office in 2025. If you want to get in on the ground floor of something big and are excited to be a key driver of future growth, this opportunity is for you.
 
-Implement features in SDKs that are used in all the games that are integrated with the Battle.net platform 
 
-Create sample applications that run on desktop, consoles, and mobile devices to provide examples of how to use key platform features  
+What You'll Do
 
-Create unit and integration test code to validate service reliability 
+Develop procedurally generated levels and gameplay systems in C++
+Own and maintain polished features that are shipped to a player base of 250,000+
+Work closely with other developers on projects ranging from small bug fixes to large features
+Participate in code reviews and design discussions - Identify performance bottlenecks or structural issues and optimize code as needed
+Assist in tracking down and patching bugs reported by users or identified through internal testing
+What You'll Bring
 
-Write API documentation for consumption by game developers and other integrators 
+3+ years of industry experience as a game developer or relevant software developer
+Strong C++ and Unreal Engine skills
+Strong understanding of multiplayer networking in Unreal Engine and GAS
+Perforce, SVN, Git LFS, or similar version control experience
+Experience in maintaining large codebases/systems while ensuring it’s scalable, robust, and efficient
+Excellent communication skills and very detail oriented
+Comfortability in wearing “many hats” as a developer and working through a vast assortment of challenges
+Ability to work independently and a desire to problem solve
+Willingness to learn, ask questions, and collaborate with a team - Extreme passion to push the envelope in gaming
+Degree in Computer Science, Game Design, Gameplay Programming or proof of exceptional skills in related fields, with practical software engineering experience
+Nice to Haves
 
-Participate in on-call rotation to rapidly resolve live incidents related to our systems   
+Previous experience in working in a startup or AAA environment
+Hands-on experience with Unreal Engine 5 and its new features
+Experience in creating procedurally generated levels
+Low-level knowledge of Unreal Engine networking
+A portfolio that demonstrates a keen eye for detail and the ability to create maintainable, high-quality code
+Enthusiasm and knowledge of the Backrooms
 
-Coordinate with embedded and external teams 
+Expected Compensation
 
-Troubleshoot and debug issues with our live and in-development services 
+$155,000 - $205,000 (including cash bonuses) + stock awards
 
-Requirements: 
+Pay offered may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience. The total compensation package for this position may also include other elements dependent on the position offered. Details of participation in these benefit plans will be provided if an employee receives an offer of employment.
 
-5 years of experience with software development in C++ 
+ivuZ045ktV
 
-Experience building high-quality software 
-
-Excellent communication skills 
-
-Strong data-structure, logic, and algorithm skills 
-
-Bonus: 
-
-Bachelor's degree in computer science  
-
-Production quality engineering experience with C++17 or later 
-
-Proficiency in C# 
-
-Experience developing distributed systems with a strong focus on server-side C++ 
-
-Experience with Cloud development and infrastructure 
-
-Working knowledge of MySql, Cassandra, Redis, or related relational and NoSQL databases 
-
-Experience supporting a live always-on service 
-
- 
-
-The videogame industry and therefore our business is fast-paced and will continue to evolve. As such, the duties and responsibilities of this role may be changed as directed by the Company at any time to promote and support our business and relationships with industry partners.     
-
-   
-
-We love hearing from anyone who is enthusiastic about changing the games industry. Not sure you meet all qualifications? Let us decide! Research shows that women and members of other under-represented groups tend to not apply to jobs when they think they may not meet every qualification, when, in fact, they often do! We are committed to creating a diverse and inclusive environment and strongly encourage you to apply.   
-
-   
-
-Accommodation Request: We are committed to working with and providing reasonable assistance to individuals with physical and mental disabilities. If you are a disabled individual requiring an accommodation to apply for an open position, please email your request to accommodationrequests@activisionblizzard.com. General employment questions cannot be accepted or processed here. Thank you for your interest.     
-
-   
-
-Our World     
-
- 
-
-At Blizzard Entertainment, we pour our hearts and souls into everything we create. Best known for iconic video game universes including Warcraft, Overwatch, Diablo, and StarCraft, we’ve been creating genre-defining games for millions of players around the world for more than 30 years. We’re on a quest: bring our dreams to life and craft the most epic entertainment experiences…ever. Hard work, iteration and polish go into the Blizzard “secret recipe,” but the most important ingredients come from talented people who share our vision. If that sounds like you, join us.     
-
-   
-
-The videogame industry and therefore our business is fast-paced and will continue to evolve. As such, the duties and responsibilities of this role may be changed as directed by the Company at any time to promote and support our business and relationships with industry partners.     
-
-   
-
-We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, gender identity, age, marital status, veteran status, or disability status, among other characteristics. 
-
-Rewards
-
-We provide a suite of benefits that promote physical, emotional and financial well-being for ‘Every World’ - we’ve got our employees covered!  Subject to eligibility requirements, the Company offers comprehensive benefits including:
-
-Medical, dental, vision, health savings account or health reimbursement account, healthcare spending accounts, dependent care spending accounts, life and AD&D insurance, disability insurance;
-401(k) with Company match, tuition reimbursement, charitable donation matching;
-Paid holidays and vacation, paid sick time, floating holidays, compassion and bereavement leaves, parental leave;
-Mental health & wellbeing programs, fitness programs, free and discounted games, and a variety of other voluntary benefit programs like supplemental life & disability, legal service, ID protection, rental insurance, and others;
-If the Company requires that you move geographic locations for the job, then you may also be eligible for relocation assistance.
-Eligibility to participate in these benefits may vary for part time and temporary full-time employees and interns with the Company.  You can learn more by visiting https://www.benefitsforeveryworld.com/.
-
-In the U.S., the standard base pay range for this role is $101,000.00 - $186,754.00 Annual. These values reflect the expected base pay range of new hires across all U.S. locations. Ultimately, your specific range and offer will be based on several factors, including relevant experience, performance, and work location. Your Talent Professional can share this role’s range details for your local geography during the hiring process. In addition to a competitive base pay, employees in this role may be eligible for incentive compensation. Incentive compensation is not guaranteed. While we strive to provide competitive offers to successful candidates, new hire compensation is negotiable.
