@@ -16,3 +16,13 @@ bundle exec jekyll serve
 ## Structure
 See `projects/`, `resume/`, and `assets/` for content organization.
 
+## ATS Prompt Generator
+Use `generate_ats_prompt.py` to combine a job post and one or more resume
+text files into a ready-to-use prompt for ATS keyword analysis.
+
+```bash
+python generate_ats_prompt.py job.txt resume.txt
+```
+
+Prompts are written to the `ats_prompts/` directory.
+
