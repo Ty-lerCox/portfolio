@@ -2,7 +2,7 @@
 layout: post
 title: 'Unified Process Overview'
 date: 2025-04-20 00:00:00 +0000
-categories: [UnifiedProcess]
+categories: [Unified Process]
 tags:
     - Angular
     - Signals
