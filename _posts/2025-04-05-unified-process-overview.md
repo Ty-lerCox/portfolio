@@ -1,91 +1,111 @@
 ---
 layout: post
-title: 'Unified Process Overview'
-date: 2025-04-20 00:00:00 +0000
-pin: true
-categories: [Unified Process]
+title: 'Configuration Platform Overview'
+date: 2025-04-05 00:00:00 +0000
+categories: [Configuration Platform]
 tags:
     - Angular
-    - Signals
+    - TypeScript
+    - RxJS
     - NgRx
-    - Logistics
-    - Workflow
-    - CDC
-    - Kafka
-    - Grafana
-    - Prometheus
-    - Loki
-    - Tempo
-    - Keycloak
-    - Kubernetes
-    - Ansible
-    - DORA
+    - GraphQL
+    - NGRX
+    - Material
 ---
 
-_Unified Process_ is a step‑centric platform for logistics workflows. Instead of relying solely on event streams, it models each business process as an explicit sequence of **steps**, **transitions**, and **guards**—making state changes observable, testable, and easier to recover when things go wrong. The front end is built with Angular (Signals + NgRx), with deep instrumentation across the stack.
+_Configuration Platform_ is a modular web application that streamlines the setup of complex business workflows. It combines an Angular-driven interface with a cloud-backed service layer to keep configuration tasks efficient, auditable, and ready for enterprise scaling.
 
-![Process orchestration banner](https://placehold.co/600x400?text=Placeholder&format=svg)
+![Ship setting sail](https://placehold.co/600x400?text=Placeholder&format=svg)
 
----
 
 ## Introduction
 
-Unified Process is:
+This platform is:
 
--   **A Step‑Centric Orchestrator** — represents logistics flows as deterministic state machines (steps → transitions → effects).
--   **A Front‑End for Operators** — Angular UI surfaces the current step, blockers, SLAs, and remediation actions.
--   **An Observability‑First System** — traces, metrics, and logs tie every step to its upstream/downstream services.
+-   **A Workflow Editor** – enabling authorized users to assemble processes, activities, and variations through a visual UI.
+-   **A Service-Oriented Front End** – state and data flow through GraphQL APIs and NGRX-managed stores, making the system reliable and consistent.
+-   **An Internal Portal** – providing centralized access to configuration, search, and change tracking across multiple business domains.
 
-![Operator console showing step timeline](https://placehold.co/600x400?text=Placeholder&format=svg)
-
----
-
-## Why Step‑Centric (vs. Event‑Only)?
-
-Event buses are great at decoupling producers and consumers, but complex operations can drift when state is implied by “latest events.” A step‑centric model:
-
--   **Makes intent explicit** (what step we _must_ reach next).
--   **Improves debuggability** (you can ask: _which entities are stuck in Step X?_).
--   **Enables safe retries/compensation** at the step boundary.
--   **Clarifies SLAs** by measuring dwell time per step.
+![Ship setting sail](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
-## Core Concepts
+## Key Features
 
--   **Process**: Named workflow (e.g., _Shipment Lifecycle_).
--   **Step**: A durable state with entry/exit criteria.
--   **Transition**: Movement between steps when **guards** pass.
--   **Guards**: Boolean checks (data present, validations complete, external ACK received).
--   **Effects**: Side‑effects on transition (emit command, write record, notify, update index).
+### Structured Workflow Management
 
-![State machine sketch: Received → Validated → Booked → Dispatched → Delivered](https://placehold.co/600x400?text=Placeholder&format=svg)
+-   **Process & Activity Authoring**
 
-Example (illustrative YAML‑style):
+    -   Build and organize step-by-step workflows.
+    -   Versioned definitions keep history intact for auditing.
 
-```yaml
-process: ShipmentLifecycle
-steps:
-    - name: Received
-      exitWhen:
-          - docs.validated == true
-      onExit:
-          - emit: ValidateDocs
-    - name: Validated
-      exitWhen:
-          - carrier.booking.confirmed == true
-      onExit:
-          - emit: BookCarrier
-    - name: Booked
-      exitWhen:
-          - dispatch.window.open == true
-      onExit:
-          - emit: Dispatch
-    - name: Dispatched
-      exitWhen:
-          - pod.received == true
-      onExit:
-          - emit: ConfirmDelivery
-    - name: Delivered
-      terminal: true
-```
+-   **Variation & Conditional Logic**
+    -   Configure alternative paths without duplicating entire processes.
+    -   Use granular toggles to tailor behavior per product or region.
+
+![Ship setting sail](https://placehold.co/600x400?text=Placeholder&format=svg)
+
+### Access Control & History
+
+-   **Role-Based Permissions**
+    -   Administrative tools scoped to user roles, helping maintain separation of duties.
+-   **Change Tracking**
+    -   View historical edits with searchable metadata to understand who changed what and when.
+
+### Search & Navigation
+
+-   Global search links directly to processes, activities, or other elements.
+-   Context-aware navigation keeps related items within reach.
+
+### Utility Libraries
+
+-   Shared utilities convert compact bitmask values into readable product and system selections, reducing manual data entry.
+
+---
+
+## Technical Backbone
+
+-   **Angular UI**
+
+    -   All admin menus and dialogs are built with Angular and Material components for consistency.
+
+-   **GraphQL Services**
+
+    -   Data is requested and persisted through a GraphQL layer, enabling fast, typed queries.
+
+-   **State Management**
+
+    -   NGRX handles client-side state, making complex interactions predictable and testable.
+
+-   **Scalability**
+    -   Modular design allows new workflow types or integrations to be added with minimal impact on existing features.
+
+![Ship setting sail](https://placehold.co/600x400?text=Placeholder&format=svg)
+
+---
+
+## Getting Involved
+
+1. **Access the Portal** with your authenticated account.
+2. **Browse Existing Definitions** to understand current workflows.
+3. **Create or Update Processes** using the visual builder.
+4. **Review & Publish** changes after validation and peer review.
+
+![Ship setting sail](https://placehold.co/600x400?text=Placeholder&format=svg)
+
+---
+
+## Tips for Adding Images
+
+-   **Markdown**: `![Alt text](image-url)`
+-   **HTML**: `<img src="image-url" alt="Description" width="600"/>`
+-   Use descriptive file names and alt text for accessibility.
+-   Maintain consistent sizing and styling for a clean visual flow.
+
+---
+
+## Final Thoughts
+
+The configuration platform brings enterprise workflow management into a centralized, version-controlled environment. Its combination of **structured authoring**, **role-aware access**, and **service-based architecture** helps organizations adapt quickly while preserving operational integrity.
+
+![Ship setting sail](https://placehold.co/600x400?text=Placeholder&format=svg)
