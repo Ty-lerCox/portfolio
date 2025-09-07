@@ -10,6 +10,7 @@ image: /assets/img/social-card.svg
 
 {% for group in site.data.resume.skills %}
 {{ group.skills | join: ', ' }}
+
 [{{ group.title }} Resume]({{ group.resume | relative_url }})
 {% unless forloop.last %}
 {% endunless %}
