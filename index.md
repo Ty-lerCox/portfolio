@@ -16,6 +16,6 @@ image: /assets/img/social-card.svg
 {% endunless %}
 {% endfor %}
 
-<h2 id="contact">Contact</h2><p><strong>Email:</strong> <a href="mailto:{{ site.data.resume.email }}">{{ site.data.resume.email }}</a></p><ul>{% for profile in site.data.resume.socialMedia %}<li><strong>{{ profile.socialMedia }}:</strong> <a href="{{ profile.link }}">{{ profile.link }}</a></li>{% endfor %}</ul>
+<h2 id="contact">Contact</h2><p>{% assign sep='' %}{% assign em=site.data.resume.email | default: '' | strip %}{% if em != '' %}<a href="mailto:{{ em }}">Email</a>{% assign sep=' · ' %}{% endif %}{% for profile in site.data.resume.socialMedia %}{% assign link=profile.link | default: '' | strip %}{% if link != '' and link | downcase != 'none' %}{{ sep }}<a href="{{ link }}">{{ profile.socialMedia }}</a>{% assign sep=' · ' %}{% endif %}{% endfor %}</p>
 
-## Pinned Projects
+Pinned Projects
