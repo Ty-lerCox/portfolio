@@ -17,8 +17,7 @@ tags:
 
 This guide dives into how businesses, shops, and the wider community ecosystem work together in CityRPG. Use it to start a company, sell goods, and understand how city policies and the live economy affect your day‑to‑day play.
 
-> Add a header image
-> `![Storefronts and players trading](path-or-url-to-image)`
+![Storefronts and players trading](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -40,7 +39,7 @@ This guide dives into how businesses, shops, and the wider community ecosystem w
 - **Set roles**: Decide who handles sourcing, crafting, pricing, and customer service.
 - **Use in‑game menus**: Where available, use Town Hall/Business desks or in‑game actions to manage membership and permissions.
 
-> `![Lot purchase UI or business desk](image-url)`
+![Lot purchase UI or business desk](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -52,7 +51,7 @@ This guide dives into how businesses, shops, and the wider community ecosystem w
 - **Offline receipts**: Sellers automatically receive inbox messages confirming sales, so shopkeepers can run stores even while offline.
 - **Pricing**: Set fair prices, consider economy swings, and watch stock levels to avoid outages.
 
-> `![Shop UI or menu board](image-url)`
+![Shop UI or menu board](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -63,7 +62,7 @@ This guide dives into how businesses, shops, and the wider community ecosystem w
 - **Tiering**: Higher skill and recipe unlocks improve efficiency and margins over time.
 - **Division of labor**: Assign members to gathering, crafting, cooking, sales, and restocking for a steady loop.
 
-> `![Crafting bench and storage](image-url)`
+![Crafting bench and storage](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -74,7 +73,7 @@ This guide dives into how businesses, shops, and the wider community ecosystem w
 - **Business accounting**: Keep a ledger of materials costs, sale prices, and net profit. Use bank deposits/withdrawals to separate business from personal spending.
 - **Taxes & policy**: City leadership can adjust tax rates and policies that influence business costs and margins.
 
-> `![Bank zone and account UI](image-url)`
+![Bank zone and account UI](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -85,7 +84,7 @@ This guide dives into how businesses, shops, and the wider community ecosystem w
 - **Live economy**: The city’s economy percentage drifts over time and can be affected by events. Some rewards scale with this value.
 - **Donations**: Players can donate to buoy the economy. Use `/donate <amount>` to contribute; a portion of the donation raises the economy within configured caps.
 
-> `![Election posters or voting booth](image-url)`
+![Election posters or voting booth](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -96,7 +95,7 @@ This guide dives into how businesses, shops, and the wider community ecosystem w
 - **Law & order**: Demerits raise wanted level; officers earn bounties for lawful apprehensions. Clear your record at Town Hall with `/clearrecord` (fee applies).
 - **Events & security**: Bank heists require certain conditions (e.g., officers online). Criminal activity impacts the economy and risk/reward for everyone.
 
-> `![Town Hall, bank, and police station collage](image-url)`
+![Town Hall, bank, and police station collage](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -117,7 +116,7 @@ This guide dives into how businesses, shops, and the wider community ecosystem w
 - Messaging: `/msg <player> <text>`, `/inbox [page]` for offline receipts and mail.
 - Records: `/clearrecord` at Town Hall (fee) to wipe demerits.
 
-> `![Command overlay or help menu](image-url)`
+![Command overlay or help menu](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 

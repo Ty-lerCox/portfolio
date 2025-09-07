@@ -16,10 +16,7 @@ tags:
 
 *CityRPG* is an ambitious mod for **Brickadia** that transforms its open-ended building sandbox into an active, living city. It pairs a robust back-end service with an Angular-based UI to keep the game scalable, responsive, and ready for future server expansion.
 
-> **Add a banner image here**
->
-> Example (Markdown):  
-> `![City skyline or logo](path-or-url-to-banner-image)`
+![City skyline or logo](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -29,8 +26,7 @@ CityRPG is both:
 - **A Web-Based UI** – the UI is built in Angular and interacts with a service-based backend (e.g., Firebase), offloading significant logic to the cloud for scalability.
 - **A Website** – enabling players to manage accounts, track stats, and eventually connect across multiple servers/regions.
 
-> **Insert gameplay screenshots or concept art as desired**  
-> `![Player exploring the city](image-url)`
+![Player exploring the city](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -45,7 +41,7 @@ CityRPG is both:
   - Purchase lots, build storefronts, or craft unique items to sell.
   - Set taxes as the city evolves (tied to the election system below).
 
-> `![Lot management UI](image-url)`
+![Lot management UI](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Skills & Jobs
 - **RuneScape-Inspired Skill Progression**  
@@ -57,7 +53,7 @@ CityRPG is both:
   - **Law Enforcement** – Official role with structured progression and XP.  
   - **Criminal Route** – Not an official “job,” but a set of activities (e.g., weapon crafting, bank heists, laptop hacking) for players who prefer to live on the edge.
 
-> `![Skill menu screenshot](image-url)`
+![Skill menu screenshot](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Quests & Activities
 - Branching quests and task systems that provide currency, XP, or rare items.
@@ -74,14 +70,14 @@ CityRPG is both:
   - Craft meals, set restaurant pricing, and manage stock.
   - Profits feed back into personal or business finances.
 
-> `![Crafting bench screenshot](image-url)`
+![Crafting bench screenshot](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Political System
 - **Elections & Taxes**  
   - Run for mayor and influence city policy.
   - Set taxes, manage city finances, and face potential impeachment if citizens are unhappy.
 
-> `![Voting booth or election posters](image-url)`
+![Voting booth or election posters](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Voyages & Sea Exploration
 - Plan a voyage, recruit crew members, and sail out from the city.
@@ -89,7 +85,7 @@ CityRPG is both:
   - NPC encounters.
   - Cooperative combat and loot return loops similar to *Sea of Thieves*.
 
-> `![Players on a ship or sea horizon](image-url)`
+![Players on a ship or sea horizon](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -105,7 +101,7 @@ CityRPG is both:
 - **Scalability**  
   - If one city runs out of lots, new servers/regions can spin up with shared accounts and inventory, helping reduce latency worldwide.
 
-> `![UI mockup or code snippet image](image-url)`
+![UI mockup or code snippet image](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -115,13 +111,13 @@ CityRPG is both:
 3. **Choose Your Path** – start a job, craft items, or delve into criminal activities.  
 4. **Climb the Ranks** in your chosen skills to unlock advanced features.
 
-> `![Player showcase or feature highlight image](image-url)`
+![Player showcase or feature highlight image](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
 ## Tips for Adding Images
-- **Markdown**: `![Alt text](image-url)`
-- **HTML**: `<img src="image-url" alt="Description" width="600"/>`
+- **Markdown**: `![Alt text](https://placehold.co/600x400?text=Placeholder&format=svg)`
+- **HTML**: `<img src="https://placehold.co/600x400?text=Placeholder&format=svg" alt="Description" width="600"/>`
 - Use descriptive file names and alt text for accessibility.
 - Maintain consistent sizing and styling for a clean visual flow.
 
@@ -130,7 +126,7 @@ CityRPG is both:
 ## Final Thoughts
 CityRPG expands Brickadia into a full-fledged RPG experience, blending **economy**, **job roles**, **player politics**, and **cooperative adventures**. Thanks to its service-oriented architecture and Angular UI, the mod is built for the long term—ready to scale and evolve with its community.
 
-> `![Closing concept art or logo](image-url)`
+![Closing concept art or logo](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 Feel free to adjust the text, add/remove sections, and insert screenshots or concept art wherever placeholders appear to create a polished overview that captures the depth and excitement of CityRPG.
 

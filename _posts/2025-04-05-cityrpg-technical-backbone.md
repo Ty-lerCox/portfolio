@@ -17,8 +17,7 @@ tags:
 
 CityRPG succeeds because its core systems are split across the game client, an Angular web interface, and a service-driven backend. This post explains how those pieces fit together and why the mod can scale beyond a single Brickadia server.
 
-> Add a header image showing the architecture
-> `![High-level architecture diagram](path-or-url-to-image)`
+![High-level architecture diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -28,7 +27,7 @@ CityRPG succeeds because its core systems are split across the game client, an A
 - **Reactive pipeline** – RxJS streams process chat commands, inventory changes, and world events in real time.
 - **Native hooks** – When low-level control is required, C++/UE5 hooks surface data to the plugin for higher-level handling.
 
-> `![Omegga console or plugin code](image-url)`
+![Omegga console or plugin code](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ## Angular Web UI
 
@@ -36,7 +35,7 @@ CityRPG succeeds because its core systems are split across the game client, an A
 - **State management** – NgRx keeps UI state predictable; actions from the plugin or backend flow into a single store.
 - **Offline-ready** – The UI caches essential data so players retain menus even during transient network hiccups.
 
-> `![Angular-based menu screenshot](image-url)`
+![Angular-based menu screenshot](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ## Cloud Services
 
@@ -44,7 +43,7 @@ CityRPG succeeds because its core systems are split across the game client, an A
 - **Job queues & functions** – Long-running tasks (heist resolution, voyage logic) execute in functions to avoid blocking the game loop.
 - **Analytics** – Centralized logs and metrics feed future balancing and abuse detection.
 
-> `![Firebase dashboard or function code](image-url)`
+![Firebase dashboard or function code](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ## Scaling Across Servers
 
@@ -52,7 +51,7 @@ CityRPG succeeds because its core systems are split across the game client, an A
 - **Service boundaries** – Each server only owns session state; all persistent data is remote, allowing new shards to spin up quickly.
 - **Future extensions** – Additional microservices (matchmaking, trading post) can plug in without touching the core plugin.
 
-> `![Multiple servers connected to a single backend](image-url)`
+![Multiple servers connected to a single backend](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -62,7 +61,7 @@ CityRPG succeeds because its core systems are split across the game client, an A
 - **Testing & CI** – Scripts validate gameplay logic with ts-node tests; GitHub Actions can run them on pull requests.
 - **Config-driven** – Environments and feature flags load from Firebase, letting admins tweak balance without redeploying.
 
-> `![CI pipeline or code snippet](image-url)`
+![CI pipeline or code snippet](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -70,5 +69,5 @@ CityRPG succeeds because its core systems are split across the game client, an A
 
 CityRPG’s technical backbone separates presentation, game logic, and persistence so the mod stays maintainable and ready for growth. The combination of an Angular UI, an Omegga plugin, and Firebase services turns Brickadia into a living world that can span many servers.
 
-> `![Closing image or logo](image-url)`
+![Closing image or logo](https://placehold.co/600x400?text=Placeholder&format=svg)
 

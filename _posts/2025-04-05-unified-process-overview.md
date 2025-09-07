@@ -23,10 +23,7 @@ tags:
 
 _Unified Process_ is a step‑centric platform for logistics workflows. Instead of relying solely on event streams, it models each business process as an explicit sequence of **steps**, **transitions**, and **guards**—making state changes observable, testable, and easier to recover when things go wrong. The front end is built with Angular (Signals + NgRx), with deep instrumentation across the stack.
 
-> **Add a banner image here**
->
-> Example (Markdown):  
-> `![Process orchestration banner](path-or-url-to-banner-image)`
+![Process orchestration banner](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -38,8 +35,7 @@ Unified Process is:
 -   **A Front‑End for Operators** — Angular UI surfaces the current step, blockers, SLAs, and remediation actions.
 -   **An Observability‑First System** — traces, metrics, and logs tie every step to its upstream/downstream services.
 
-> **Insert UI screenshots or diagrams**  
-> `![Operator console showing step timeline](image-url)`
+![Operator console showing step timeline](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -62,7 +58,7 @@ Event buses are great at decoupling producers and consumers, but complex operati
 -   **Guards**: Boolean checks (data present, validations complete, external ACK received).
 -   **Effects**: Side‑effects on transition (emit command, write record, notify, update index).
 
-> `![State machine sketch: Received → Validated → Booked → Dispatched → Delivered](image-url)`
+![State machine sketch: Received → Validated → Booked → Dispatched → Delivered](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 Example (illustrative YAML‑style):
 

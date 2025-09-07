@@ -14,8 +14,7 @@ tags:
 
 This guide explains how progression works in CityRPG through two pillars: skills and jobs. Use it to pick a role, earn pay, and level up by doing the activities you enjoy.
 
-> Add a header image for flavor  
-> `![Job board or city scene](path-or-url-to-image)`
+![Job board or city scene](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -77,7 +76,7 @@ CityRPG uses a light, RuneScape‑inspired system: do the activity to gain the r
 - Records: Clear your criminal record inside the Town Hall (`/clearrecord`, fee applies).
 - Purchases: Confirm store/weapon/food buys with `/yes` after a prompt.
 
-> `![Police, shop, or crafting UI screenshots](path-or-url-to-image)`
+![Police, shop, or crafting UI screenshots](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 

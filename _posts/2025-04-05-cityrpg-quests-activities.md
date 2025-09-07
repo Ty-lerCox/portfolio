@@ -14,8 +14,7 @@ tags:
 
 CityRPG uses quests and quick activities to keep players busy whether they want story, side hustles, or high‑risk crimes.
 
-> Add a header image
-> `![Exploring the city](path-or-url-to-image)`
+![Exploring the city](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -25,7 +24,7 @@ CityRPG uses quests and quick activities to keep players busy whether they want 
 - **Objective tracking**: Each quest has objectives that mark themselves complete when you do the required action or gather items.
 - **Repeatable content**: Some quests can restart after completion for steady cash or XP.
 
-> `![Quest dialogue or objective list](image-url)`
+![Quest dialogue or objective list](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -43,7 +42,7 @@ CityRPG uses quests and quick activities to keep players busy whether they want 
 - **Hacking puzzle**: A timed typing sequence determines if the vault opens. Wrong answers or leaving early fails the run.
 - **Dirty money & crime XP**: Escaping with the loot grants cash and XP while draining the city treasury.
 
-> `![Heist console or escape scene](image-url)`
+![Heist console or escape scene](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -69,7 +68,7 @@ CityRPG uses quests and quick activities to keep players busy whether they want 
 - Bring friends to watch your back during heists or escort deliveries.
 - Check the quest log often—new tasks and repeatables appear as the city evolves.
 
-> `![Party completing a quest](image-url)`
+![Party completing a quest](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
