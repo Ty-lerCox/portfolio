@@ -15,10 +15,6 @@ image: /assets/img/social-card.svg
 {% endunless %}
 {% endfor %}
 
-## Contact {#contact}
-**Email:** <a href="mailto:{{ site.data.resume.email }}">{{ site.data.resume.email }}</a>
-{% for profile in site.data.resume.socialMedia %}
-- **{{ profile.socialMedia }}:** <a href="{{ profile.link }}">{{ profile.link }}</a>
-{% endfor %}
+<h2 id="contact">Contact</h2><p><strong>Email:</strong> <a href="mailto:{{ site.data.resume.email }}">{{ site.data.resume.email }}</a></p><ul>{% for profile in site.data.resume.socialMedia %}<li><strong>{{ profile.socialMedia }}:</strong> <a href="{{ profile.link }}">{{ profile.link }}</a></li>{% endfor %}</ul>
 
-## Pinned
+## Pinned Projects
