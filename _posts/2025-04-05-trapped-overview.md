@@ -7,20 +7,6 @@ tags:
   - Trapped
   - Unreal Engine 5
   - C++
-  - UMG
-  - HUD
-  - Dialogue System
-  - Quest System
-  - AI Movement
-  - Spawning
-  - Redux-style State
-  - Data-Driven Design
-  - Tooling
-  - Debugging
-  - Profiling
-  - Optimization
-  - LLM Integration
-  - Git
 ---
 
 This overview highlights a gameplay system prototype I built in Unreal Engine 5, inspired by projects listed on my resume.
