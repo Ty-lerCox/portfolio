@@ -2,6 +2,7 @@
 layout: post
 title: 'odeya Overview'
 date: 2025-03-15 00:00:00 +0000
+pin: true
 categories: [ODEYA]
 tags:
   - ODEYA

@@ -2,6 +2,7 @@
 layout: post
 title: 'Unified Process Overview'
 date: 2025-04-20 00:00:00 +0000
+pin: true
 categories: [Unified Process]
 tags:
     - Angular

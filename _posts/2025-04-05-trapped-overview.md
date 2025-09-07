@@ -2,6 +2,7 @@
 layout: post
 title: "Unreal Engine Gameplay Overview"
 date: 2024-03-05 00:00:00 +0000
+pin: true
 categories: [Trapped (UE5 Game)]
 tags:
   - Trapped

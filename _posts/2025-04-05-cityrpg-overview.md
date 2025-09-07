@@ -2,6 +2,7 @@
 layout: post
 title: "CityRPG Overview"
 date: 2025-04-05 00:00:00 +0000
+pin: true
 categories: [CityRPG]
 tags:
   - CityRPG

@@ -2,6 +2,7 @@
 layout: post
 title: 'Workflow Overview'
 date: 2025-04-05 00:00:00 +0000
+pin: true
 categories: [Unified Process]
 tags:
   - Workflow
