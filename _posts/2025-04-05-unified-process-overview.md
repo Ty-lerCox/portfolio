@@ -2,7 +2,7 @@
 layout: post
 title: 'Configuration Platform Overview'
 date: 2025-04-05 00:00:00 +0000
-categories: [Configuration Platform]
+categories: [Unified Process]
 tags:
     - Angular
     - TypeScript
