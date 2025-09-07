@@ -14,8 +14,7 @@ tags:
 
 CityRPG features an in-game political layer where players campaign for office, set city policy, and keep the economy running. This post explains how elections work, what powers leaders hold, and how citizens can keep their government in check.
 
-> Add a header image
-> `![Town hall and campaign posters](path-or-url-to-image)`
+![Town hall and campaign posters](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -26,7 +25,7 @@ CityRPG features an in-game political layer where players campaign for office, s
 - **Voting**: Once the election period opens, players cast votes via UI or `/election vote <name>`. Highest votes wins.
 - **Term**: The winner becomes city leader (mayor) until impeached, removed, or a new election is held.
 
-> `![Voting booth or ballot UI](image-url)`
+![Voting booth or ballot UI](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -37,7 +36,7 @@ CityRPG features an in-game political layer where players campaign for office, s
 - **Post Contracts & Policies**: Leaders may post city contracts (`/citycontractpost`) or modify policies that influence gameplay loops.
 - **Economy Modifier**: Leaders can influence the live economy percentage via donations or certain policies, shifting payouts up or down.
 
-> `![Mayor office and policy screen](image-url)`
+![Mayor office and policy screen](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -55,7 +54,7 @@ CityRPG features an in-game political layer where players campaign for office, s
 - **Auto-Removal**: Leaders may also be removed for inactivity or poor approval depending on server rules.
 - **Checks & Balances**: Regular elections and open commands ensure no one holds power indefinitely.
 
-> `![Citizens protesting at town hall](image-url)`
+![Citizens protesting at town hall](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 

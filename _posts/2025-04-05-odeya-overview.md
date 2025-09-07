@@ -16,10 +16,7 @@ tags:
 
 _ODEYA_ is a focused utility for heavy YouTube users: create **channel collections** (e.g., Cruise News, Gaming, Tech) and let ODEYA automatically **populate a single playlist** every time any channel in that collection publishes a new video. It started as a personal tool to eliminate manual playlist maintenance—and it stuck.
 
-> **Add a banner image here**
->
-> Example (Markdown):  
-> `![ODEYA banner or logo](path-or-url-to-banner-image)`
+![ODEYA banner or logo](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -31,8 +28,7 @@ ODEYA is:
 -   **A Playlist Engine** — many‑to‑one mapping from multiple channels to one rolling playlist.
 -   **A Sharing Layer** — server‑side rendering (SSR) makes shared playlists discoverable by search engines.
 
-> **Insert UI screenshots or short clips**  
-> `![Creating a channel collection](image-url)`
+![Creating a channel collection](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -53,7 +49,7 @@ ODEYA is:
 -   **Server‑Side Rendering** ensures shared playlist pages are crawlable and indexable.
 -   Friends can follow public playlists; search engines can surface your curated collections.
 
-> `![Shared playlist page with preview cards](image-url)`
+![Shared playlist page with preview cards](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Practical Curation
 
@@ -68,7 +64,7 @@ ODEYA is:
 -   **Gaming & Tech Roundups:** track daily uploads across many creators without hopping between subscriptions.
 -   **Education Playlists:** bundle a set of instructors/channels into a rolling curriculum.
 
-> `![Topic collection setup: Cruise News](image-url)`
+![Topic collection setup: Cruise News](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -83,7 +79,7 @@ ODEYA is:
 -   **Performance & Stability**  
     Built to be lightweight for personal use, with room to evolve if broader adoption happens later.
 
-> `![Simplified data flow diagram](image-url)`
+![Simplified data flow diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -94,16 +90,16 @@ ODEYA is:
 3. **Choose a Playlist**: set the destination playlist (or create a new one).
 4. **Share**: send the public link to friends or post it—SSR makes it discoverable.
 
-> `![Sharing a playlist link](image-url)`
+![Sharing a playlist link](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
 ## Tips for Adding Images
 
--   **Markdown**: `![Alt text](image-url)`
--   **HTML**: `<img src="image-url" alt="Description" width="600" />`
--   Use specific alt text and descriptive filenames for accessibility and better previews.
--   Keep dimensions consistent for a clean visual rhythm.
+- **Markdown**: `![Alt text](https://placehold.co/600x400?text=Placeholder&format=svg)`
+- **HTML**: `<img src="https://placehold.co/600x400?text=Placeholder&format=svg" alt="Description" width="600" />`
+- Use specific alt text and descriptive filenames for accessibility and better previews.
+- Keep dimensions consistent for a clean visual rhythm.
 
 ---
 
@@ -111,4 +107,4 @@ ODEYA is:
 
 ODEYA removes the friction of staying up to date on YouTube by **automating curation** and **making playlists easy to share and find**. It began as a personal project, but the approach scales naturally: define your interests once, and let fresh content flow where you want it—without the busywork.
 
-> `![Closing logo or UI detail](image-url)`
+![Closing logo or UI detail](https://placehold.co/600x400?text=Placeholder&format=svg)

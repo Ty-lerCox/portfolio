@@ -13,8 +13,7 @@ tags:
 
 Voyages turn the open sea into a cooperative resource loop. Gather a crew, claim a ship, and sail to remote islands packed with stone and lumber. This post explains how voyages work, from planning to payouts.
 
-> Add a header image here
-> `![Ship setting sail](path-or-url-to-image)`
+![Ship setting sail](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -27,7 +26,7 @@ Voyages turn the open sea into a cooperative resource loop. Gather a crew, claim
 - Update compensation or label later with `/voyage set-comp ...` and `/voyage set-label ...`.
 - Kick misbehaving members with `/voyage kick <playerNameOrId>`.
 
-> `![Voyage creation UI](image-url)`
+![Voyage creation UI](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -47,7 +46,7 @@ Voyages turn the open sea into a cooperative resource loop. Gather a crew, claim
 - Carry up to 10 lumber and 10 stone at a time. Use `storeonship` bricks to stash resources in the ship's hold.
 - Pay-per-minute voyages automatically pay crew over time. Crew-cut voyages distribute resources based on time spent when the captain ends the trip.
 
-> `![Crew harvesting resources](image-url)`
+![Crew harvesting resources](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -75,7 +74,7 @@ Voyages turn the open sea into a cooperative resource loop. Gather a crew, claim
 /voyage set-label <label>
 ```
 
-> `![Command overlay screenshot](image-url)`
+![Command overlay screenshot](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
