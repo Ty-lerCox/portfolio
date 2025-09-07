@@ -1,7 +1,7 @@
 ---
 title: Portfolio — {{ site.data.resume.name }}
 layout: home
-image: /assets/img/social-card.svg
+image: /assets/img/social-card.png
 ---
 
 # {{ site.data.resume.name }}
