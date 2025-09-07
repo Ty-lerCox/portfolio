@@ -41,6 +41,7 @@ defaults:
       layout: default
 # (Optional) SEO/social hints
 logo: /assets/img/headshot.svg
+social_preview_image: /assets/img/social-card.png
 social:
   name: "KEVIN 'TYLER' COX"
   links:
