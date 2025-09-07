@@ -24,7 +24,6 @@ skills:
       - "TypeScript"
       - "Java & Spring Boot"
       - "C#/.NET"
-      - "Kubernetes"
     resume: /resume/software-development.pdf
 workExperience:
   - position: Gameplay Systems Developer
