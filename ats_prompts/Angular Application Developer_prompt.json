@@ -1,0 +1,319 @@
+You are my ATS keyword & resume tailor.
+
+GOAL
+Maximize alignment between my resume and the target job post without making false claims, while keeping an ATS-safe format.
+
+INPUTS
+[JOB POST]
+<<< Senior Software Engineer, Actions
+United States
+Engineering
+Experienced Professional
+Individual Contributor
+Yes
+4455
+Full Time
+mail_outline
+Get future jobs matching this search
+
+or
+Job Description
+About GitHub
+
+As the global home for all developers, GitHub is the complete AI-powered developer platform to build, scale, and deliver secure software. Over 150+ million developers, including more than 90% of the Fortune 100 companies, use GitHub to collaborate and experiment across 420+ million repositories. With all the collaborative features of GitHub, it has never been easier for individuals and teams to write faster, better code.
+
+Locations
+
+In this role you can work from Remote, United States
+
+Overview
+
+GitHub Actions is looking for a great Senior Software Engineer to join our team! 
+
+ 
+
+Actions powers automation for millions of developers worldwide, enabling them to build, test, and deploy code directly from their repositories. As the backbone of CI/CD workflows across GitHub, Actions processes billions of jobs monthly - from simple builds to complex deployment pipelines spanning multiple environments. Our Hosted Compute team builds services and infrastructure that enable those jobs to run on ephemeral Linux, Mac, and Windows runners reliably, securely, and starting in seconds. We're a group of engineers passionate about developer productivity, tackling challenges in distributed systems, container orchestration, and cloud infrastructure. You'll work alongside talented colleagues who value collaboration, operational excellence, and building products that developers love.
+
+ 
+
+We are looking for creative problem solvers and diverse thinkers, people who care about culture as well as customers and features. We believe that how we do things is as important as what we do. Big vision, a common purpose, passion for quality, curiosity, dedication, and investment in fun and collaboration are what lead to great results. Great products reflect the teams that build them.
+
+ 
+
+
+Responsibilities
+
+Design, develop, test and ship high-quality technical solutions that scale across multiple GitHub services.
+
+Collaborate with cross-functional teams to define and implement innovative solutions.
+
+Provide technical leadership, mentorship, pairing opportunities, and code reviews to encourage the growth of others.
+
+Own and advocate for the health and quality of the systems that the team builds, including participating in on-call and first responder rotations
+
+Write architecture briefs and proposals, carry out code experiments, and build prototypes to learn how we can achieve planetary scale with our systems.
+
+Design and implement APIs to facilitate seamless integration between software components.
+
+Utilize CI/CD tools to set up automated pipelines for continuous integration and delivery.
+
+Become intimately familiar with the systems you build and take pride in writing maintainable code.
+
+ 
+
+
+Qualifications
+
+Required Qualifications:
+
+6+ years experience in Software Engineering, Computer Science, or related technical discipline with proven experience maintaining and delivering production software coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, Go, Ruby, Rust, or Python
+
+OR Associate’s Degree in Computer Science, Electrical Engineering, Electronics Engineering, Math, Physics, Computer Engineering, Computer Science, or related field AND 5+ years experience in Software Engineering, Computer Science, or related technical discipline with proven experience maintaining and delivering production software coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, Go, Ruby, Rust, or Python
+
+ OR Bachelor's Degree in Computer Science, Electrical Engineering, Electronics Engineering, Math, Physics, Computer Engineering, Computer Science, or related field AND 4+ years experience in Software Engineering, Computer Science, or related technical discipline with proven experience maintaining and delivering production software coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, Go, Ruby, Rust, or Python 
+
+OR Master's Degree in Computer Science, Electrical Engineering, Electronics Engineering, Math, Physics, Computer Engineering, Computer Science, or related field AND 2+ years experience in Software Engineering, Computer Science, or related technical discipline with proven experience maintaining and delivering production software coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, Go, Ruby, Rust, or Python
+
+OR Doctorate in Computer Science, Electrical Engineering, Electronics Engineering, Math, Physics, Computer Engineering, Computer Science, or related fie
+
+OR equivalent experience.
+
+2+ years experience developing and operating large-scale services or infrastructure
+
+ 
+
+Preferred Qualifications:
+
+2+ years experience in one or more scripting languages (e.g., Bash, Python, or a similar language)
+
+2+ years experience using general purpose programming languages (e.g., Go, Ruby, or a similar language).
+
+3+ years experience with cloud environments and/or Cloud Native Compute Foundation (CNCF) concepts.
+
+Experience with MacOS or iOS development
+
+ 
+
+
+Compensation Range
+
+The base salary range for this job is USD $112,800.00 - USD $299,300.00 /Yr.
+
+These pay ranges are intended to cover roles based across the United States. An individual's base pay depends on various factors including geographical location and review of experience, knowledge, skills, abilities of the applicant. At GitHub certain roles are eligible for benefits and additional rewards, including annual bonus and stock. These rewards are allocated based on individual impact in role. In addition, certain roles also have the opportunity to earn sales incentives based on revenue or utilization, depending on the terms of the plan and the employee's role.
+GitHub values
+
+Customer-obsessed
+Ship to learn
+Growth mindset
+Own the outcome
+Better together
+Diverse and inclusive
+Manager fundamentals
+
+Model
+Coach
+Care
+Leadership principles
+
+Create clarity
+Generate energy
+Deliver success
+
+Who We Are
+
+GitHub is the world’s leading AI-powered developer platform with 150 million developers and counting. We’re also home to the biggest open-source community on earth (and 99% of the world’s software has open-source code in its DNA). Many of the apps and programs you use every day are built on GitHub.
+Our teams are dreamers, doers, and pioneers, leading the way in AI, driving humanitarian efforts around the globe, and even sending open source to Mars (and beyond!). At GitHub, our goal is to create the space you need to do your best work. We’re remote-first and offer competitive pay, generous learning and growth opportunities, and excellent benefits to support you, wherever you are—because we know that people flourish when they can work on their own terms.
+Join us, and let’s change the world, together.
+
+EEO Statement
+
+GitHub is made up of people from a wide variety of backgrounds and lifestyles. We embrace diversity and invite applications from people of all walks of life. We don't discriminate against employees or applicants based on gender identity or expression, sexual orientation, race, religion, age, national origin, citizenship, disability, pregnancy status, veteran status, or any other differences. Also, if you have a disability, please let us know if there's any way we can make the interview process better for you; we're happy to accommodate! >>>
+
+[RESUME]
+<<< {
+    "name": "KEVIN 'TYLER' COX",
+    "position": "Angular Application Developer",
+    "contactInformation": "(843) 718-4024",
+    "email": "kevincox103@gmail.com",
+    "address": "Charleston, SC",
+    "profilePicture": "",
+    "socialMedia": [
+        { "socialMedia": "Github", "link": "github.com/Ty-lerCox" },
+        {
+            "socialMedia": "LinkedIn",
+            "link": "linkedin.com/in/tyler-cox-1715065a/"
+        },
+        { "socialMedia": "Website", "link": "ty-lercox.github.io/portfolio/" }
+    ],
+    "summary": "Angular specialist (Signals, RxJS, NgRx) delivering secure, observable, and automated web applications. Eleven years at Expeditors International building front‑ends, standing up CI/CD (Ansible, GitHub Actions, GitLab Runners, Azure DevOps), and instrumenting the Grafana stack (Prometheus, Loki, Tempo). Integrated SSO with Keycloak/Kerberos, established PKI/TLS, and evolved data ingestion from bespoke Kafka jobs to CDC → Kafka with bronze/silver/gold layers. Prototype quickly in Python; ship production services in Java Spring Boot and C#/.NET. Champion feature flags, DORA metrics, and Kanban to improve delivery flow. Built ODEYA.app, an SSR Angular app that auto‑curates YouTube playlists from channel collections and indexes shareable playlists for SEO.",
+    "education": [
+        {
+            "school": "Trident Technical College",
+            "degree": "Computer Science",
+            "startYear": "",
+            "endYear": "2013-12-31"
+        }
+    ],
+    "workExperience": [
+        {
+            "company": "Expeditors International (Expeditors)",
+            "position": "Angular Application Developer",
+            "description": "Design and delivery of Angular front‑ends and platform tooling across multiple internal applications; emphasis on observability, automation, and secure-by-default practices.",
+            "keyAchievements": "Built and led Angular front‑ends using Signals, RxJS, and NgRx across several logistics/operations applications.\nIntroduced step‑centric workflow modeling (e.g., Unified Process) to complement event‑driven patterns; improved clarity and traceability of process state.\nImplemented observability with Grafana stack—Prometheus (metrics), Loki (logs), Tempo (traces)—plus SLO dashboards and alerting to reduce detection and resolution time.\nStandardized CI/CD with GitHub Actions and GitLab Runners; used Ansible for repeatable on‑prem and cloud provisioning (GCP/Firebase); supported Kubernetes deployments.\nHardened identity and transport security: Keycloak SSO (OIDC/SAML), Kerberos integrations, internal CA/PKI, and TLS/mTLS with cert rotation policies.\nModernized data integration from ad‑hoc Kafka producers/consumers to database‑level Change Data Capture (CDC) feeding Kafka, organized via medallion layers (bronze/silver/gold).\nEnabled feature flag rollouts for progressive delivery; instrumented DORA metrics and coached teams on Kanban and velocity/flow tracking via Azure DevOps.\nDelivered APIs/services in Java Spring Boot and C#/.NET; used Python for rapid prototyping prior to hardening.\nAuthored Azure DevOps utilities (Python) to create user stories under Features with iteration/assignee/area/story‑point fields, improving planning throughput.",
+            "startYear": "2014-09-01",
+            "endYear": "Present"
+        }
+    ],
+    "projects": [
+        {
+            "title": "ODEYA.app (Angular + SSR)",
+            "link": "ty-lercox.github.io/portfolio/posts/odeya-overview/",
+            "description": "Personal web app that auto‑curates YouTube playlists from collections of channels (e.g., cruise, gaming, tech) so new uploads from any channel in a collection flow into a single playlist.",
+            "keyAchievements": "Implemented server‑side rendering so shared playlists are SEO‑indexable; playlist sharing enables discovery via search engines. Aggregation logic supports many‑to‑one channel collections; reduced manual playlist upkeep.",
+            "startYear": "2025-03-01",
+            "endYear": "2025-05-31",
+            "name": "ODEYA.app"
+        },
+        {
+            "title": "Logistics Process Orchestration (Angular Signals + NgRx)",
+            "link": "",
+            "description": "Front‑end architecture for step‑centric workflows replacing purely event‑driven UIs in logistics operations.",
+            "keyAchievements": "Normalized state, clear effects, and deterministic UI flows; fully instrumented for metrics/logs/traces.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Logistics Process Orchestration"
+        },
+        {
+            "title": "Observability Enablement (Grafana Stack)",
+            "link": "",
+            "description": "Service health/SLO dashboards with Prometheus metrics, Loki logs, and Tempo traces; alerting integrated with deployment telemetry.",
+            "keyAchievements": "Improved issue detection and trace‑led debugging across services; consistent dashboards for teams.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Observability Enablement"
+        },
+        {
+            "title": "CI/CD Blueprint & Ansible Provisioning",
+            "link": "",
+            "description": "Reusable pipelines (GitHub Actions/GitLab Runners) and Ansible roles for consistent build/test/deploy across on‑prem and cloud targets.",
+            "keyAchievements": "Cut lead time to change; standardized quality gates and environment promotion.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "CI/CD Blueprint"
+        },
+        {
+            "title": "Data Flow Modernization (CDC → Kafka → Medallion)",
+            "link": "",
+            "description": "Replaced batch/legacy Kafka usage with database‑level CDC streaming into Kafka, organized into bronze/silver/gold layers.",
+            "keyAchievements": "Improved reliability, lineage, and downstream transformations; clearer SLAs and reprocessing.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Data Flow Modernization"
+        },
+        {
+            "title": "SSO & PKI Hardening",
+            "link": "",
+            "description": "Unified identity and secure transport across services.",
+            "keyAchievements": "Keycloak (OIDC/SAML), Kerberos, internal CA/PKI, TLS/mTLS, and certificate lifecycle policies.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "SSO & PKI Hardening"
+        },
+        {
+            "title": "Azure DevOps Utilities (Planning Automation)",
+            "link": "",
+            "description": "Python tooling to create child User Stories under Features with Iteration, Assignee, Area, and Story Points fields.",
+            "keyAchievements": "Accelerated planning and improved consistency of backlog data.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Azure DevOps Utilities"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Technical Skills",
+            "skills": [
+                "Angular (Signals, RxJS, NgRx)",
+                "TypeScript",
+                "UI architecture & component design",
+                "Java (Spring Boot, JPA/Hibernate)",
+                "C# (.NET Web API, Entity Framework)",
+                "Python (prototyping)",
+                "Kafka & Change Data Capture (CDC)",
+                "Data medallion layers (bronze/silver/gold)",
+                "Kubernetes",
+                "Ansible",
+                "Azure DevOps",
+                "GitHub Actions",
+                "GitLab Runners",
+                "GCP & Firebase",
+                "Grafana, Prometheus, Loki, Tempo",
+                "Keycloak (OIDC/SAML), Kerberos",
+                "PKI/Certificate Authority, TLS/mTLS",
+                "RHEL 9, VMs",
+                "Feature flags",
+                "DORA metrics"
+            ]
+        },
+        {
+            "title": "Soft Skills",
+            "skills": [
+                "Systems Thinking",
+                "Cross‑functional Collaboration",
+                "Technical Leadership & Coaching",
+                "Stakeholder Communication",
+                "Problem Solving",
+                "Iteration & Rapid Prototyping",
+                "Kanban Facilitation"
+            ]
+        },
+        {
+            "title": "Additional Skills",
+            "skills": [
+                "Observability & SRE Practices",
+                "Documentation & ADRs",
+                "AI‑Assisted Engineering (LLMs/ChatGPT CLI)",
+                "Testing & Quality Gates",
+                "Release & Deployment Strategies"
+            ]
+        }
+    ],
+    "languages": ["English"],
+    "certifications": []
+} >>>
+
+OUTPUT (in this exact order)
+1) KEYWORDS_JSON
+   - JSON with:
+     {
+       "hard_skills": [{"term":"React", "weight":5, "synonyms":["React.js"]}, ...],
+       "tools": [{"term":"Azure DevOps","weight":4,"synonyms":["ADO","Azure Boards"]}],
+       "languages": [...],
+       "cloud": [...],
+       "soft_skills": [...],
+       "certs_or_quals": [...],
+       "domain_terms": [...],
+       "must_haves": [...],   // legal/clearance/shift/location/degree-alt
+       "nice_to_haves": [...]
+     }
+   - Weights: 5=critical, 4=important, 3=useful, 2=minor, 1=nice.
+
+2) COVERAGE_TABLE
+   - A compact table listing each keyword → Present/Missing → Where found or suggested placement.
+   - Map synonyms (e.g., “CI/CD” covers “continuous integration”, etc.).
+
+3) EDIT_SUGGESTIONS
+   - Bullet-by-bullet rewrites (STAR-style) that truthfully incorporate missing/aligned keywords.
+   - Keep metrics, impact, and tense consistent. No fluff, no exaggerations.
+
+4) SUMMARY + SKILLS
+   - 2–3 line Professional Summary tailored to the job.
+   - ATS-friendly SKILLS block grouping the critical keywords.
+
+5) REVISED_RESUME (ATS-safe)
+   - Single column, no text boxes/tables, standard headings (SUMMARY, SKILLS, EXPERIENCE, EDUCATION).
+   - Integrate approved rewrites and keyword coverage naturally.
+   - Keep everything truthful and consistent with my background.
+
+6) MATCH_SCORE
+   - % coverage using your weights. Show formula and top gaps to close the last 10–20%.

@@ -1,0 +1,55 @@
+---
+layout: page
+---
+
+{% include lang.html %}
+
+<div id="page-tag">
+  {% assign tag_name = page.tag | default: page.title %}
+  <h1 class="ps-lg-2">
+    <i class="fa fa-tag fa-fw text-muted"></i>
+    {{ tag_name }}
+    {% if page.posts %}
+      <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
+    {% endif %}
+  </h1>
+
+  {% if page.posts %}
+  <ul class="content ps-0">
+    {% for post in page.posts %}
+      <li class="d-flex justify-content-between px-md-3">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="dash flex-grow-1"></span>
+        {% include datetime.html date=post.date class='text-muted small text-nowrap' lang=lang %}
+      </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% assign tag_name = tag_name | downcase %}
+  {% assign all = site.data.projects.active | concat: site.data.projects.completed %}
+  {% assign projects = '' | split: '' %}
+  {% for project in all %}
+    {% assign project_tags = project.tags | map: 'downcase' %}
+    {% if project_tags contains tag_name %}
+      {% assign projects = projects | push: project %}
+    {% endif %}
+    {% if project.sub_projects %}
+      {% for sub in project.sub_projects %}
+        {% assign sub_tags = sub.tags | map: 'downcase' %}
+        {% if sub_tags contains tag_name %}
+          {% assign projects = projects | push: sub %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
+  {% if projects.size > 0 %}
+  <h2 class="ps-lg-2 mt-4">Projects</h2>
+  <ul class="content ps-0">
+    {% for proj in projects %}
+      <li><a href="{{ '/projects/' | append: proj.slug | append: '/' | relative_url }}">{{ proj.title }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>

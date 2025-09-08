@@ -1,0 +1,140 @@
+{
+    "name": "KEVIN 'TYLER' COX",
+    "position": "Senior Software Engineer — CI/CD (GitHub Actions & Platform)",
+    "contactInformation": "(843) 718-4024",
+    "email": "[kevincox103@gmail.com](mailto:kevincox103@gmail.com)",
+    "address": "Charleston, SC",
+    "profilePicture": "",
+    "socialMedia": [
+        { "socialMedia": "Github", "link": "github.com/Ty-lerCox" },
+        {
+            "socialMedia": "LinkedIn",
+            "link": "linkedin.com/in/tyler-cox-1715065a/"
+        },
+        { "socialMedia": "Website", "link": "ty-lercox.github.io/portfolio/" }
+    ],
+    "summary": "Platform‑leaning engineer specializing in CI/CD at scale with GitHub Actions and GitLab CI. Shipped public Actions workflows (GitHub Pages/Jekyll, Angular → Firebase Hosting & Functions, CityRPG mod artifact packaging) with cache strategy and artifact retention. Strong in containerized deployments (OCI images, HashiCorp Nomad), observability (Grafana/Prometheus/Loki/Tempo), and secure-by-default services (Keycloak/OIDC, PKI/TLS). Production services in Java/C#/TypeScript; thorough ADRs/runbooks.",
+    "education": [
+        {
+            "school": "Trident Technical College",
+            "degree": "Computer Science",
+            "startYear": "",
+            "endYear": "2013-12-31"
+        }
+    ],
+    "workExperience": [
+        {
+            "company": "Expeditors International (Expeditors)",
+            "position": "Software Engineer (Angular & Platform)",
+            "description": "Design and delivery of front‑ends, services, and platform tooling; emphasis on CI/CD, observability, security, and repeatable containerized deployments.",
+            "keyAchievements": "Standardized CI/CD with **GitHub Actions** and GitLab CI: authored workflows for static sites (Jekyll GitHub Pages), Angular builds with Firebase Hosting & Functions deploy, and artifact packaging (CityRPG mod); implemented caching (actions/cache) and artifact retention to reduce build time and storage.\nBuilt and maintained **OCI container images** (build/runtime) used by GitLab Runners; versioned base images and documented image hardening and SBOM generation.\nOperated **containerized deployments on HashiCorp Nomad** (our orchestrator); authored job specs, health checks, and deployment runbooks; adaptable to Kubernetes patterns.\nDelivered RESTful services in **Java Spring Boot** and **C#/.NET** supporting logistics workflows; documented API contracts and failure modes.\nImplemented observability with **Grafana/Prometheus/Loki/Tempo**, SLO dashboards, actionable alerting; created incident **runbooks** and supported on‑call response.\nHardened identity and transport security: **Keycloak** (OIDC/SAML) SSO, **Kerberos** integrations, internal **PKI/CA**, and **TLS/mTLS**.\nModernized data flows from ad‑hoc Kafka jobs to **CDC → Kafka** with medallion layers (bronze/silver/gold) to improve reliability, lineage, and reprocessing.\nProduced ADRs/architecture notes to create clarity; led code reviews and cross‑team collaboration on risk/mitigation and deployment strategy.",
+            "startYear": "2014-09-01",
+            "endYear": "Present"
+        }
+    ],
+    "projects": [
+        {
+            "title": "GitHub Actions Demos (Public Repos)",
+            "link": "[https://github.com/Ty-lerCox](https://github.com/Ty-lerCox)",
+            "description": "Small, no‑proprietary examples that exercise Actions features commonly used in hosted CI/CD.",
+            "keyAchievements": "• Jekyll → **GitHub Pages** publish with cache + artifact retention\n• **Angular** build → **Firebase Hosting & Functions** deploy\n• **CityRPG mod** packaging pipeline that produces versioned build artifacts\n• Job **matrix** for Node.js versions; dependency caching via actions/cache\n• Workflow docs explaining trade‑offs (speed vs. retention) and secret handling",
+            "startYear": "",
+            "endYear": "",
+            "name": "GitHub Actions Demos"
+        },
+        {
+            "title": "Nomad‑based CI/CD Patterns",
+            "link": "",
+            "description": "Internal pattern library for containerized deployments on HashiCorp Nomad, portable to other orchestrators.",
+            "keyAchievements": "Job specs with health checks; blue/green rollouts; reproducible **OCI images**; runner image hardening; ADRs and runbooks for ops handoff.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Nomad CI/CD Patterns"
+        },
+        {
+            "title": "Observability Enablement (Grafana Stack)",
+            "link": "",
+            "description": "Service health/SLO dashboards with Prometheus metrics, Loki logs, Tempo traces; alerting integrated with deployment telemetry.",
+            "keyAchievements": "Trace‑led debugging; consistent dashboards; runbooks and escalation paths; MTTR reduction.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Observability Enablement"
+        },
+        {
+            "title": "CI/CD Blueprint & Image Pipeline",
+            "link": "",
+            "description": "Reusable pipelines (GitHub Actions/GitLab CI) and Ansible roles for consistent build/test/deploy across on‑prem and cloud targets.",
+            "keyAchievements": "Cut lead time to change; standardized quality gates and environment promotion; SBOM & vulnerability scans on images.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "CI/CD Blueprint"
+        },
+        {
+            "title": "Data Flow Modernization (CDC → Kafka → Medallion)",
+            "link": "",
+            "description": "Database‑level CDC streaming into Kafka with bronze/silver/gold layers.",
+            "keyAchievements": "Improved reliability, lineage, and downstream transformations; clearer SLAs and reprocessing.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Data Flow Modernization"
+        },
+        {
+            "title": "ODEYA.app (Angular + SSR)",
+            "link": "ty-lercox.github.io/portfolio/posts/odeya-overview/",
+            "description": "Personal web app that auto‑curates YouTube playlists from collections of channels so new uploads flow into a single playlist.",
+            "keyAchievements": "SSR for SEO; componentized TS code; reduced manual upkeep via aggregation logic.",
+            "startYear": "2025-03-01",
+            "endYear": "2025-05-31",
+            "name": "ODEYA.app"
+        }
+    ],
+    "skills": [
+        {
+            "title": "CI/CD & Platform",
+            "skills": [
+                "GitHub Actions (matrix, cache, artifact retention)",
+                "GitLab CI / Runners",
+                "Azure DevOps",
+                "Ansible (provisioning)",
+                "ADR/Runbooks & incident response",
+                "Feature flags, testing & quality gates"
+            ]
+        },
+        {
+            "title": "Containers & Orchestration",
+            "skills": [
+                "OCI container images (Docker/OCI)",
+                "HashiCorp Nomad (deployments, job specs)",
+                "Kubernetes (familiar; able to adapt patterns)"
+            ]
+        },
+        {
+            "title": "Services & Data",
+            "skills": [
+                "Java (Spring Boot)",
+                "C# (.NET Web API)",
+                "TypeScript",
+                "REST API design",
+                "CDC → Kafka, medallion layers"
+            ]
+        },
+        {
+            "title": "Security & Observability",
+            "skills": [
+                "Keycloak (OIDC/SAML), Kerberos",
+                "PKI/Certificate Authority, TLS/mTLS",
+                "Grafana, Prometheus, Loki, Tempo",
+                "SLO dashboards & alerting"
+            ]
+        },
+        {
+            "title": "Front‑End (supporting)",
+            "skills": [
+                "Angular (Signals, RxJS, NgRx)",
+                "UI architecture & component design"
+            ]
+        }
+    ],
+    "languages": ["English"],
+    "certifications": []
+}

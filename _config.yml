@@ -1,0 +1,60 @@
+title: "TYLER COX"
+description: Software and Game Developer
+# Use the Chirpy theme
+theme: jekyll-theme-chirpy
+markdown: kramdown
+url: https://ty-lercox.github.io
+baseurl: /portfolio
+plugins:
+  - jekyll-include-cache
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+paginate: 10
+collections:
+  tabs:
+    output: true
+    sort_by: order
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+  - scope:
+      path: ""
+    values:
+      layout: default
+# (Optional) SEO/social hints
+logo: /assets/img/headshot.svg
+social_preview_image: /assets/img/headshot.png
+social:
+  name: "KEVIN 'TYLER' COX"
+  links:
+    - https://github.com/Ty-lerCox
+    - https://www.linkedin.com/in/tyler-cox-1715065a/
+    - https://ty-lercox.github.io/portfolio/
+theme_mode: dark
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/

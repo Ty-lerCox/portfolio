@@ -1,0 +1,262 @@
+You are my ATS keyword & resume tailor.
+
+GOAL
+Maximize alignment between my resume and the target job post without making false claims, while keeping an ATS-safe format.
+
+INPUTS
+[JOB POST]
+<<< Gameplay Programmer (Unreal)
+Triiodide Studios
+Remote
+$155,000 - $205,000 a year - Full-time
+&nbsp;
+Job details
+Here’s how the job details align with your profile.
+Pay
+
+$155,000 - $205,000 a year
+Job type
+
+Full-time
+&nbsp;
+Full job description
+What to Expect
+
+You will be working on Backrooms: Escape Together, a fully procedural multiplayer exploration/survival horror game built in UE5. Backrooms: Escape Together currently sits in the top 100 of Steam’s best-selling games and is rapidly climbing; We need passionate developers who share our mission of delivering unforgettable multiplayer experiences.
+
+The game is live service in nature and currently has 7 procedurally generated levels, each with unique gameplay and visuals. The community is clamoring for more content and your role will be to program procedurally generated levels using our existing tooling in C++, along with programming engaging gameplay systems to fit in the levels. With an engaged community of users, you'll have opportunities to improve your work based on the feedback and data you've collected to help create measurable success. Each content release will further B.E.T. as an incomparable grand journey with friends.
+
+About Triiodide
+
+We are searching for like-minded people to build out our world-class Unreal Engine 5 team. We are a small agile team that is currently fully remote, though we will be moving to an in-person office in 2025. If you want to get in on the ground floor of something big and are excited to be a key driver of future growth, this opportunity is for you.
+
+
+What You'll Do
+
+Develop procedurally generated levels and gameplay systems in C++
+Own and maintain polished features that are shipped to a player base of 250,000+
+Work closely with other developers on projects ranging from small bug fixes to large features
+Participate in code reviews and design discussions - Identify performance bottlenecks or structural issues and optimize code as needed
+Assist in tracking down and patching bugs reported by users or identified through internal testing
+What You'll Bring
+
+3+ years of industry experience as a game developer or relevant software developer
+Strong C++ and Unreal Engine skills
+Strong understanding of multiplayer networking in Unreal Engine and GAS
+Perforce, SVN, Git LFS, or similar version control experience
+Experience in maintaining large codebases/systems while ensuring it’s scalable, robust, and efficient
+Excellent communication skills and very detail oriented
+Comfortability in wearing “many hats” as a developer and working through a vast assortment of challenges
+Ability to work independently and a desire to problem solve
+Willingness to learn, ask questions, and collaborate with a team - Extreme passion to push the envelope in gaming
+Degree in Computer Science, Game Design, Gameplay Programming or proof of exceptional skills in related fields, with practical software engineering experience
+Nice to Haves
+
+Previous experience in working in a startup or AAA environment
+Hands-on experience with Unreal Engine 5 and its new features
+Experience in creating procedurally generated levels
+Low-level knowledge of Unreal Engine networking
+A portfolio that demonstrates a keen eye for detail and the ability to create maintainable, high-quality code
+Enthusiasm and knowledge of the Backrooms
+
+Expected Compensation
+
+$155,000 - $205,000 (including cash bonuses) + stock awards
+
+Pay offered may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience. The total compensation package for this position may also include other elements dependent on the position offered. Details of participation in these benefit plans will be provided if an employee receives an offer of employment.
+
+ivuZ045ktV >>>
+
+[RESUME]
+<<< {
+    "name": "KEVIN 'TYLER' COX",
+    "position": "Unreal Engine 5 C++ Gameplay Systems Developer",
+    "contactInformation": "(843) 718-4024",
+    "email": "kevincox103@gmail.com",
+    "address": "Charleston, SC",
+    "profilePicture": "",
+    "socialMedia": [
+        { "socialMedia": "Github", "link": "github.com/Ty-lerCox" },
+        {
+            "socialMedia": "LinkedIn",
+            "link": "linkedin.com/in/tyler-cox-1715065a/"
+        },
+        { "socialMedia": "Website", "link": "ty-lercox.github.io/portfolio/" }
+    ],
+    "summary": "UE5/C++ systems developer building gameplay architecture with web-grade discipline: Redux-style state (actions/effects/state), dialogue and quest systems, AI & advanced spawning, cinematic HUD/UMG, and web-inspired UI. Integrated an in-game guide chatbot using language models with context caching to reduce cost and latency. Several years of UE5 experience; focused on data-driven design, maintainability, and iteration speed.",
+    "education": [
+        {
+            "school": "Trident Technical College",
+            "degree": "Computer Science",
+            "startYear": "",
+            "endYear": "2013-12-31"
+        }
+    ],
+    "workExperience": [
+        {
+            "company": "Independent / Self-Employed",
+            "position": "UE5/C++ Game Systems Developer",
+            "description": "Design and implementation of core gameplay systems and tools in Unreal Engine 5 with emphasis on maintainable, data-driven C++.",
+            "keyAchievements": "Built branching Dialogue System with multi-option choices and conditional availability based on quest state (current/completed/required).\nEngineered Quest System supporting multi-objective tasks, required counts, dependencies, and side effects (trigger cinematics, spawn NPCs, state changes).\nEstablished Redux-style architecture in C++ (actions, effects, state) to isolate subsystems and improve testability and maintainability.\nCreated AI movement and a needs model; authored advanced spawner logic for unpredictable NPC distribution with region rules, cooldowns, and variance.\nImplemented story-management and transition volumes to control floor/zone visibility and scene flow.\nDeveloped cinematic HUD widgets and web-inspired UI components to accelerate iteration and improve UX.\nDelivered inventory and shop subsystems integrated with global game state; built a codex/collection system to track collectibles and progression.\nIntegrated an in-game guide chatbot (LLM) with command interface; used context caching to reduce token usage and latency.\nPracticed data-driven configuration, profiling, and optimization across systems.",
+            "startYear": "2025-01-01",
+            "endYear": "Present"
+        },
+        {
+            "company": "Expeditors International (Expeditors)",
+            "position": "Angular Application Developer (Additional Professional Experience)",
+            "description": "Primary employer; application development, DevOps, and observability (transferable engineering practices).",
+            "keyAchievements": "Led state management patterns (NgRx, Angular Signals) and modular architecture across multiple internal applications.\nStood up observability with Grafana stack (Prometheus metrics, Loki logs, Tempo traces) and alerting; emphasized instrumentation and telemetry—skills applicable to game profiling and tooling.\nAutomated CI/CD with GitHub Actions/GitLab Runners and Ansible; supported Kubernetes deployments; improved iteration speed and reliability.\nImplemented SSO (Keycloak OIDC/SAML), Kerberos integrations, and PKI/CA for TLS/mTLS; enforced secure defaults.\nModernized data flows from bespoke Kafka producers to database-level CDC → Kafka with medallion layers (bronze/silver/gold).\nUsed Python for rapid prototypes; production services in Java Spring Boot and C#/.NET; practiced feature flags, DORA metrics, and Kanban for flow.",
+            "startYear": "2014-09-01",
+            "endYear": "Present"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Dialogue System (UE5/C++)",
+            "link": "https://github.com/bedivere-lea",
+            "description": "Branching, conditional dialogue with quest-aware availability and consequence tracking.",
+            "keyAchievements": "Multi-option choices; gating by current/completed/required quests; integrates with Redux-style game state.",
+            "startYear": "2025-05-01",
+            "endYear": "2025-05-31",
+            "name": "Dialogue System (UE5/C++)"
+        },
+        {
+            "title": "Quest System (UE5/C++)",
+            "link": "https://github.com/bedivere-lea",
+            "description": "Objectives with counts, dependencies, and side effects wired to gameplay events.",
+            "keyAchievements": "Triggers cinematics; spawns NPCs; updates global state via actions/effects.",
+            "startYear": "2025-05-01",
+            "endYear": "2025-05-31",
+            "name": "Quest System (UE5/C++)"
+        },
+        {
+            "title": "AI Needs & Advanced Spawning",
+            "link": "https://github.com/bedivere-lea",
+            "description": "AI behavior model with needs (Sims-like) and region-based spawner rules.",
+            "keyAchievements": "Unpredictable spawn distribution; cooldowns and variance; tunable via data assets.",
+            "startYear": "2025-06-01",
+            "endYear": "2025-06-30",
+            "name": "AI Needs & Advanced Spawning"
+        },
+        {
+            "title": "Story/Level Flow Controls",
+            "link": "https://github.com/bedivere-lea",
+            "description": "Volume-based story transitions with floor/zone visibility controls.",
+            "keyAchievements": "Performance-aware visibility; clean narrative gating; improved player readability.",
+            "startYear": "2025-06-01",
+            "endYear": "2025-06-30",
+            "name": "Story/Level Flow Controls"
+        },
+        {
+            "title": "Inventory & Shop Subsystems",
+            "link": "https://github.com/bedivere-lea",
+            "description": "Item catalogs, purchasing, and persistence integrated with global game state.",
+            "keyAchievements": "Predictable side effects; data-driven tuning; testable modules.",
+            "startYear": "2025-07-01",
+            "endYear": "2025-07-31",
+            "name": "Inventory & Shop Subsystems"
+        },
+        {
+            "title": "Codex/Collection System",
+            "link": "https://github.com/bedivere-lea",
+            "description": "Collectible tracking and progression feedback loops.",
+            "keyAchievements": "Player progress surfaces; unlock conditions; consistent data schema.",
+            "startYear": "2025-07-01",
+            "endYear": "2025-07-31",
+            "name": "Codex/Collection System"
+        },
+        {
+            "title": "Guide Chatbot Integration (LLM)",
+            "link": "https://github.com/bedivere-lea",
+            "description": "In-game user-guide chat agent using language models.",
+            "keyAchievements": "Command interface; context caching to lower inference cost and latency; domain-specific prompt toolkit.",
+            "startYear": "2025-08-01",
+            "endYear": "2025-08-31",
+            "name": "Guide Chatbot Integration (LLM)"
+        },
+        {
+            "title": "Redux-Style Game State Library",
+            "link": "https://github.com/bedivere-lea",
+            "description": "Shared actions/effects/state managers used across gameplay subsystems.",
+            "keyAchievements": "Separation of concerns; maintainable C++ modules; easier testing and debugging.",
+            "startYear": "2025-08-01",
+            "endYear": "2025-08-31",
+            "name": "Redux-Style Game State Library"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Technical Skills",
+            "skills": [
+                "Unreal Engine 5",
+                "C++ (Gameplay Framework, UObjects/Actors/Components)",
+                "UMG/HUD",
+                "Dialogue & Quest Systems",
+                "AI Movement & Spawning",
+                "Redux-style State (actions/effects/state)",
+                "Data-Driven Design",
+                "Tooling & Debugging",
+                "Profiling & Optimization",
+                "LLM Integration (context caching)",
+                "Git"
+            ]
+        },
+        {
+            "title": "Soft Skills",
+            "skills": [
+                "Systems Thinking",
+                "Problem Solving",
+                "Communication",
+                "Self-Direction",
+                "Iteration & Rapid Prototyping"
+            ]
+        },
+        {
+            "title": "Additional Skills",
+            "skills": [
+                "Cinematic UI/UX",
+                "Testability & Maintainability",
+                "Documentation",
+                "Kanban & Delivery Flow"
+            ]
+        }
+    ],
+    "languages": ["English"],
+    "certifications": []
+} >>>
+
+OUTPUT (in this exact order)
+1) KEYWORDS_JSON
+   - JSON with:
+     {
+       "hard_skills": [{"term":"React", "weight":5, "synonyms":["React.js"]}, ...],
+       "tools": [{"term":"Azure DevOps","weight":4,"synonyms":["ADO","Azure Boards"]}],
+       "languages": [...],
+       "cloud": [...],
+       "soft_skills": [...],
+       "certs_or_quals": [...],
+       "domain_terms": [...],
+       "must_haves": [...],   // legal/clearance/shift/location/degree-alt
+       "nice_to_haves": [...]
+     }
+   - Weights: 5=critical, 4=important, 3=useful, 2=minor, 1=nice.
+
+2) COVERAGE_TABLE
+   - A compact table listing each keyword → Present/Missing → Where found or suggested placement.
+   - Map synonyms (e.g., “CI/CD” covers “continuous integration”, etc.).
+
+3) EDIT_SUGGESTIONS
+   - Bullet-by-bullet rewrites (STAR-style) that truthfully incorporate missing/aligned keywords.
+   - Keep metrics, impact, and tense consistent. No fluff, no exaggerations.
+
+4) SUMMARY + SKILLS
+   - 2–3 line Professional Summary tailored to the job.
+   - ATS-friendly SKILLS block grouping the critical keywords.
+
+5) REVISED_RESUME (ATS-safe)
+   - Single column, no text boxes/tables, standard headings (SUMMARY, SKILLS, EXPERIENCE, EDUCATION).
+   - Integrate approved rewrites and keyword coverage naturally.
+   - Keep everything truthful and consistent with my background.
+
+6) MATCH_SCORE
+   - % coverage using your weights. Show formula and top gaps to close the last 10–20%.
