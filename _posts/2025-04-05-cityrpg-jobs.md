@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Skills & Jobs"
-date: 2025-09-07 00:00:00 +0000
+date: 2025-08-01 00:00:00 +0000
 categories: [CityRPG]
 tags:
   - CityRPG
