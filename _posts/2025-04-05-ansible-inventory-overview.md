@@ -16,10 +16,7 @@ tags:
 
 *Ansible Inventory* centralizes machine definitions and group variables, providing a shared source of truth for automation targets.
 
-> **Add a banner image here**
->
-> Example (Markdown):  
-> `![Inventory illustration](path-or-url-to-banner-image)`
+![Inventory illustration](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -29,8 +26,7 @@ This project offers:
 - **Group & Host Variables** – metadata stored alongside inventory entries.
 - **Generation Scripts** – utilities to produce standard hosts files.
 
-> **Insert imagery or diagrams as desired**  
-> `![Placeholder](image-url)`
+![Placeholder](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -42,7 +38,7 @@ This project offers:
 - **Group Variables**  
   - Set defaults for classes of machines.
 
-> `![Inventory file snippet](image-url)`
+![Inventory file snippet](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Automation Hooks
 - **Makefile Support**  
@@ -50,7 +46,7 @@ This project offers:
 - **Dynamic Grouping**  
   - Supports plugins for computed groups.
 
-> `![Process diagram](image-url)`
+![Process diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -63,7 +59,7 @@ This project offers:
 - **Integration Friendly**  
   - Designed to plug into other automation pipelines.
 
-> `![Config flow](image-url)`
+![Config flow](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 

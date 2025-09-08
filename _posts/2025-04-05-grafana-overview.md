@@ -21,10 +21,7 @@ tags:
 
 *Grafana Deployment* automates installation and configuration of the Grafana visualization platform, enabling teams to expose dashboards with minimal manual setup.
 
-> **Add a banner image here**
->
-> Example (Markdown):  
-> `![Grafana banner](path-or-url-to-banner-image)`
+![Grafana banner](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -34,8 +31,7 @@ This project features:
 - **Template-Based Configs** – customize data sources and dashboards.
 - **Inventory Support** – deploy to multiple hosts or environments.
 
-> **Insert diagrams or screenshots as desired**  
-> `![Placeholder](image-url)`
+![Placeholder](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -47,7 +43,7 @@ This project features:
 - **Service Control**  
   - Handles starting, stopping, and enabling services.
 
-> `![Provisioning diagram](image-url)`
+![Provisioning diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Configurable Dashboards
 - **Data Source Setup**  
@@ -55,7 +51,7 @@ This project features:
 - **Dashboard Deployment**  
   - Push curated dashboards during installation.
 
-> `![Dashboard graphic](image-url)`
+![Dashboard graphic](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -68,7 +64,7 @@ This project features:
 - **Modular Design**  
   - Adjust roles or variables to fit different environments.
 
-> `![Architecture diagram](image-url)`
+![Architecture diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 

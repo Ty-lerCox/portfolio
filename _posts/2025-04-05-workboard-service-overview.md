@@ -33,10 +33,7 @@ tags:
 
 _Workboard API_ is a backend service that supports a modular operations platform. It blends secure data access with real-time communication to streamline collaboration across teams.
 
-> **Add a banner image here**
->
-> Example (Markdown):  
-> `![Abstract dashboard](path-or-url-to-banner-image)`
+![Abstract dashboard](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -48,8 +45,7 @@ Workboard API provides:
 -   **Real-Time Channels** – SignalR hubs push live updates to connected clients.
 -   **Web Configuration** – designed to back a responsive web UI and external integrations.
 
-> **Insert diagrams or screenshots as desired**  
-> `![System overview](image-url)`
+![System overview](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -65,7 +61,7 @@ Workboard API provides:
 -   **Auditing & Logging**
     -   NLog traces application behavior for troubleshooting and compliance.
 
-> `![Security flow diagram](image-url)`
+![Security flow diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Data & Process Management
 
@@ -77,7 +73,7 @@ Workboard API provides:
 -   **Background Logic**
     -   Repositories encapsulate data operations and application rules.
 
-> `![Database diagram](image-url)`
+![Database diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Real-Time Coordination
 
@@ -89,7 +85,7 @@ Workboard API provides:
     -   In-memory caching improves responsiveness.
     -   OpenTelemetry metrics provide insight into API usage and performance.
 
-> `![Live dashboard mockup](image-url)`
+![Live dashboard mockup](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -110,7 +106,7 @@ Workboard API provides:
 -   **SignalR**
     -   Enables server-to-client messaging for live updates.
 
-> `![Code snippet or architecture image](image-url)`
+![Code snippet or architecture image](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 

@@ -32,10 +32,7 @@ tags:
 
 *Ansible Administration* streamlines routine server tasks through a curated set of playbooks and roles, keeping system changes consistent across environments.
 
-> **Add a banner image here**
->
-> Example (Markdown):  
-> `![Configuration banner](path-or-url-to-banner-image)`
+![Configuration banner](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -45,8 +42,7 @@ Ansible Administration offers:
 - **Role-Based Design** – modular building blocks for varied scenarios.
 - **Inventory Integration** – targets groups or hosts with minimal setup.
 
-> **Insert imagery or diagrams as desired**  
-> `![Placeholder](image-url)`
+![Placeholder](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -60,7 +56,7 @@ Ansible Administration offers:
 - **Task Catalog**  
   - Covers system setup, security tweaks, and tooling installation.
 
-> `![Playbook snippet](image-url)`
+![Playbook snippet](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Operational Helpers
 - **Health Checks & Maintenance**  
@@ -70,7 +66,7 @@ Ansible Administration offers:
 - **Flexible Targeting**  
   - Limit runs by group, environment, or individual host for precise control.
 
-> `![CLI output example](image-url)`
+![CLI output example](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -83,7 +79,7 @@ Ansible Administration offers:
 - **Extensible Roles**  
   - Roles can be extended or customized as needs evolve.
 
-> `![Diagram or config snippet](image-url)`
+![Diagram or config snippet](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 

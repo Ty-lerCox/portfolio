@@ -24,10 +24,7 @@ tags:
 
 _Tempo Deployment_ automates the setup of Grafana Tempo instances, providing a baseline for distributed tracing infrastructure.
 
-> **Add a banner image here**
->
-> Example (Markdown):  
-> `![Tempo banner](path-or-url-to-banner-image)`
+![Tempo banner](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -39,8 +36,7 @@ This project includes:
 -   **Config Templates** – standard settings for trace ingestion and storage.
 -   **Inventory Integration** – deploy to multiple hosts or environments.
 
-> **Insert diagrams or screenshots as desired**  
-> `![Placeholder](image-url)`
+![Placeholder](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -53,7 +49,7 @@ This project includes:
 -   **Service Management**
     -   Controls starting, stopping, and health checks.
 
-> `![Provisioning diagram](image-url)`
+![Provisioning diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Configurable Storage
 
@@ -62,7 +58,7 @@ This project includes:
 -   **Retention Settings**
     -   Adjust trace retention or compaction policies.
 
-> `![Storage diagram](image-url)`
+![Storage diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -75,7 +71,7 @@ This project includes:
 -   **Integration Friendly**
     -   Works alongside Grafana and other observability tools.
 
-> `![Architecture diagram](image-url)`
+![Architecture diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 

@@ -20,10 +20,7 @@ tags:
 
 *.NET Service* offers a lightweight example of a containerized service built with the modern .NET stack, suitable for experimentation or extension.
 
-> **Add a banner image here**
->
-> Example (Markdown):  
-> `![Service banner](path-or-url-to-banner-image)`
+![Service banner](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -33,8 +30,7 @@ The sample illustrates:
 - **Containerization** – packaged with a Dockerfile for reproducible builds.
 - **Scalable Foundation** – can evolve into a full microservice.
 
-> **Insert screenshots or diagrams as desired**  
-> `![Placeholder](image-url)`
+![Placeholder](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -46,7 +42,7 @@ The sample illustrates:
 - **Extensible Layers**  
   - Build out APIs or background tasks as needed.
 
-> `![Code snippet](image-url)`
+![Code snippet](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Docker Workflow
 - **Build Instructions**  
@@ -54,7 +50,7 @@ The sample illustrates:
 - **Runtime Configuration**  
   - Supports environment variables for flexible setups.
 
-> `![Container diagram](image-url)`
+![Container diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -67,7 +63,7 @@ The sample illustrates:
 - **Lean Dependencies**  
   - Focuses on essentials to keep images small.
 
-> `![Architecture diagram](image-url)`
+![Architecture diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 

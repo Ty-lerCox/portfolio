@@ -39,10 +39,7 @@ tags:
 
 _Workboard_ is an internal dashboard that streamlines day‑to‑day coordination. It combines a modular Angular front end with cloud‑hosted services to keep teams in sync without exposing project specifics.
 
-> **Add a banner image here**
->
-> Example (Markdown):  
-> `![Abstract dashboard or logo](path-or-url-to-banner-image)`
+![Abstract dashboard or logo](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -54,8 +51,7 @@ Workboard is both:
 -   **A Web Interface** – built in Angular and designed to offload business logic to backend APIs for scalability.
 -   **A Lightweight Portal** – enabling users to manage their responsibilities from a standard browser session.
 
-> **Insert screenshots or UI mockups as desired**  
-> `![Sample board view](image-url)`
+![Sample board view](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -71,7 +67,7 @@ Workboard is both:
 -   **Search & Filtering**
     -   Live search component wired to the state store for quick lookups.
 
-> `![Board search UI](image-url)`
+![Board search UI](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Collaboration & Visibility
 
@@ -82,7 +78,7 @@ Workboard is both:
 -   **Notes & Comments**
     -   In‑context messaging keeps discussion tied to the work item.
 
-> `![Assignment workflow](image-url)`
+![Assignment workflow](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Navigation & Layout
 
@@ -93,7 +89,7 @@ Workboard is both:
 -   **Responsive Design**
     -   Layout adapts to various screen sizes for desktop or tablet use.
 
-> `![Split view screenshot](image-url)`
+![Split view screenshot](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -118,7 +114,7 @@ Workboard is both:
 -   **OpenTelemetry Instrumentation**
     -   Hooks for tracing network calls and browser activity.
 
-> `![Code snippet or architecture diagram](image-url)`
+![Code snippet or architecture diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 

@@ -23,10 +23,7 @@ tags:
 
 _Configuration Platform_ is a modular web application that streamlines the setup of complex business workflows. It combines an Angular-driven interface with a cloud-backed service layer to keep configuration tasks efficient, auditable, and ready for enterprise scaling.
 
-> **Add a banner image here**
->
-> Example (Markdown):  
-> `![Product logo or dashboard screenshot](path-or-url-to-banner-image)`
+![Product logo or dashboard screenshot](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -38,8 +35,7 @@ This platform is:
 -   **A Service-Oriented Front End** – state and data flow through GraphQL APIs and NgRx-managed stores, making the system reliable and consistent.
 -   **An Internal Portal** – providing centralized access to configuration, search, and change tracking across multiple business domains.
 
-> **Insert UI screenshots or diagrams as desired**  
-> `![Configuration screen](image-url)`
+![Configuration screen](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -56,7 +52,7 @@ This platform is:
     -   Configure alternative paths without duplicating entire processes.
     -   Use granular toggles to tailor behavior per product or region.
 
-> `![Workflow builder UI](image-url)`
+![Workflow builder UI](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Access Control & History
 
@@ -93,7 +89,7 @@ This platform is:
 -   **Scalability**
     -   Modular design allows new workflow types or integrations to be added with minimal impact on existing features.
 
-> `![Architecture diagram](image-url)`
+![Architecture diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
