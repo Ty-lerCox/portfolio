@@ -20,10 +20,7 @@ tags:
 
 _Grafana Tempo Container_ defines a Dockerized setup for the open-source tracing backend, enabling quick evaluation or local development of distributed tracing capabilities.
 
-> **Add a banner image here**
->
-> Example (Markdown):  
-> `![Tempo banner](path-or-url-to-banner-image)`
+![Tempo banner](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -35,8 +32,7 @@ The container provides:
 -   **Default Configuration** – basic settings for running Tempo out of the box.
 -   **Extensible Design** – can be customized for larger deployments.
 
-> **Insert diagrams or screenshots as desired**  
-> `![Placeholder](image-url)`
+![Placeholder](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -49,7 +45,7 @@ The container provides:
 -   **Standard Ports**
     -   Exposes tracing endpoints for ingestion and queries.
 
-> `![Container diagram](image-url)`
+![Container diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Adaptable Configuration
 
@@ -58,7 +54,7 @@ The container provides:
 -   **Volume Mounts**
     -   Persist data or supply custom config files.
 
-> `![Config snippet](image-url)`
+![Config snippet](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -71,7 +67,7 @@ The container provides:
 -   **Lean Dependencies**
     -   Focused on core services only.
 
-> `![Architecture diagram](image-url)`
+![Architecture diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 

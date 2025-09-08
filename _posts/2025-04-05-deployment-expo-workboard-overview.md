@@ -33,10 +33,7 @@ tags:
 
 *Deployment Workboard* automates rollout of the related web application, using Ansible to coordinate servers, services, and configuration.
 
-> **Add a banner image here**
->
-> Example (Markdown):  
-> `![Deployment graphic](path-or-url-to-banner-image)`
+![Deployment graphic](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -46,8 +43,7 @@ This project provides:
 - **Configuration Management** – ensures target machines share the same setup.
 - **Host Inventory Usage** – leverages group and environment definitions.
 
-> **Insert infrastructure diagrams as desired**  
-> `![Placeholder](image-url)`
+![Placeholder](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -59,7 +55,7 @@ This project provides:
 - **Environment Awareness**  
   - Handles staging, production, or other contexts.
 
-> `![Playbook diagram](image-url)`
+![Playbook diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Service Management
 - **Restart & Health Checks**  
@@ -67,7 +63,7 @@ This project provides:
 - **Template Support**  
   - Deploys configuration files with variable substitution.
 
-> `![Service lifecycle](image-url)`
+![Service lifecycle](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -80,7 +76,7 @@ This project provides:
 - **Modular Roles**  
   - Enables swapping or extending components.
 
-> `![Architecture diagram](image-url)`
+![Architecture diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 

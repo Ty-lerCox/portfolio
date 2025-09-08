@@ -25,10 +25,7 @@ tags:
 
 _UnifiedProcess_ is a backend service that centralizes process configuration and event-driven workflows across the platform. It pairs a GraphQL API with modular components to keep operations scalable, traceable, and ready for future integration.
 
-> **Add a banner image here**
->
-> Example (Markdown):  
-> `![Service architecture diagram](path-or-url-to-banner-image)`
+![Service architecture diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -40,8 +37,7 @@ UnifiedProcess is both:
 -   **A Modular Codebase** – library modules contain domain logic, while POJO modules define schema types and event payloads.
 -   **A Stream Processor** – Kafka-driven components react to change requests and coordinate downstream effects.
 
-> **Insert diagram or screenshot as desired**  
-> `![API demo](image-url)`
+![API demo](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -55,7 +51,7 @@ UnifiedProcess is both:
 -   **Change Requests**
     -   Capture updates, route them to processors, and persist outcomes.
 
-> `![Workflow UI](image-url)`
+![Workflow UI](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Event Handling
 
@@ -65,7 +61,7 @@ UnifiedProcess is both:
 -   **Asynchronous Updates**
     -   Non-blocking execution ensures responsive APIs while background tasks complete.
 
-> `![Event stream diagram](image-url)`
+![Event stream diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Observability
 
@@ -75,7 +71,7 @@ UnifiedProcess is both:
 -   **Structured Logging**
     -   Logback and JSON formatting for centralized log analytics.
 
-> `![Tracing dashboard](image-url)`
+![Tracing dashboard](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Persistence
 
@@ -83,7 +79,7 @@ UnifiedProcess is both:
     -   Reliable, transactional store for process data.
     -   Tests default to in-memory options for quick feedback loops.
 
-> `![Database schema snippet](image-url)`
+![Database schema snippet](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -98,7 +94,7 @@ UnifiedProcess is both:
 -   **CI Integrations**
     -   Maven plugins for testing, OWASP checks, and container builds via Jib.
 
-> `![Code snippet or architecture diagram](image-url)`
+![Code snippet or architecture diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 

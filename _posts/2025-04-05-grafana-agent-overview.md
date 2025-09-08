@@ -21,10 +21,7 @@ tags:
 
 *Grafana Agent Deployment* provides automation for installing and configuring telemetry agents, helping systems report metrics and logs to centralized observability platforms.
 
-> **Add a banner image here**
->
-> Example (Markdown):  
-> `![Agent banner](path-or-url-to-banner-image)`
+![Agent banner](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -34,8 +31,7 @@ The project includes:
 - **Config Templates** – predefined settings for common data sources.
 - **Inventory Integration** – target specific hosts or groups.
 
-> **Insert diagrams as desired**  
-> `![Placeholder](image-url)`
+![Placeholder](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -47,7 +43,7 @@ The project includes:
 - **Service Management**  
   - Ensures processes start and remain running.
 
-> `![Service diagram](image-url)`
+![Service diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ### Configurable Pipelines
 - **Metrics & Logs**  
@@ -55,7 +51,7 @@ The project includes:
 - **Variable Overrides**  
   - Adjust configurations via inventory variables.
 
-> `![Pipeline graphic](image-url)`
+![Pipeline graphic](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
@@ -68,7 +64,7 @@ The project includes:
 - **Integration Ready**  
   - Designed to work alongside Grafana and related tools.
 
-> `![Architecture diagram](image-url)`
+![Architecture diagram](https://placehold.co/600x400?text=Placeholder&format=svg)
 
 ---
 
