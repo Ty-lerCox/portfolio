@@ -58,3 +58,6 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+analytics:
+  google:
+    id: G-22H4J8JQGP
