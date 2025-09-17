@@ -1,0 +1,81 @@
+Hi Kevin,
+
+ 
+
+It was a pleasure speaking with you! Per our conversation, here is the full job description and the benefits attached as well.
+
+ 
+
+Description
+
+We are looking for a skilled Angular Developer to join an exciting government contract. This role will be responsible for building and maintaining dynamic, responsive, and interactive web applications using Angular.
+
+Core Responsibilities & Duties
+
+Develop and maintain responsive web applications using Angular.
+Support all aspects of software development (designing, coding, testing, debugging, and maintaining products).
+Translate customer needs into user stories and deliver working capabilities at the conclusion of each sprint.
+Collaborate with UX/UI designers to implement design mockups and wireframes.
+Integrate front-end components with backend APIs and services
+Optimize applications for performance, scalability, and maintainability.
+Ensure cross-browser compatibility and mobile responsiveness.
+Participate in code reviews, team meetings, and agile development processes.
+Debug and resolve technical issues across browsers and devices.
+Write and maintain unit and integration tests.
+
+Requirements
+
+Minimum Qualifications
+
+Education
+
+Bachelor's degree in Computer Science, Engineering, Math or Science (Going to confirm this*)
+
+Experience
+
+At least five (5) years’ experience working with Angular (preferably Angular 10+)
+Experience in building applications utilizing Spring Boot and related Spring frameworks (Spring Data, Spring Security, Spring Cloud)
+Proficient in HTML5, CSS3, JavaScript, and TypeScript
+Experience consuming RESTful APIs
+Experience with version control systems (Gitlab Bitbucket)
+Experience writing clean, usable and well documented code
+Security Clearance / Citizenship Requirement
+
+Candidate must have the ability to obtain and maintain a Public Trust clearance
+Due to federal government requirements for this role, U.S. citizenship is required
+Preferred Qualifications
+
+Strong understanding of Angular core concepts (components, services, routing, RxJS, forms)
+Experience with unit testing frameworks (Jasmine, Karma)
+Familiarity with CI/CD pipelines
+Knowledge of backed integration (Nodejs, NPM, Java, etc.)
+Understanding of Agile SCRUM methodologies
+Experience with cross-platform frameworks (Ionic, Native Script)
+Other Required Skills and Abilities
+
+Must be able to effectively communicate with customers and fulfill all duties and responsibilities as listed in the contract.
+Must be a self-starter with the ability to work independently with minimal supervision.
+Must be proficient in Microsoft Office suite including, but not limited to: Word, PowerPoint, Excel, Access, and Outlook. Excellent attention to detail and ability to think critically.
+Excellent communication skills, both written and verbal.
+ 
+
+What Defines Us:
+
+Integrity - We act with unwavering honesty, ensuring every decision is rooted ethically.
+Adaptable - We swiftly adapt to changes, seizing opportunities to innovate and lead.
+People-Focused - We prioritize relationships, championing growth and mutual success.
+Accountable - We own our outcomes, striving for excellence through continuous improvement.
+Collaborative - We cultivate teamwork, harnessing diverse talents to forge groundbreaking solutions.
+Why Join Us?
+
+Step into a role  where your contributions make a tangible impact. Join a team that values creativity and initiative, offering a platform to transform the landscape of government IT services. Here, your work is not just a career—it's a mission. Embrace the opportunity to grow, innovate, and excel alongside industry leaders who are as passionate about technology as they are about making a difference. Plus, we offer a comprehensive benefits package designed to support your wellbeing and work-life balance, including:
+
+Paid time off and Holidays
+Medical, Dental, and Vision Insurance
+Paid Parental Leave
+Short-term disability, long-term disability, and life insurance - Employer Paid!
+401(k)
+Additional Voluntary Life Insurance
+Tuition Reimbursement
+Best regard,
+

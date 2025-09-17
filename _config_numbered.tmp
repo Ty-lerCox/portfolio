@@ -1,0 +1,69 @@
+   1: title: "TYLER COX"
+   2: description: Software and Game Developer
+   3: # Use the Chirpy theme
+   4: theme: jekyll-theme-chirpy
+   5: markdown: kramdown
+   6: url: https://ty-lercox.github.io
+   7: baseurl: /portfolio
+   8: plugins:
+   9:   - jekyll-include-cache
+  10:   - jekyll-archives
+  11:   - jekyll-paginate
+  12:   - jekyll-sitemap
+  13:   - jekyll-seo-tag
+  14: paginate: 10
+  15: collections:
+  16:   tabs:
+  17:     output: true
+  18:     sort_by: order
+  19: defaults:
+  20:   - scope:
+  21:       path: ""
+  22:       type: posts
+  23:     values:
+  24:       layout: post
+  25:       comments: true
+  26:       toc: true
+  27:       permalink: /posts/:title/
+  28:       image:
+  29:         path: /assets/img/social-card.svg
+  30:         alt: "Post cover placeholder"
+  31:   - scope:
+  32:       path: _drafts
+  33:     values:
+  34:       comments: false
+  35:   - scope:
+  36:       path: ""
+  37:       type: tabs
+  38:     values:
+  39:       layout: page
+  40:       permalink: /:title/
+  41:   - scope:
+  42:       path: ""
+  43:     values:
+  44:       layout: default
+  45: # (Optional) SEO/social hints
+  46: logo: /assets/img/headshot.svg
+  47: social_preview_image: /assets/img/headshot.png
+  48: social:
+  49:   name: "KEVIN 'TYLER' COX"
+  50:   links:
+  51:     - github.com/Ty-lerCox
+  52:     - linkedin.com/in/tyler-cox-1715065a/
+  53:     - ty-lercox.github.io/portfolio/
+  54: theme_mode: dark
+  55: 
+  56: # Sidebar avatar (shows your headshot). Use placeholder until final image is ready.
+  57: avatar: /assets/img/headshot.png
+  58: 
+  59: jekyll-archives:
+  60:   enabled: [categories, tags]
+  61:   layouts:
+  62:     category: category
+  63:     tag: tag
+  64:   permalinks:
+  65:     tag: /tags/:name/
+  66:     category: /categories/:name/
+  67: analytics:
+  68:   google:
+  69:     id: G-22H4J8JQGP

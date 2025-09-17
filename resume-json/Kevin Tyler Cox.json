@@ -1,0 +1,143 @@
+{
+    "name": "KEVIN 'TYLER' COX",
+    "position": "Angular Developer",
+    "contactInformation": "(843) 718-4024",
+    "email": "[kevincox103@gmail.com](mailto:kevincox103@gmail.com)",
+    "address": "Charleston, SC",
+    "profilePicture": "",
+    "socialMedia": [
+        { "socialMedia": "Github", "link": "github.com/Ty-lerCox" },
+        {
+            "socialMedia": "LinkedIn",
+            "link": "linkedin.com/in/tyler-cox-1715065a/"
+        },
+        { "socialMedia": "Website", "link": "ty-lercox.github.io/portfolio/" }
+    ],
+    "summary": "U.S. Citizen; eligible for Public Trust. Angular specialist (Angular 10+, Signals, RxJS, NgRx) building secure, performant, and observable web applications. 11 years at Expeditors delivering modern Angular UIs, integrating with RESTful Spring Boot and .NET APIs, partnering with UX on responsive, cross‑browser interfaces, and standing up CI/CD (Azure DevOps, GitLab Runners, GitHub Actions). Strong in Agile Scrum (8+ yrs) and Kanban, testing (unit/integration, Cypress E2E), and enterprise security (Keycloak SSO, PKI/TLS/mTLS).",
+    "education": [
+        {
+            "school": "Trident Technical College",
+            "degree": "Computer Science",
+            "startYear": "",
+            "endYear": "2013-12-31"
+        }
+    ],
+    "workExperience": [
+        {
+            "company": "Expeditors International (Expeditors)",
+            "position": "Angular Application Developer",
+            "description": "Design and delivery of Angular front‑ends and platform tooling across multiple internal applications; emphasis on observability, automation, security, and Agile delivery.",
+            "keyAchievements": "Developed and maintained Angular applications (Signals, RxJS, NgRx) for logistics/operations; translated stakeholder needs into Azure DevOps user stories and delivered working capabilities each sprint (Agile Scrum).\nIntegrated Angular UIs with RESTful APIs in Java Spring Boot and .NET; built typed HTTP clients and interceptors for auth/telemetry to improve reliability and traceability.\nImplemented responsive UI patterns and ensured cross‑browser compatibility; debugged and resolved issues across browsers/devices.\nWrote unit and integration tests and Cypress end‑to‑end tests; enforced quality gates in CI and participated in code reviews to maintain standards.\nCollaborated with UX/UI designers to turn wireframes into reusable Angular components and accessible interfaces.\nOptimized performance and maintainability using predictable state patterns (NgRx, Signals) and domain‑driven module boundaries.\nStandardized CI/CD with GitLab Runners and GitHub Actions; promoted artifacts and tracked work via Azure DevOps; automated provisioning with Ansible; supported Kubernetes deployments.\nImplemented observability with Grafana stack—Prometheus (metrics), Loki (logs), Tempo (traces)—and SLO dashboards/alerting to reduce MTTR.\nHardened authentication and transport security: Keycloak SSO (OIDC/SAML), Kerberos, internal CA/PKI, and TLS/mTLS with certificate rotation policies.\nAuthored Python utilities to create child User Stories under Features in Azure DevOps (Iteration, Assignee, Area, Story Points), increasing planning throughput and consistency.",
+            "startYear": "2014-09-01",
+            "endYear": "Present"
+        }
+    ],
+    "projects": [
+        {
+            "title": "ODEYA.app (Angular + SSR)",
+            "link": "ty-lercox.github.io/portfolio/posts/odeya-overview/",
+            "description": "Personal web app that auto‑curates YouTube playlists from collections of channels so new uploads from any channel in a collection flow into a single playlist.",
+            "keyAchievements": "Implemented server‑side rendering so shared playlists are SEO‑indexable; aggregation logic supports many‑to‑one channel collections; reduced manual playlist upkeep.",
+            "startYear": "2025-03-01",
+            "endYear": "2025-05-31",
+            "name": "ODEYA.app"
+        },
+        {
+            "title": "Logistics Process Orchestration (Angular Signals + NgRx)",
+            "link": "",
+            "description": "Front‑end architecture for step‑centric workflows replacing purely event‑driven UIs in logistics operations.",
+            "keyAchievements": "Normalized state, clear effects, and deterministic UI flows; fully instrumented for metrics/logs/traces.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Logistics Process Orchestration"
+        },
+        {
+            "title": "Observability Enablement (Grafana Stack)",
+            "link": "",
+            "description": "Service health/SLO dashboards with Prometheus metrics, Loki logs, and Tempo traces; alerting integrated with deployment telemetry.",
+            "keyAchievements": "Improved issue detection and trace‑led debugging across services; consistent dashboards for teams.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Observability Enablement"
+        },
+        {
+            "title": "CI/CD Blueprint & Ansible Provisioning",
+            "link": "",
+            "description": "Reusable pipelines (GitHub Actions/GitLab Runners) and Ansible roles for consistent build/test/deploy across on‑prem and cloud targets.",
+            "keyAchievements": "Cut lead time to change; standardized quality gates and environment promotion.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "CI/CD Blueprint"
+        },
+        {
+            "title": "SSO & PKI Hardening",
+            "link": "",
+            "description": "Unified identity and secure transport across services.",
+            "keyAchievements": "Keycloak (OIDC/SAML), Kerberos, internal CA/PKI, TLS/mTLS, and certificate lifecycle policies.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "SSO & PKI Hardening"
+        },
+        {
+            "title": "Azure DevOps Utilities (Planning Automation)",
+            "link": "",
+            "description": "Python tooling to create child User Stories under Features with Iteration, Assignee, Area, and Story Points fields.",
+            "keyAchievements": "Accelerated planning and improved consistency of backlog data.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Azure DevOps Utilities"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Technical Skills",
+            "skills": [
+                "Angular (Signals, RxJS, NgRx)",
+                "TypeScript, JavaScript, HTML5, CSS3",
+                "RESTful API integration",
+                "UI architecture & component design",
+                "Java (Spring Boot, Spring Data/JPA)",
+                "C# (.NET Web API, Entity Framework)",
+                "Cypress (E2E), Unit & integration testing",
+                "Git (GitLab, GitHub), Pull requests & code reviews",
+                "NPM",
+                "CI/CD (Azure DevOps, GitLab Runners, GitHub Actions)",
+                "Ansible",
+                "Kubernetes",
+                "GCP & Firebase",
+                "Grafana, Prometheus, Loki, Tempo",
+                "Keycloak (OIDC/SAML), Kerberos",
+                "PKI/Certificate Authority, TLS/mTLS",
+                "Responsive UI patterns; Cross‑browser compatibility",
+                "Feature flags",
+                "DORA metrics",
+                "Ionic (personal projects)"
+            ]
+        },
+        {
+            "title": "Soft Skills",
+            "skills": [
+                "Communication (written & verbal)",
+                "Cross‑functional collaboration",
+                "Technical leadership & coaching",
+                "Stakeholder communication",
+                "Problem solving & critical thinking",
+                "Self‑starter / independent",
+                "Agile Scrum (8+ years) and Kanban facilitation"
+            ]
+        },
+        {
+            "title": "Additional Skills",
+            "skills": [
+                "Observability & SRE practices",
+                "Documentation: Markdown, ADRs",
+                "Microsoft Office: Word, Excel, PowerPoint, Outlook",
+                "AI‑assisted engineering (LLMs/ChatGPT CLI)",
+                "Testing & quality gates",
+                "Release & deployment strategies"
+            ]
+        }
+    ],
+    "languages": ["English"],
+    "certifications": []
+}

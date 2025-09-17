@@ -1,0 +1,276 @@
+You are my ATS keyword & resume tailor.
+
+GOAL
+Maximize alignment between my resume and the target job post without making false claims, while keeping an ATS-safe format.
+
+INPUTS
+[JOB POST]
+<<< Hi Kevin,
+
+ 
+
+It was a pleasure speaking with you! Per our conversation, here is the full job description and the benefits attached as well.
+
+ 
+
+Description
+
+We are looking for a skilled Angular Developer to join an exciting government contract. This role will be responsible for building and maintaining dynamic, responsive, and interactive web applications using Angular.
+
+Core Responsibilities & Duties
+
+Develop and maintain responsive web applications using Angular.
+Support all aspects of software development (designing, coding, testing, debugging, and maintaining products).
+Translate customer needs into user stories and deliver working capabilities at the conclusion of each sprint.
+Collaborate with UX/UI designers to implement design mockups and wireframes.
+Integrate front-end components with backend APIs and services
+Optimize applications for performance, scalability, and maintainability.
+Ensure cross-browser compatibility and mobile responsiveness.
+Participate in code reviews, team meetings, and agile development processes.
+Debug and resolve technical issues across browsers and devices.
+Write and maintain unit and integration tests.
+
+Requirements
+
+Minimum Qualifications
+
+Education
+
+Bachelor's degree in Computer Science, Engineering, Math or Science (Going to confirm this*)
+
+Experience
+
+At least five (5) years’ experience working with Angular (preferably Angular 10+)
+Experience in building applications utilizing Spring Boot and related Spring frameworks (Spring Data, Spring Security, Spring Cloud)
+Proficient in HTML5, CSS3, JavaScript, and TypeScript
+Experience consuming RESTful APIs
+Experience with version control systems (Gitlab Bitbucket)
+Experience writing clean, usable and well documented code
+Security Clearance / Citizenship Requirement
+
+Candidate must have the ability to obtain and maintain a Public Trust clearance
+Due to federal government requirements for this role, U.S. citizenship is required
+Preferred Qualifications
+
+Strong understanding of Angular core concepts (components, services, routing, RxJS, forms)
+Experience with unit testing frameworks (Jasmine, Karma)
+Familiarity with CI/CD pipelines
+Knowledge of backed integration (Nodejs, NPM, Java, etc.)
+Understanding of Agile SCRUM methodologies
+Experience with cross-platform frameworks (Ionic, Native Script)
+Other Required Skills and Abilities
+
+Must be able to effectively communicate with customers and fulfill all duties and responsibilities as listed in the contract.
+Must be a self-starter with the ability to work independently with minimal supervision.
+Must be proficient in Microsoft Office suite including, but not limited to: Word, PowerPoint, Excel, Access, and Outlook. Excellent attention to detail and ability to think critically.
+Excellent communication skills, both written and verbal.
+ 
+
+What Defines Us:
+
+Integrity - We act with unwavering honesty, ensuring every decision is rooted ethically.
+Adaptable - We swiftly adapt to changes, seizing opportunities to innovate and lead.
+People-Focused - We prioritize relationships, championing growth and mutual success.
+Accountable - We own our outcomes, striving for excellence through continuous improvement.
+Collaborative - We cultivate teamwork, harnessing diverse talents to forge groundbreaking solutions.
+Why Join Us?
+
+Step into a role  where your contributions make a tangible impact. Join a team that values creativity and initiative, offering a platform to transform the landscape of government IT services. Here, your work is not just a career—it's a mission. Embrace the opportunity to grow, innovate, and excel alongside industry leaders who are as passionate about technology as they are about making a difference. Plus, we offer a comprehensive benefits package designed to support your wellbeing and work-life balance, including:
+
+Paid time off and Holidays
+Medical, Dental, and Vision Insurance
+Paid Parental Leave
+Short-term disability, long-term disability, and life insurance - Employer Paid!
+401(k)
+Additional Voluntary Life Insurance
+Tuition Reimbursement
+Best regard, >>>
+
+[RESUME]
+<<< {
+    "name": "KEVIN 'TYLER' COX",
+    "position": "Angular Application Developer",
+    "contactInformation": "(843) 718-4024",
+    "email": "kevincox103@gmail.com",
+    "address": "Charleston, SC",
+    "profilePicture": "",
+    "socialMedia": [
+        { "socialMedia": "Github", "link": "github.com/Ty-lerCox" },
+        {
+            "socialMedia": "LinkedIn",
+            "link": "linkedin.com/in/tyler-cox-1715065a/"
+        },
+        { "socialMedia": "Website", "link": "ty-lercox.github.io/portfolio/" }
+    ],
+    "summary": "Angular specialist (Signals, RxJS, NgRx) delivering secure, observable, and automated web applications. Eleven years at Expeditors International building front‑ends, standing up CI/CD (Ansible, GitHub Actions, GitLab Runners, Azure DevOps), and instrumenting the Grafana stack (Prometheus, Loki, Tempo). Integrated SSO with Keycloak/Kerberos, established PKI/TLS, and evolved data ingestion from bespoke Kafka jobs to CDC → Kafka with bronze/silver/gold layers. Prototype quickly in Python; ship production services in Java Spring Boot and C#/.NET. Champion feature flags, DORA metrics, and Kanban to improve delivery flow. Built ODEYA.app, an SSR Angular app that auto‑curates YouTube playlists from channel collections and indexes shareable playlists for SEO.",
+    "education": [
+        {
+            "school": "Trident Technical College",
+            "degree": "Computer Science",
+            "startYear": "",
+            "endYear": "2013-12-31"
+        }
+    ],
+    "workExperience": [
+        {
+            "company": "Expeditors International (Expeditors)",
+            "position": "Angular Application Developer",
+            "description": "Design and delivery of Angular front‑ends and platform tooling across multiple internal applications; emphasis on observability, automation, and secure-by-default practices.",
+            "keyAchievements": "Built and led Angular front‑ends using Signals, RxJS, and NgRx across several logistics/operations applications.\nIntroduced step‑centric workflow modeling (e.g., Unified Process) to complement event‑driven patterns; improved clarity and traceability of process state.\nImplemented observability with Grafana stack—Prometheus (metrics), Loki (logs), Tempo (traces)—plus SLO dashboards and alerting to reduce detection and resolution time.\nStandardized CI/CD with GitHub Actions and GitLab Runners; used Ansible for repeatable on‑prem and cloud provisioning (GCP/Firebase); supported Kubernetes deployments.\nHardened identity and transport security: Keycloak SSO (OIDC/SAML), Kerberos integrations, internal CA/PKI, and TLS/mTLS with cert rotation policies.\nModernized data integration from ad‑hoc Kafka producers/consumers to database‑level Change Data Capture (CDC) feeding Kafka, organized via medallion layers (bronze/silver/gold).\nEnabled feature flag rollouts for progressive delivery; instrumented DORA metrics and coached teams on Kanban and velocity/flow tracking via Azure DevOps.\nDelivered APIs/services in Java Spring Boot and C#/.NET; used Python for rapid prototyping prior to hardening.\nAuthored Azure DevOps utilities (Python) to create user stories under Features with iteration/assignee/area/story‑point fields, improving planning throughput.",
+            "startYear": "2014-09-01",
+            "endYear": "Present"
+        }
+    ],
+    "projects": [
+        {
+            "title": "ODEYA.app (Angular + SSR)",
+            "link": "ty-lercox.github.io/portfolio/posts/odeya-overview/",
+            "description": "Personal web app that auto‑curates YouTube playlists from collections of channels (e.g., cruise, gaming, tech) so new uploads from any channel in a collection flow into a single playlist.",
+            "keyAchievements": "Implemented server‑side rendering so shared playlists are SEO‑indexable; playlist sharing enables discovery via search engines. Aggregation logic supports many‑to‑one channel collections; reduced manual playlist upkeep.",
+            "startYear": "2025-03-01",
+            "endYear": "2025-05-31",
+            "name": "ODEYA.app"
+        },
+        {
+            "title": "Logistics Process Orchestration (Angular Signals + NgRx)",
+            "link": "",
+            "description": "Front‑end architecture for step‑centric workflows replacing purely event‑driven UIs in logistics operations.",
+            "keyAchievements": "Normalized state, clear effects, and deterministic UI flows; fully instrumented for metrics/logs/traces.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Logistics Process Orchestration"
+        },
+        {
+            "title": "Observability Enablement (Grafana Stack)",
+            "link": "",
+            "description": "Service health/SLO dashboards with Prometheus metrics, Loki logs, and Tempo traces; alerting integrated with deployment telemetry.",
+            "keyAchievements": "Improved issue detection and trace‑led debugging across services; consistent dashboards for teams.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Observability Enablement"
+        },
+        {
+            "title": "CI/CD Blueprint & Ansible Provisioning",
+            "link": "",
+            "description": "Reusable pipelines (GitHub Actions/GitLab Runners) and Ansible roles for consistent build/test/deploy across on‑prem and cloud targets.",
+            "keyAchievements": "Cut lead time to change; standardized quality gates and environment promotion.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "CI/CD Blueprint"
+        },
+        {
+            "title": "Data Flow Modernization (CDC → Kafka → Medallion)",
+            "link": "",
+            "description": "Replaced batch/legacy Kafka usage with database‑level CDC streaming into Kafka, organized into bronze/silver/gold layers.",
+            "keyAchievements": "Improved reliability, lineage, and downstream transformations; clearer SLAs and reprocessing.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Data Flow Modernization"
+        },
+        {
+            "title": "SSO & PKI Hardening",
+            "link": "",
+            "description": "Unified identity and secure transport across services.",
+            "keyAchievements": "Keycloak (OIDC/SAML), Kerberos, internal CA/PKI, TLS/mTLS, and certificate lifecycle policies.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "SSO & PKI Hardening"
+        },
+        {
+            "title": "Azure DevOps Utilities (Planning Automation)",
+            "link": "",
+            "description": "Python tooling to create child User Stories under Features with Iteration, Assignee, Area, and Story Points fields.",
+            "keyAchievements": "Accelerated planning and improved consistency of backlog data.",
+            "startYear": "",
+            "endYear": "Present",
+            "name": "Azure DevOps Utilities"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Technical Skills",
+            "skills": [
+                "Angular (Signals, RxJS, NgRx)",
+                "TypeScript",
+                "UI architecture & component design",
+                "Java (Spring Boot, JPA/Hibernate)",
+                "C# (.NET Web API, Entity Framework)",
+                "Python (prototyping)",
+                "Kafka & Change Data Capture (CDC)",
+                "Data medallion layers (bronze/silver/gold)",
+                "Kubernetes",
+                "Ansible",
+                "Azure DevOps",
+                "GitHub Actions",
+                "GitLab Runners",
+                "GCP & Firebase",
+                "Grafana, Prometheus, Loki, Tempo",
+                "Keycloak (OIDC/SAML), Kerberos",
+                "PKI/Certificate Authority, TLS/mTLS",
+                "RHEL 9, VMs",
+                "Feature flags",
+                "DORA metrics"
+            ]
+        },
+        {
+            "title": "Soft Skills",
+            "skills": [
+                "Systems Thinking",
+                "Cross‑functional Collaboration",
+                "Technical Leadership & Coaching",
+                "Stakeholder Communication",
+                "Problem Solving",
+                "Iteration & Rapid Prototyping",
+                "Kanban Facilitation"
+            ]
+        },
+        {
+            "title": "Additional Skills",
+            "skills": [
+                "Observability & SRE Practices",
+                "Documentation & ADRs",
+                "AI‑Assisted Engineering (LLMs/ChatGPT CLI)",
+                "Testing & Quality Gates",
+                "Release & Deployment Strategies"
+            ]
+        }
+    ],
+    "languages": ["English"],
+    "certifications": []
+} >>>
+
+OUTPUT (in this exact order)
+1) KEYWORDS_JSON
+   - JSON with:
+     {
+       "hard_skills": [{"term":"React", "weight":5, "synonyms":["React.js"]}, ...],
+       "tools": [{"term":"Azure DevOps","weight":4,"synonyms":["ADO","Azure Boards"]}],
+       "languages": [...],
+       "cloud": [...],
+       "soft_skills": [...],
+       "certs_or_quals": [...],
+       "domain_terms": [...],
+       "must_haves": [...],   // legal/clearance/shift/location/degree-alt
+       "nice_to_haves": [...]
+     }
+   - Weights: 5=critical, 4=important, 3=useful, 2=minor, 1=nice.
+
+2) COVERAGE_TABLE
+   - A compact table listing each keyword → Present/Missing → Where found or suggested placement.
+   - Map synonyms (e.g., “CI/CD” covers “continuous integration”, etc.).
+
+3) EDIT_SUGGESTIONS
+   - Bullet-by-bullet rewrites (STAR-style) that truthfully incorporate missing/aligned keywords.
+   - Keep metrics, impact, and tense consistent. No fluff, no exaggerations.
+
+4) SUMMARY + SKILLS
+   - 2–3 line Professional Summary tailored to the job.
+   - ATS-friendly SKILLS block grouping the critical keywords.
+
+5) REVISED_RESUME (ATS-safe)
+   - Single column, no text boxes/tables, standard headings (SUMMARY, SKILLS, EXPERIENCE, EDUCATION).
+   - Integrate approved rewrites and keyword coverage naturally.
+   - Keep everything truthful and consistent with my background.
+
+6) MATCH_SCORE
+   - % coverage using your weights. Show formula and top gaps to close the last 10–20%.

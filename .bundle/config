@@ -1,0 +1,3 @@
+---
+BUNDLE_WITHOUT: "test"
+BUNDLE_PATH: "vendor/bundle"
