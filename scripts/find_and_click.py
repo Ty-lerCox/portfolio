@@ -38,7 +38,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--interval",
         type=float,
-        default=1.0,
+        default=0.01,
         help="Seconds to wait between search attempts when looping.",
     )
     parser.add_argument(
@@ -86,7 +86,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--post-click-delay",
         type=float,
-        default=1.0,
+        default=0.01,
         help="Seconds to sleep after performing a click or hotkey action.",
     )
     parser.add_argument(
