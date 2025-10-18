@@ -90,6 +90,13 @@ def parse_args() -> argparse.Namespace:
         help="Seconds to sleep after performing a click or hotkey action.",
     )
     parser.add_argument(
+        "--region",
+        type=int,
+        nargs=4,
+        metavar=("X", "Y", "WIDTH", "HEIGHT"),
+        help="Restrict the search to left, top, width, height coordinates.",
+    )
+    parser.add_argument(
         "--close-window",
         metavar="IMAGE",
         action="append",
@@ -99,10 +106,17 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def locate_center(image_path: Path, confidence: float | None, grayscale: bool):
+def locate_center(
+    image_path: Path,
+    confidence: float | None,
+    grayscale: bool,
+    region: tuple[int, int, int, int] | None,
+):
     locate_kwargs = {"grayscale": grayscale}
     if confidence is not None:
         locate_kwargs["confidence"] = confidence
+    if region is not None:
+        locate_kwargs["region"] = region
 
     try:
         return pyautogui.locateCenterOnScreen(str(image_path), **locate_kwargs)
@@ -112,7 +126,13 @@ def locate_center(image_path: Path, confidence: float | None, grayscale: bool):
                 "The installed version of PyAutoGUI/OpenCV does not support the confidence parameter."
             )
         try:
-            return pyautogui.locateCenterOnScreen(str(image_path), grayscale=grayscale)
+            fallback_kwargs = {"grayscale": grayscale}
+            if region is not None:
+                fallback_kwargs["region"] = region
+            return pyautogui.locateCenterOnScreen(
+                str(image_path),
+                **fallback_kwargs,
+            )
         except pyautogui.ImageNotFoundException:
             return None
     except pyautogui.ImageNotFoundException:
@@ -137,6 +157,17 @@ def trigger_action(
     args: argparse.Namespace,
     close_window_paths: set[Path],
 ) -> None:
+    if image_path.name.lower() == "mag.png":
+        print(f"[{image_path.name}] performing two clicks with 1s delay, then closing with Ctrl+W.")
+        pyautogui.moveTo(location.x, location.y, duration=args.move_duration)
+        pyautogui.click(button=args.button)
+        time.sleep(1.0)
+        pyautogui.click(button=args.button)
+        pyautogui.hotkey("ctrl", "w")
+        if args.post_click_delay > 0:
+            time.sleep(args.post_click_delay)
+        return
+
     if image_path in close_window_paths:
         print(f"[{image_path.name}] triggering Ctrl+W to close the active window.")
         pyautogui.hotkey("ctrl", "w")
@@ -156,7 +187,12 @@ def search_and_click(
 
     while True:
         attempt += 1
-        location = locate_center(image_path, args.confidence, args.grayscale)
+        location = locate_center(
+            image_path,
+            args.confidence,
+            args.grayscale,
+            args.region,
+        )
         if location:
             print(f"[{image_path.name}] match at {location} on attempt {attempt}.")
             trigger_action(image_path, location, args, close_window_paths)
@@ -184,7 +220,12 @@ def attempt_single_match(
     args: argparse.Namespace,
     close_window_paths: set[Path],
 ) -> bool:
-    location = locate_center(image_path, args.confidence, args.grayscale)
+    location = locate_center(
+        image_path,
+        args.confidence,
+        args.grayscale,
+        args.region,
+    )
     if location:
         print(f"[{image_path.name}] match at {location}.")
         trigger_action(image_path, location, args, close_window_paths)
@@ -197,6 +238,8 @@ def main() -> int:
 
     pyautogui.FAILSAFE = True
     pyautogui.PAUSE = args.pause
+    if args.region is not None:
+        args.region = tuple(args.region)
 
     image_paths: list[Path] = []
     for image in args.images:
