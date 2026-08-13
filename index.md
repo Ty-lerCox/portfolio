@@ -51,19 +51,19 @@ layout: home
 
     <article class="feature-card">
       <div>
-        <span class="status-badge">Current · Full stack</span>
+        <span class="status-badge">Current · Standalone multiplayer game</span>
         <h3>CityRPG</h3>
         <p>
-          A server-authoritative multiplayer roleplay platform spanning TypeScript,
-          Angular 20, Firebase, Rust world tooling, and a .NET 8 Windows companion.
+          A standalone Unreal Engine 5 multiplayer RPG built around explicit authority,
+          deterministic simulation, procedural worlds, and production-grade tooling.
         </p>
       </div>
       <ul class="compact-list">
-        <li>Transactional economy and persistent player systems</li>
-        <li>340+ automated test files and emulator-backed rules tests</li>
-        <li>Guarded rollout paths for high-risk integrations</li>
+        <li>Server-authoritative C++ runtime with TypeScript rules</li>
+        <li>Moving ships, deterministic naval combat, and Noesis UI</li>
+        <li>Seeded islands with reproducibility and runtime audits</li>
       </ul>
-      <a class="card-link" href="{{ '/posts/cityrpg-overview/' | relative_url }}">Explore the platform →</a>
+      <a class="card-link" href="{{ '/posts/cityrpg-overview/' | relative_url }}">Explore the engineering case studies →</a>
     </article>
 
     <article class="feature-card">

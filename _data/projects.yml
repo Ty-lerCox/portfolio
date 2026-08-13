@@ -5,8 +5,8 @@ active:
     tags: ["Reverse Engineering", "C++", "Lua", "TypeScript", "Angular", "Observability"]
   - title: CityRPG
     url: /posts/cityrpg-overview/
-    description: A persistent, server-authoritative multiplayer roleplay platform with economy, progression, web, and desktop systems.
-    tags: ["TypeScript", "Angular", "Firebase", ".NET 8", "Rust", "Game Systems"]
+    description: A standalone Unreal Engine 5 multiplayer RPG with native server authority, deterministic simulation, Noesis UI, and procedural-world tooling.
+    tags: ["Unreal Engine 5", "C++", "TypeScript", "NoesisGUI", "Firebase", "Game Systems"]
 completed:
   - title: Enterprise Logistics Applications
     url: /posts/workboard-app-overview/
