@@ -124,7 +124,7 @@ a.portfolio-button.quiet { background: transparent; }
 
 .featured-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
   gap: 1rem;
   align-items: stretch;
 }
@@ -142,6 +142,8 @@ a.portfolio-button.quiet { background: transparent; }
 }
 
 .feature-card-lead {
+  grid-row: auto;
+  min-height: 25rem;
   background:
     linear-gradient(160deg, rgb(52 211 153 / 10%), transparent 42%),
     var(--card-bg);
@@ -191,10 +193,6 @@ a.portfolio-button.quiet { background: transparent; }
 }
 .career-card .hero-actions { grid-column: 1 / -1; }
 .writing-section #post-list { padding: 0 !important; }
-
-@media (max-width: 1100px) {
-  .featured-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
 
 @media (max-width: 760px) {
   .impact-strip,
