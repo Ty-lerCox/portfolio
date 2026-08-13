@@ -11,14 +11,14 @@ image:
     alt: 'CityRPG Technical Backbone'
 ---
 
-CityRPG succeeds because its core systems are split across the game client, an Angular web interface, and a service-driven backend. This post explains how those pieces fit together and why the mod can scale beyond a single Brickadia server.
+CityRPG splits its core systems across a dedicated game server, an Angular web interface, and a service-driven backend. This post explains how those pieces fit together and why the platform can scale beyond a single server.
 
 
 ---
 
-## Brickadia & Plugin Layer
+## Dedicated Server & Plugin Layer
 
--   **Omegga plugin** – A TypeScript plugin running on the Brickadia server mediates all gameplay events.
+-   **TypeScript server plugin** – A managed plugin layer mediates gameplay events and higher-level commands.
 -   **Reactive pipeline** – RxJS streams process chat commands, inventory changes, and world events in real time.
 -   **Native hooks** – When low-level control is required, C++/UE5 hooks surface data to the plugin for higher-level handling.
 
@@ -52,4 +52,4 @@ CityRPG succeeds because its core systems are split across the game client, an A
 
 ## Summary
 
-CityRPG’s technical backbone separates presentation, game logic, and persistence so the mod stays maintainable and ready for growth. The combination of an Angular UI, an Omegga plugin, and Firebase services turns Brickadia into a living world that can span many servers.
+CityRPG's technical backbone separates presentation, game logic, and persistence so the platform stays maintainable and ready for growth. The combination of an Angular UI, a TypeScript server plugin, native integration, and Firebase services supports a living world that can span multiple servers.

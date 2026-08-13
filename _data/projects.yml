@@ -1,13 +1,22 @@
 active:
-  - title: Systems Toolkit for UE5
-    slug: ue5-systems-toolkit
-    description: Reusable dialogue/quest/AI systems for rapid iteration.
-    tags: ["UE5", "C++", "Tools"]
-    sub_projects:
-      - title: Dialogue System
-        slug: dialogue-system
+  - title: Reverse-Engineered Game Server Modding Framework
+    url: /posts/reverse-engineered-game-server-modding-framework/
+    description: A server-side runtime, native integration layer, and operator toolchain built from analysis of a proprietary Windows dedicated server.
+    tags: ["Reverse Engineering", "C++", "Lua", "TypeScript", "Angular", "Observability"]
+  - title: CityRPG
+    url: /posts/cityrpg-overview/
+    description: A persistent, server-authoritative multiplayer roleplay platform with economy, progression, web, and desktop systems.
+    tags: ["TypeScript", "Angular", "Firebase", ".NET 8", "Rust", "Game Systems"]
 completed:
-  - title: CityRPG Mechanics
-    slug: cityrpg-mechanics
-    description: Adapted RuneScape-like skills into city-themed gameplay.
-    tags: ["Design", "Systems"]
+  - title: Enterprise Logistics Applications
+    url: /posts/workboard-app-overview/
+    description: Angular applications and platform tooling for complex logistics operations.
+    tags: ["Angular", "Java", ".NET", "Platform", "Observability"]
+  - title: Odeya
+    url: /posts/odeya-overview/
+    description: An archived Angular product that automated YouTube playlist curation and sharing.
+    tags: ["Angular", "SSR", "Firebase", "Product Engineering"]
+  - title: Unreal Engine Gameplay Prototype
+    url: /posts/trapped-overview/
+    description: A UE5/C++ systems prototype exploring data-driven gameplay, AI, quests, and world interaction.
+    tags: ["UE5", "C++", "Gameplay Systems"]

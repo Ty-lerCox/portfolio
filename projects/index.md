@@ -5,30 +5,23 @@ layout: default
 
 # Projects
 
-A curated set of systems and apps. Each write-up is a quick read with code and outcomes.
+Selected engineering work across full-stack products, developer platforms, observability, and game systems.
 
-## Active
+## Current
+
 {% for project in site.data.projects.active %}
-- **[{{ project.title }}]({{ '/projects/' | append: project.slug | append: '/' | relative_url }})** — {{ project.description }}
-  
-  Tags:
-  {% for tag in project.tags %}
-  [{{ tag }}]({{ '/project-tags/' | append: tag | relative_url }}){% unless forloop.last %}, {% endunless %}
-  {% endfor %}
-  {% if project.sub_projects %}
-  - Sub-projects:
-    {% for sub in project.sub_projects %}
-    - [{{ sub.title }}]({{ '/projects/' | append: sub.slug | append: '/' | relative_url }})
-    {% endfor %}
-  {% endif %}
-{% endfor %}
+### [{{ project.title }}]({{ project.url | relative_url }})
 
-## Completed
+{{ project.description }}
+
+{% for tag in project.tags %}<span class="project-tag">{{ tag }}</span>{% endfor %}
+{% endfor %}
+## Earlier work
+
 {% for project in site.data.projects.completed %}
-- **[{{ project.title }}]({{ '/projects/' | append: project.slug | append: '/' | relative_url }})** — {{ project.description }}
-  
-  Tags:
-  {% for tag in project.tags %}
-  [{{ tag }}]({{ '/project-tags/' | append: tag | relative_url }}){% unless forloop.last %}, {% endunless %}
-  {% endfor %}
+### [{{ project.title }}]({{ project.url | relative_url }})
+
+{{ project.description }}
+
+{% for tag in project.tags %}<span class="project-tag">{{ tag }}</span>{% endfor %}
 {% endfor %}

@@ -1,103 +1,40 @@
 ---
 layout: post
-title: 'odeya Overview'
+title: 'Odeya — Archived Product Case Study'
 date: 2025-03-15 00:00:00 +0000
-pin: true
-categories: [ODEYA]
-tags:
-    - ODEYA
-    - Angular
-    - Angular Universal
-    - SSR
-    - RxJS
-    - NgRx
-    - TypeScript
-    - Firebase
-    - SEO
-    - YouTube
-    - YouTube API
-    - Playlists
-    - Video Curation
-    - Content Aggregation
-    - Web App
-    - Personal Project
-    - Productivity
-    - Automation
-    - Web Development
-    - Selenium
+pin: false
+categories: [Odeya]
+tags: [Angular, SSR, RxJS, NgRx, TypeScript, Firebase, YouTube API, Product Engineering]
 image:
-    path: /assets/img/odeya-overview.png
+  path: /assets/img/odeya-overview.png
+  alt: 'Odeya playlist curation interface'
 ---
 
-_ODEYA_ is a focused utility for heavy YouTube users: create **channel collections** (e.g., Cruise News, Gaming, Tech) and let ODEYA automatically **populate a single playlist** every time any channel in that collection publishes a new video. It started as a personal tool to eliminate manual playlist maintenance—and it stuck.
+> **Project status:** Odeya was retired in 2026. This page is preserved as a product and engineering case study; the hosted service is no longer available.
 
-Link: [https://odeya.app](https://odeya.app)
+_Odeya_ was a focused utility for heavy YouTube users. It grouped channels into collections and automatically maintained a single destination playlist whenever those channels published new videos.
 
----
+## Product idea
 
-## Introduction
+The problem was simple but repetitive: keeping topic-based playlists current required constant manual work. Odeya let a user define the grouping once and automated the ongoing curation.
 
-ODEYA is:
-
--   **A Web App** — built with Angular for a fast, clean curation experience.
--   **A Playlist Engine** — many‑to‑one mapping from multiple channels to one rolling playlist.
--   **A Sharing Layer** — server‑side rendering (SSR) makes shared playlists discoverable by search engines.
+- **Channel collections** grouped creators by topic.
+- **Automatic population** routed new uploads into the correct playlist.
+- **Shareable pages** made curated collections useful beyond a single account.
+- **Server-side rendering** exposed meaningful page content to crawlers and link previews.
 
 ![](/assets/img/odeya-playlist-edit.png)
 
----
+## Engineering approach
 
-## Key Features
+The application used Angular, RxJS, NgRx, TypeScript, Firebase, and the YouTube API. Its data model represented a many-to-one relationship between a group of source channels and a destination playlist, while background workflows handled new-video discovery and playlist updates.
 
-### Channel Collections
-
--   Group multiple channels under a single topic (e.g., _Cruise News_, _VR & Gaming_, _Tech Daily_).
--   One click to target a **single destination playlist** for the whole collection.
-
-### Auto‑Population
-
--   New uploads from any channel in the collection are **auto‑added** to the playlist.
--   No more manual copy/paste or scripts to keep up with frequent uploads.
-
-### Shareable & Searchable Playlists (SSR)
-
--   **Server‑Side Rendering** ensures shared playlist pages are crawlable and indexable.
--   Friends can follow public playlists; search engines can surface your curated collections.
-
-![](/assets/img/odeya-discover-ue5.png)
-
-### Practical Curation
-
--   Create separate playlists for different interests or times of day (e.g., _Morning News_, _Deep Dives_, _Weekend Watch_).
--   Keep your YouTube “Watch Later” uncluttered by offloading discovery into themed lists.
-
----
-
-## Example Use Cases
-
--   **Cruise News Aggregator:** follow multiple cruise‑focused channels and keep a single, always‑fresh playlist for updates.
--   **Gaming & Tech Roundups:** track daily uploads across many creators without hopping between subscriptions.
--   **Education Playlists:** bundle a set of instructors/channels into a rolling curriculum.
+Server-side rendering supported searchable, shareable collection pages without giving up the interaction model of an Angular application.
 
 ![](/assets/img/odeya-discover-mobile.png)
 
----
+## What I took from it
 
-## Technical Backbone
+Odeya was a useful exercise in shipping and operating a focused product: defining a narrow user problem, integrating with a third-party platform, handling authentication and quotas, and deciding when a service had reached the end of its useful life.
 
--   **Angular + SSR**  
-    ODEYA renders playlist and share pages on the server so titles, descriptions, and content are available to crawlers.
-
--   **Aggregation Logic**  
-    A many‑to‑one mapping model ties **channel collections → a destination playlist**, so any new upload routes to the right place without manual steps.
-
--   **Performance & Stability**  
-    Built to be lightweight for personal use, with room to evolve if broader adoption happens later.
-
-![](/assets/img/odeya-youtube.png)
-
----
-
-## Final Thoughts
-
-ODEYA removes the friction of staying up to date on YouTube by **automating curation** and **making playlists easy to share and find**. It began as a personal project, but the approach scales naturally: define your interests once, and let fresh content flow where you want it—without the busywork.
+Retiring it also created room to focus on projects with deeper systems work, including CityRPG and the reverse-engineered game server modding framework.

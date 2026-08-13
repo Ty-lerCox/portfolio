@@ -1,5 +1,6 @@
 title: "TYLER COX"
-description: Software and Game Developer
+description: Senior software engineer building full-stack applications, platform tooling, observability, and game systems.
+tagline: Senior Software Engineer
 # Use the Chirpy theme
 theme: jekyll-theme-chirpy
 markdown: kramdown
@@ -8,10 +9,23 @@ baseurl: /portfolio
 plugins:
   - jekyll-include-cache
   - jekyll-archives
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
-paginate: 10
+exclude:
+  - jekyll-theme-chirpy-master
+  - output
+  - resume-json
+  - resume-old
+  - scripts
+  - ats_prompts
+  - dice_automation
+  - 404.md
+  - robots.txt
+  - apply.py
+  - job.txt
+  - generate_ats_prompt.py
+  - reset_git_history.py
+  - run.bat
 collections:
   tabs:
     output: true
@@ -25,9 +39,6 @@ defaults:
       comments: true
       toc: true
       permalink: /posts/:title/
-      image:
-        path: /assets/img/social-card.svg
-        alt: "Post cover placeholder"
   - scope:
       path: _drafts
     values:
@@ -43,18 +54,17 @@ defaults:
     values:
       layout: default
 # (Optional) SEO/social hints
-logo: /assets/img/headshot.svg
-social_preview_image: /assets/img/headshot.png
 social:
   name: "KEVIN 'TYLER' COX"
+  email: kevincox103@gmail.com
   links:
-    - github.com/Ty-lerCox
-    - linkedin.com/in/tyler-cox-1715065a/
-    - ty-lercox.github.io/portfolio/
+    - https://github.com/Ty-lerCox
+    - https://linkedin.com/in/tyler-cox-1715065a/
+    - https://ty-lercox.github.io/portfolio/
 theme_mode: dark
 
-# Sidebar avatar (shows your headshot). Use placeholder until final image is ready.
-avatar: /assets/img/headshot.png
+# Leave the avatar empty until a current professional headshot is available.
+avatar: ""
 
 jekyll-archives:
   enabled: [categories, tags]

@@ -29,7 +29,7 @@ tags:
     - State Management
     - Angular Material
     - Material
-    - AG-Grid
+    - AG Grid
     - UI/UX
 
 image:
@@ -37,7 +37,7 @@ image:
     alt: 'CityRPG homepage'
 ---
 
-_CityRPG_ is an ambitious mod for **Brickadia** that transforms its open-ended building sandbox into an active, living city. It pairs a robust back-end service with an Angular-based UI to keep the game scalable, responsive, and ready for future server expansion.
+_CityRPG_ is a server-authoritative roleplay platform for a commercial multiplayer sandbox game. It combines persistent gameplay systems, an Angular player experience, cloud-backed services, and native server integration to turn an open-ended building environment into an active, living city.
 
 ---
 
@@ -45,7 +45,7 @@ _CityRPG_ is an ambitious mod for **Brickadia** that transforms its open-ended b
 
 CityRPG is both:
 
--   **A Game Mod** – expanding Brickadia with deep RPG systems.
+-   **A Game Platform** – expanding a multiplayer sandbox with persistent RPG systems.
 -   **A Web-Based UI** – the UI is built in Angular and interacts with a service-based backend (e.g., Firebase), offloading significant logic to the cloud for scalability.
 -   **A Website** – enabling players to manage accounts, track stats, and eventually connect across multiple servers/regions.
 
@@ -113,7 +113,7 @@ CityRPG is both:
     -   NPC encounters.
     -   Cooperative combat and loot return loops similar to _Sea of Thieves_.
 
-![](/assets/img/cityrpg-voyage-manage.png)
+![](/assets/img/cityrpg-voyage-manage.webp)
 
 ---
 
@@ -121,7 +121,7 @@ CityRPG is both:
 
 -   **Angular UI**
 
-    -   All game menus and interactions are rendered with Angular, blending seamlessly into the Brickadia environment.
+    -   Player menus and workflows are rendered with Angular and designed to work alongside the game client.
 
 -   **Service-Based Architecture**
 
@@ -137,7 +137,7 @@ CityRPG is both:
 
 ## Final Thoughts
 
-CityRPG expands Brickadia into a full-fledged RPG experience, blending **economy**, **job roles**, **player politics**, and **cooperative adventures**. Thanks to its service-oriented architecture and Angular UI, the mod is built for the long term—ready to scale and evolve with its community.
+CityRPG turns an open-ended multiplayer sandbox into a persistent RPG experience, blending **economy**, **job roles**, **player politics**, and **cooperative adventures**. Its server-authoritative architecture and Angular UI are designed to scale and evolve with its community.
 
 ![](/assets/img/cityrpg-firebase.png)
 

@@ -17,7 +17,7 @@ This guide explains how progression works in CityRPG through two pillars: skills
 
 ## Jobs
 
--   **Where to apply**: Visit the Town Hall or use in‑game job actions to apply/quit. Jobs map to Brickadia teams under the hood, so taking a job also changes your team; quitting drops you back to the neutral team.
+-   **Where to apply**: Visit the Town Hall or use in-game job actions to apply or quit. Jobs map to dedicated-server teams under the hood, so taking a job also changes your team; quitting returns you to the neutral team.
 -   **Payroll**: Everyone on a job receives an automatic paycheck every few minutes deposited straight into the bank. Payouts can scale with the global economy modifier when active.
 -   **Current roles**:
     -   Greeter: Welcome new players and help them get situated.
