@@ -6,9 +6,6 @@ description: Building server-owned ship movement, helm control, deck walking, bu
 categories: [CityRPG]
 tags: [Unreal Engine 5, C++, Multiplayer, Replication, Networking, Game Physics, Automation Testing]
 mermaid: true
-image:
-  path: /assets/img/cityrpg-standalone-voyage-ui.png
-  alt: 'CityRPG voyage ship-selection interface'
 ---
 
 Buoyancy is the visible part of a ship system. Multiplayer deck locomotion is the part that decides whether the ship is actually playable.

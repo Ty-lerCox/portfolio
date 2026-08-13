@@ -5,9 +5,6 @@ date: 2026-02-21 18:00:00 -0500
 description: A standalone WPF harness for rendering the game's real Noesis XAML, injecting realistic data, and capturing UI screenshots without waiting for Unreal Editor.
 categories: [CityRPG]
 tags: [NoesisGUI, WPF, C Sharp, Unreal Engine 5, UI Engineering, Developer Experience, Automation]
-image:
-  path: /assets/img/cityrpg-noesis-preview.webp
-  alt: 'Standalone preview tool rendering CityRPG Noesis UI'
 ---
 
 Launching Unreal Editor is an expensive way to answer a small UI question.
@@ -33,8 +30,6 @@ Other useful details include:
 - Menu and surface selection from command-line options.
 - Deterministic screenshot capture.
 - Dedicated preview tests for important menus and theme tokens.
-
-![CityRPG inventory rendered from the production Noesis layout]({{ '/assets/img/cityrpg-standalone-inventory.png' | relative_url }})
 
 ## Screenshot capture became a test primitive
 

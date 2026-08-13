@@ -6,9 +6,6 @@ description: A compatibility-driven decomposition of CityRPG's main Noesis imple
 categories: [CityRPG]
 tags: [C++, Refactoring, NoesisGUI, Unreal Engine 5, Software Architecture, Automation Testing, Technical Debt]
 mermaid: true
-image:
-  path: /assets/img/cityrpg-standalone-inventory.png
-  alt: 'CityRPG inventory UI after the controller decomposition'
 ---
 
 CityRPG's main Noesis implementation had become a 40,890-line C++ file with a 2,868-line header. It handled menus, shell behavior, event routing, build mode, inventory, crafting, voyages, civic systems, appearance, settings, notifications, and large parts of the test surface.

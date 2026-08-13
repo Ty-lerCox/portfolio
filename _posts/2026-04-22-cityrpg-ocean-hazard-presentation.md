@@ -5,9 +5,6 @@ date: 2026-04-22 18:00:00 -0400
 description: Connecting deterministic naval results to readable live presentation while keeping effects, hazards, and playback subordinate to authoritative state.
 categories: [CityRPG]
 tags: [Unreal Engine 5, C++, TypeScript, Game UI, Naval Combat, Visual Systems, Automation Testing]
-image:
-  path: /assets/img/cityrpg-standalone-voyage-ui.png
-  alt: 'CityRPG voyage interface backed by server-authoritative state'
 ---
 
 Once naval combat produced deterministic receipts, the next problem was translation: how should an authoritative event become something a player can understand without letting presentation rewrite the result?

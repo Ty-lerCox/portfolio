@@ -6,9 +6,6 @@ description: Seeded world contracts, reproducibility hashes, road and lot valida
 categories: [CityRPG]
 tags: [Unreal Engine 5, Procedural Generation, Python, C++, PCG, World Partition, Automation Testing, Game Development]
 mermaid: true
-image:
-  path: /assets/img/cityrpg-island-concept.png
-  alt: 'Top-down concept for the CityRPG starter island'
 ---
 
 Procedural generation is easy to demonstrate and difficult to operate. A random seed can produce an attractive screenshot while still creating unreachable buildings, overlapping lots, broken roads, unsafe spawns, or an island that cannot be reproduced after a tool change.
@@ -47,10 +44,6 @@ One checked-in validation artifact demonstrates the contract. Seed `18422` produ
 - A harbor connected to the market and every required major point of interest.
 - Verified lot clearance, terrain budgets, road alignment, and absence of catastrophic chokepoints.
 - A hash for every required source artifact.
-
-![Generated top-down preview for seed 18422]({{ '/assets/img/cityrpg-island-seed-18422.png' | relative_url }})
-
-![Debug road graph used by the validation suite]({{ '/assets/img/cityrpg-island-road-graph-18422.png' | relative_url }})
 
 ## From package to playable level
 

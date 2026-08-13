@@ -6,9 +6,6 @@ description: How I divided authority across Unreal C++, TypeScript services, Fir
 categories: [CityRPG]
 tags: [Unreal Engine 5, C++, TypeScript, Multiplayer, Dedicated Server, Architecture, Firebase, NoesisGUI]
 mermaid: true
-image:
-  path: /assets/img/cityrpg-standalone-social-card.png
-  alt: 'CityRPG standalone game architecture'
 ---
 
 Rebuilding CityRPG as a standalone game was not a matter of copying features into a new client. The original idea depended on another game's world, lifecycle, and extension points. A standalone version had to own every important decision: player identity, persistence, combat, building, UI, networking, deployment, and failure recovery.

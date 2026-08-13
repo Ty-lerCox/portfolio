@@ -6,9 +6,6 @@ description: Designing a server-authoritative law loop that survives combat, rec
 categories: [CityRPG]
 tags: [Game Systems, Multiplayer, State Machines, TypeScript, C++, Firebase, NoesisGUI, Automation Testing]
 mermaid: true
-image:
-  path: /assets/img/cityrpg-standalone-town-hall.webp
-  alt: 'CityRPG Town Hall and civic services interface'
 ---
 
 A crime system becomes interesting only when its consequences form a complete loop. Marking a player as wanted is easy. Making pursuit, capture, custody, release, persistence, and law-role behavior agree under multiplayer conditions is the real system.
